@@ -9,9 +9,6 @@ Wenn Einträge mit den bestehenden Feldern und Typen nicht adäquat erstellt wer
 !!! note ""
     Es soll versucht werden die Gesamtbibliografie konsistent zu halten. Kleinere Abweichungen in der Darstellung (o.ä.) zu konkreten Angaben in der gedruckten Ausgabe spielen normalerweise keine Rolle.
 
-## Klassiker
-Für Klassiker, die ohne bibliografische Angaben zitiert werden, wird eine Referenzausgabe in der Datenbank aufgenommen. Beispiele: Confessio Augustana, Goethes Faust usw.
-
 ## Typen
 Für das angezeigte Formular wie für die Formatierung des Eintrags, ist der Eintragstyp (Bibl Typ) entscheiden. Dieser ist deshalb zwingend auszufüllen. Die bereitstehenden Typen können bei Bedarf um weitere Typen erweitert werden.
 
@@ -99,6 +96,9 @@ Werden insbesondere dann verwendet, wenn eine Reihe oder eine Zeitschrift als Ga
 
 ## URL
 Es kann ein Link auf den Text/die Ausgabe im Internet und ein Datum, wann diese zuletzt gecheckt wurde, eingegeben werden. Bei originalen Webpublikationen ist der Typ "Website" auszuwählen.
+
+## Klassiker
+Für Klassiker, die ohne bibliografische Angaben zitiert werden, wird eine Referenzausgabe in der Datenbank aufgenommen. Beispiele: Confessio Augustana, Goethes Faust usw.
 
 ## Filme
 <!-- Bei Filmen wird die ganze Angabe in der Fussnote getaggt.-->

@@ -1,14 +1,16 @@
 # Lieder
 
 ## Ziele
-- Liste der verwendeten Lieder ausgeben (mit Seitenzahl)
+- Liste der verwendeten Lieder ausgeben (mit Vorkomen in der KBGA)
 - Die Lieder sind eindeutig identifizierbar/einheitlich ausgezeichnet
-- Nummer aus einem aktuelleren Gesangsbuch, also am besten EG (Evangelisches Gesangsbuch von 1994) oder RG (Gesangbuch der Evangelisch-reformierten Kirchen der deutschsprachigen Schweiz von 1998)
+- Nachweis wo möglich in einem möglichst aktuellem Gesangsbuch, also am besten EG (Evangelisches Gesangsbuch von 1994) oder RG (Gesangbuch der Evangelisch-reformierten Kirchen der deutschsprachigen Schweiz von 1998)
 
 ## Material
-Überblick über Gesangsbücher: [https://marti3097.ch/GBr/GBr_CH.pdf](https://marti3097.ch/GBr/GBr_CH.pdf)
+- Historischer Überblick über Gesangsbücher: [ [pdf](pdfs/GBr_CH.pdf) ] <!--[https://marti3097.ch/GBr/GBr_CH.pdf](pdfs/GBr_CH.pdf)-->
+- Knapp Liederschatz Register: [ [link](https://www.digitale-sammlungen.de/de/view/bsb10593319?page=1382) ]
+- Reichslieder: [ [link](https://www.evangeliums.net/lieder/liederbuch_reichs_lieder.html) ]
 
-## Abkürzungen für die Kirchengesangsbücher (`@subtype`)
+## Abkürzungen für die Kirchengesangsbücher
 
 Je länger die Abkürzung desto älter das Kirchengesangsbuch:
 
@@ -18,7 +20,7 @@ Je länger die Abkürzung desto älter das Kirchengesangsbuch:
 - __eg__: [Evangelisches Gesangsbuch](https://de.wikipedia.org/wiki/Evangelisches_Gesangbuch) Deutschlands (1993ff.)
 - __rg__: Reformiertes Gesangbuch der deutschsprachigen Schweiz (1998) [songtool](https://songtool.gottesdienst-ref.ch)
 - __reichslieder__: Reichs-Lieder. Deutsches Gemeinschafts-Liederbuch (1914)
-- __liederschatz__: [Knapp_Liederschatz_Register.pdf](uploads/20a1c2187b81b1a4f8e10d0bd8290b59/Knapp_Liederschatz_Register.pdf)
+- __liederschatz__: [Knapp_Liederschatz_Register.pdf](https://www.digitale-sammlungen.de/de/view/bsb10593319?page=1382)
 
 ## Verwendung in einzelnen Bänden
 

@@ -1,6 +1,6 @@
 # Home
 
-Dokumentation für die (digitale) Karl Barth-Gesamtausgabe
+Dokumentation der (digitalen) Karl Barth-Gesamtausgabe
 
 ## Eigene Seiten
 - Aktueller Stand der Arbeiten ist auf der Pilotversion der KBGA einzusehen (öffentlich, aber nicht bekanntgegeben): [https://kbga-pilot.karl-barth.ch](https://kbga-pilot.karl-barth.ch)
@@ -11,6 +11,10 @@ Dokumentation für die (digitale) Karl Barth-Gesamtausgabe
 
 ## TEI
 - Dokumentation der TEI (Text Encoding Initiative): [https://tei-c.org/](https://tei-c.org/)
+
+## E-Editiones und TEI Publisher
+- [https://e-editiones.org](https://e-editiones.org)
+- [https://teipublisher.com](https://teipublisher.com)
 
 ## Bibel
 - Bibeltexte (Lutherübersetzung 1912): [https://www.die-bibel.de/bibeln/online-bibeln/bibliothek/LU12](https://www.die-bibel.de/bibeln/online-bibeln/bibliothek/LU12)

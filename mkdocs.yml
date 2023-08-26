@@ -1,18 +1,36 @@
 site_name: Karl Barth-Gesamtausgabe Dokumentation
 theme:
   name: material
+  palette:
+    primary: light blue
+    accent: blue
+  font:
+    text: Roboto
+  logo: images/logo.png
   language: de
   features:
-  - search.suggest
-  - search.highlight
-  - search.share
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    #- navigation.tabs
+    #- navigation.tabs.sticky
+    #- navigation.path
+    #- navigation.indexes
+    - navigation.footer
 plugins:
-  - render_swagger
+  #- render_swagger
   - search:
       lang:
         - de 
         - en
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      repository: Karl-Barth/kb-dokumentation
+      branch: main
+  #- git-authors
 markdown_extensions:
   - admonition
   - footnotes
@@ -20,7 +38,13 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
-
+extra:
+  social:
+    - icon: fontawesome/brands/mastodon 
+      link: https://social.anoxinon.de/@anton
+repo_url: https://github.com/Karl-Barth/kb-dokumentation
+repo_name: Karl-Barth/kb-dokumentation
+edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Textstruktur:
