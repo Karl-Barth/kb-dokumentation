@@ -1,0 +1,35 @@
+site_name: Karl Barth-Gesamtausgabe Dokumentation
+theme:
+  name: material
+  language: de
+  features:
+  - search.suggest
+  - search.highlight
+  - search.share
+plugins:
+  - render_swagger
+  - search:
+      lang:
+        - de 
+        - en
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Textstruktur:
+    - Überschriften: textstruktur/ueberschriften.md
+    - Seitenanfang: textstruktur/seitenanfang.md
+  - Datenbank:
+    - Akteure: datenbank/akteure.md
+    - Lieder: datenbank/lieder.md
+    - Literatur: datenbank/literatur.md
+    - Orte: datenbank/orte.md
+  - Abkürzungen: abkuerzungen.md
+  
