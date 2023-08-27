@@ -8,7 +8,6 @@ Dokumentation der (digitalen) Karl Barth-Gesamtausgabe
 - Datenbank für Register und Metadaten: [https://meta.karl-barth.ch](https://meta.karl-barth.ch)
 - Archivdatenbank des Karl Barth-Archivs: [https://kba.karl-barth.ch](https://kba.karl-barth.ch)
 
-
 ## TEI
 - Dokumentation der TEI (Text Encoding Initiative): [https://tei-c.org/](https://tei-c.org/)
 

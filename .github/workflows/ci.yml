@@ -18,8 +18,6 @@ jobs:
         with:
           python-version: 3.x
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
-
-
       - uses: actions/cache@v3
         with:
           key: mkdocs-material-${{ env.cache_id }}
@@ -28,7 +26,6 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material \ 
              pip install mkdocs-git-revision-date-localized-plugin \
-             pip install mkdocs-git-committers-plugin-2
-
-
+             pip install mkdocs-git-committers-plugin-2 \
+             pip install markdown-captions
       - run: mkdocs gh-deploy --force

@@ -27,15 +27,22 @@ plugins:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - git-revision-date-localized:
       enable_creation_date: true
-  - git-committers:
-      repository: Karl-Barth/kb-dokumentation
-      branch: main
+  # since we are nt a sponsor:
+  #- git-committers:
+  #    repository: Karl-Barth/kb-dokumentation
+  #    branch: main
   #- git-authors
 markdown_extensions:
   - admonition
   - footnotes
   - attr_list
   - md_in_html
+  - markdown_captions
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - toc:
       permalink: true
 extra:
@@ -50,6 +57,7 @@ nav:
   - Textstruktur:
     - Überschriften: textstruktur/ueberschriften.md
     - Seitenanfang: textstruktur/seitenanfang.md
+    - Anmerkungen: textstruktur/anmerkungen.md
   - Datenbank:
     - Akteure: datenbank/akteure.md
     - Lieder: datenbank/lieder.md
