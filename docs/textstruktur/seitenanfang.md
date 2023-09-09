@@ -1,4 +1,4 @@
-## Seitenanfang
+## Seitenanfang (`<pb/>`)
 
 Seitenanfänge werden mit dem leeren Element `<pb />`(page beginning) getaggt.
 

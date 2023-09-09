@@ -39,7 +39,11 @@ Bei Eingabe der `id` wird automatisch eine Verknüpfung zu den Akteuren/Orten ge
 Im Buchtitel kann mit `::` eine Segmentierung verschiedener Titelteile vorgenommen werden. Dabei können 3 Fälle unterschieden werden:
 
 1) `Buchtitel :: Titelzusatz`  
-2) `Hauptitel :: Bandangabe :: Buchtitel`  
+
+2) `Hauptitel :: Bandangabe :: Buchtitel` 
+   
+   [ [Beispiel](https://meta.karl-barth.ch/bibls/1) ]  
+
 3) `Hauptitel :: Bandangabe :: Buchtitel :: Titelzusatz`
 
 Die zusätzlichen "Felder" entsprechen den Feldern `maintitle` und `titleaddon` in `biblatex`.
@@ -62,11 +66,11 @@ In Zeitschriften und insb. in Zeitungen wird manchmal kein Titel angegeben. Wenn
 
 Die Titel von Zeitschriften und Reihen werden häufig abgekürzt. In bibls kann sowohl die Abkürzung als auch bevorzugt die ausgeschriebene Variante verwendet werden. Wenn die abgekürzte Variante verwendet wird, muss diese über die Abkürzungen in der DB auflösbar sein, und zwar so, dass die Auflösung ausschliesslich den Titel der Zeitschrift oder Reihe enthält.
 
+Die Abkürzungen der Zeitschriften werden durch den vollen Titel ersetzt werden, so dass die Verwendung des vollen Titels empfohlen ist. 
+
 ### Zeitschriftenartikel ohne Autor und ohne Titel
 
-Werden Zeitschriftenartikel ohne Autor und ohne Titel zitiert, wird die Zeitschrift als Reihe in der DB getaggt.
-
-
+Werden Zeitschriftenartikel ohne Autor und ohne Titel zitiert, wird die Zeitschrift als Reihe in der Datenbank getaggt.
 
 
 <!-- TEI title @level
@@ -84,12 +88,16 @@ Die Angabe der Titel richtet sich grundsätzlich nach den `@level` wie sie in de
 ## Auflage, Ausgabe
 Um die Auflage anzugeben, kann im Feld Auflgabe (edition) eine Zahl angegeben werden. Wenn mehr zur Ausgabe bekannt ist, kann hier auch der volle Text dazu eingegeben werden (z.B. "3. vollständig überarbeitete Ausgabe"). Ist beispielsweise das Jahr der Auflage bekannt kann es wie folgt angegeben werden: 3. Auflage 1988
 
-Werden verschiedene Auflagen zitiert, ist festzustellen ob diese voneinander abweichen. Wenn zwei Ausgaben z.B. unterschiedlich umangreich sind, müssen beide Ausgaben aufgenommen werden. Bei unveränderten Nachdrucken oder Neuauflagen genügt ein Eintrag in der Datenbank.
+### Mehrere Auflagen
+Werden verschiedene Auflagen zitiert, ist festzustellen ob diese voneinander abweichen. Wenn zwei Ausgaben z.B. unterschiedlich umfangreich sind, werden beide Ausgaben als in einem eigenen `<bibl>`-Eintrag aufgenommen werden. Bei unveränderten Nachdrucken oder Neuauflagen genügt ein Eintrag in der Datenbank. Eine der verwendeten Auflagen wird als Haupteintrag geführt, weitere Auflagen werden in Klammerns gesetzt, z.B.: 
 
-Im Zweifelsfall (Auflagenvergleich u.ä.) in der DNB nachschlagen:
+> H. Fr. Kohlbrügge: Das siebente Kapitel des Briefes Pauli an die Römer in ausführlicher Umschreibung, Elberfeld 1839 (2. Auflage: 1852).
 
-- [https://portal.dnb.de](https://portal.dnb.de)
-- [https://kvk.bibliothek.kit.edu/?digitalOnly=0&embedFulltitle=0&newTab=0](https://kvk.bibliothek.kit.edu/?digitalOnly=0&embedFulltitle=0&newTab=0)
+
+!!! note "Für den Auflagenvergleich"
+    - [https://portal.dnb.de](https://portal.dnb.de)
+    - [https://kvk.bibliothek.kit.edu/?digitalOnly=0&embedFulltitle=0&newTab=0](https://kvk.bibliothek.kit.edu/?digitalOnly=0&embedFulltitle=0&newTab=0)
+
 
 ## Abkürzungen
 Werden insbesondere dann verwendet, wenn eine Reihe oder eine Zeitschrift als Ganzes erfasst wird.

@@ -55,9 +55,13 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Textstruktur:
+    - Gliederung: textstruktur/gliederung.md
     - Überschriften: textstruktur/ueberschriften.md
-    - Seitenanfang: textstruktur/seitenanfang.md
+    - Absatz: textstruktur/absatz.md
+    - Unterschriften: textstruktur/unterschriften.md
     - Anmerkungen: textstruktur/anmerkungen.md
+    - Seitenanfang: textstruktur/seitenanfang.md
+    - Zeilenumbruch: textstruktur/zeilenumbruch.md
   - Datenbank:
     - Akteure: datenbank/akteure.md
     - Lieder: datenbank/lieder.md
