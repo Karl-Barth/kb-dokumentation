@@ -5,6 +5,7 @@ Dokumentation der (digitalen) Karl Barth-Gesamtausgabe
 ## Eigene Seiten
 - Aktueller Stand der Arbeiten ist auf der Pilotversion der KBGA einzusehen (öffentlich, aber nicht bekanntgegeben): [https://kbga-pilot.karl-barth.ch](https://kbga-pilot.karl-barth.ch)
 - Offizielle Seite der KBGA: [https://kbga.karl-barth.ch](https://kbga.karl-barth.ch)
+- Dokumentation der API: [https://kbga.karl-barth.ch/api.html](https://kbga.karl-barth.ch/api.html)
 - Datenbank für Register und Metadaten: [https://meta.karl-barth.ch](https://meta.karl-barth.ch)
 - Archivdatenbank des Karl Barth-Archivs: [https://kba.karl-barth.ch](https://kba.karl-barth.ch)
 
