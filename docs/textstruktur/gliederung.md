@@ -4,7 +4,7 @@ Mit `div` werden Absätze zu einem Kapitel bzw. Textbereiche zusammengefasst. Mi
 
 Wir unterscheiden die `div` mit dem Attribut `type` voneinander.
 
-#### Die Unterscheidung der Genre mit `div`
+## Die Unterscheidung der Genre mit `div`
 
 Wir benutzen `<div>` aber auch, um die einzelnen Genre, die verschieden dargestellt werden sollen, voneinander zu unterscheiden, die wir in dem **Attribut** `@type` eintragen. Sie werden nie kursiv dargestellt, die textspezifischen Unterscheidungen werden über das ODD geregelt:
 
@@ -15,7 +15,7 @@ Wir benutzen `<div>` aber auch, um die einzelnen Genre, die verschieden dargeste
 | `<div type="sermon">`|Predigt|jedes File hat online eine eigene Seite, hier werden weitere div`s zur Textstrukturierung eingesetzt - siehe  [Predigten](sermon)|
 |`<div type="chapter">`|Vorlesungsreihen|die einzelnen Kapitel einer Vorlesung. Mit jedem `div` innerhalb eines Files wird online eine neue "nächste Seite" erstellt|
 
-#### Die Unterscheidung von Texttypen innerhalb eines Buches oder auch Kapitels
+## Die Unterscheidung von Texttypen innerhalb eines Buches oder auch Kapitels
 
 | im TEI |Texttyp innerhalb des Buches |Erklärung|Darstellung|
 | ------ | ------ | ------ | ------ |
@@ -26,3 +26,27 @@ Wir benutzen `<div>` aber auch, um die einzelnen Genre, die verschieden dargeste
 | `<div type="session">`| Untergliederung einer Vorlesungsreihe nach Vortragsdatum|zur Unterteilung von Vortragsreihen innerhalb von `<div type="chapter">`|normal, das Vortragsdatum wird am rechten Seitenrand, ggf. unterhalb der Seitenangabe des Buches, angezeigt|
 
 Insbesondere verwenden wir in den Predigten auch `<div>` um die Textbereiche zu kennzeichnen.
+
+## Texte auf einer Seite online darstellen
+
+Wenn wir kurze Texte innerhalb eines Files haben, z.B. mehrere kurze `div`s innerhalb eines Vorwortes, können wir das, was online auf einer Seite dargestellt werden soll mit einem weiteren `<div>` umschließen, damit es auf einer einzigen Seite online dargestellt wird.
+
+```xml
+ <body>
+      <div type="paper">
+        <pb xml:id="pr007" ed="pga"/>
+        <head>VORWORT</head>
+        <div>(zusätzliches div für online darzustellende Seite)
+          <div>
+            <p>...</p>
+          </div>
+          <div>
+            <p>...</p>
+          </div>
+          ...
+       </div> (zusätzliches div am Ende der Seite, die online angezeigt werden soll)
+       ... (ggf. weitere divs)
+    </div> (div type="paper">
+</body>
+```
+Beispiel in [19001.xml](https://kbga-pilot.karl-barth.ch/texts/19001) zu sehen.
