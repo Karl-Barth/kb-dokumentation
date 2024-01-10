@@ -29,7 +29,7 @@ Insbesondere verwenden wir in den Predigten auch `<div>` um die Textbereiche zu 
 
 ## Texte auf einer Seite online darstellen
 
-Wenn wir kurze Texte innerhalb eines Files haben, z.B. mehrere kurze `div`s innerhalb eines Vorwortes, können wir das, was online auf einer Seite dargestellt werden soll mit einem weiteren `<div>` umschließen, damit es auf einer einzigen Seite online dargestellt wird.
+Kurze Textabschnitte (`<div>`) innerhalb einer Datei können online auf einer Seite dargestellt werden, indem sie mit einem weiteren `<div>` umschlossen werden.
 
 ```xml
  <body>
