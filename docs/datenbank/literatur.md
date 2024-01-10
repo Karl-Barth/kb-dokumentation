@@ -98,6 +98,15 @@ Werden verschiedene Auflagen zitiert, ist festzustellen ob diese voneinander abw
     - [https://portal.dnb.de](https://portal.dnb.de)
     - [https://kvk.bibliothek.kit.edu/?digitalOnly=0&embedFulltitle=0&newTab=0](https://kvk.bibliothek.kit.edu/?digitalOnly=0&embedFulltitle=0&newTab=0)
 
+## Datum
+Das Erscheinungsdatung wird wenn möglich als einfache Jahreszahl angegeben. Möglich sind auch:
+
+> 1951/1952
+> 1.3.1951–2.5.1953
+> 1.3.1951 u. 2.5.1053
+
+!!! note ""
+    Es müssen beide Daten vollständig sein Oder es werden nur Jahre angegeben.
 
 ## Abkürzungen
 Werden insbesondere dann verwendet, wenn eine Reihe oder eine Zeitschrift als Ganzes erfasst wird.
