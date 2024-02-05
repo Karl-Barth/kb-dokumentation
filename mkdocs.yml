@@ -18,7 +18,10 @@ theme:
     #- navigation.path
     #- navigation.indexes
     - navigation.footer
+extra_css:
+  - style.css
 plugins:
+  #- markdown-exec
   #- render_swagger
   - search:
       lang:
@@ -34,6 +37,7 @@ plugins:
   #- git-authors
 markdown_extensions:
   - admonition
+  - tables
   - footnotes
   - attr_list
   - md_in_html
@@ -43,6 +47,7 @@ markdown_extensions:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
+  
   - toc:
       permalink: true
 extra:
@@ -68,4 +73,5 @@ nav:
     - Literatur: datenbank/literatur.md
     - Orte: datenbank/orte.md
   - Abkürzungen: abkuerzungen.md
+  - Bibelbücher: bibel.md
   
