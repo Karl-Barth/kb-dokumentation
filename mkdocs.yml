@@ -21,8 +21,7 @@ theme:
 extra_css:
   - style.css
 plugins:
-  #- markdown-exec
-  #- render_swagger
+  - render_swagger
   - search:
       lang:
         - de 
@@ -30,6 +29,7 @@ plugins:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - git-revision-date-localized:
       enable_creation_date: true
+  #- markdown-exec
   # since we are nt a sponsor:
   #- git-committers:
   #    repository: Karl-Barth/kb-dokumentation
@@ -74,4 +74,4 @@ nav:
     - Orte: datenbank/orte.md
   - Abkürzungen: abkuerzungen.md
   - Bibelbücher: bibel.md
-  
+  - API: api/index.md

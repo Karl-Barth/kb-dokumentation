@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - master 
-
-
       - main
 permissions:
   contents: write
@@ -28,4 +26,5 @@ jobs:
              pip install mkdocs-git-revision-date-localized-plugin \
              pip install mkdocs-git-committers-plugin-2 \
              pip install markdown-captions
+             pip install mkdocs-render-swagger-plugin
       - run: mkdocs gh-deploy --force
