@@ -130,7 +130,7 @@
 <table>
 <tr><td>Position</td><td>33</td></tr>
 <tr><td>Abkürzung</td><td>Pred</td></tr>
-<tr width="30%"><td>Alternative Abkürzungen</td><td>Ecc, Pred </td></tr>
+<tr width="30%"><td>Alternative Abkürzungen</td><td>Ecc, Pred, Koh </td></tr>
 <tr><td>Alternative Namen</td><td>Kohelet, Prediger, Ecclesiastes, Prediger Salomo  </td></tr>
 </table>
 #### Hoheslied
