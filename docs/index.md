@@ -18,7 +18,7 @@ Dokumentation der (digitalen) Karl Barth-Gesamtausgabe
 - [https://teipublisher.com](https://teipublisher.com)
 
 ## Bibel
-- Bibeltexte (Lutherübersetzung 1912): [https://www.die-bibel.de/bibeln/online-bibeln/bibliothek/LU12](https://www.die-bibel.de/bibeln/online-bibeln/bibliothek/LU12)
+- Bibeltexte (Lutherübersetzung 1912): [https://www.die-bibel.de/bibel/LU12](https://www.die-bibel.de/bibel/LU12)
 
 ## Reformatoren
 - Luthers Werke Weimarer Ausgabe (WA):  [https://de.wikisource.org/wiki/Martin_Luther](https://de.wikisource.org/wiki/Martin_Luther)
