@@ -70,6 +70,7 @@ nav:
   - Textelemente:
     - Datumsangaben: textelemente/datumsangaben.md
   - Datenbank:
+    - Texte: datenbank/texte.md
     - Akteure: datenbank/akteure.md
     - Lieder: datenbank/lieder.md
     - Literatur: datenbank/literatur.md
