@@ -67,6 +67,8 @@ nav:
     - Anmerkungen: textstruktur/anmerkungen.md
     - Seitenanfang: textstruktur/seitenanfang.md
     - Zeilenumbruch: textstruktur/zeilenumbruch.md
+  - Textelemente:
+    - Datumsangaben: textelemente/datumsangaben.md
   - Datenbank:
     - Akteure: datenbank/akteure.md
     - Lieder: datenbank/lieder.md

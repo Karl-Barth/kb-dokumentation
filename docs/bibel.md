@@ -309,7 +309,7 @@
 <table>
 <tr><td>Position</td><td>201</td></tr>
 <tr><td>Abkürzung</td><td>Mt</td></tr>
-<tr width="30%"><td>Alternative Abkürzungen</td><td>Mat </td></tr>
+<tr width="30%"><td>Alternative Abkürzungen</td><td>Mat, Matth </td></tr>
 </table>
 #### Markus
 <table>
