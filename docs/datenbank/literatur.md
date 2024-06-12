@@ -19,7 +19,9 @@ Für das angezeigte Formular wie für die Formatierung des Eintrags, ist der Ein
 | Zeitschriftenartikel | article | auch Zeitungsartikel |
 | Sammelband-Beitrag | incollection | Aufsätze in Bänden, die von anderen herausgegeben wurden |
 | Sammelband | collection | mit mehreren unabhängigen Beiträgen (Aufsätze, Lexikonartikel, u.U. auch Quelleneditionen) |
-| Reihe | periodical | Zeitschriften und Reihen; auch abgekürzt möglich |
+| Reihe | series | Reihen; Abkürzung wenn möglich |
+| Lexikonartikel | reference |  |
+| Zeitschrift | periodical | Zeitschriften; Abkürzung wenn möglich |
 | Lexikonartikel | reference |  |
 | Doktorarbeit | thesis | wie Monografie, für die Angabe des Types (z.B. «Diss.») wird `edition` verwendet [Beispiel](https://meta.karl-barth.ch/bibls/349) |
 | Anderes | generic | sollte keinesfalls verwendet werden |
