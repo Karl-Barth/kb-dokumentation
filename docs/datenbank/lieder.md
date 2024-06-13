@@ -20,8 +20,7 @@ Je länger die Abkürzung desto älter das Kirchengesangsbuch:
 - __eg__: [Evangelisches Gesangsbuch](https://de.wikipedia.org/wiki/Evangelisches_Gesangbuch) Deutschlands (1993ff.)
 - __rg__: Reformiertes Gesangbuch der deutschsprachigen Schweiz (1998) [songtool](https://songtool.gottesdienst-ref.ch)
 - __reichslieder__: Reichs-Lieder. Deutsches Gemeinschafts-Liederbuch (1914)
-- __liederschatz__: [Knapp_Liederschatz_Register.pdf](https://www.di
-- gitale-sammlungen.de/de/view/bsb10593319?page=1382)
+- __liederschatz__: [Knapp_Liederschatz_Register.pdf](https://www.digitale-sammlungen.de/de/view/bsb10593319?page=1382)
 
 Wenn ein Lied in keinem dieser Gesangsbücher vorkommt, wird es ohne Verweis aufgenommen (Achtung: bei Angaben regionaler Gesangsbücher).
 
