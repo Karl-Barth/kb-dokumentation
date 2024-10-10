@@ -58,10 +58,6 @@ repo_name: Karl-Barth/kb-dokumentation
 edit_uri: edit/main/docs/
 nav:
   - Home: index.md
-  - Workflow: 
-    - Synchronisieren der Vorlagen ins KBA: workflow/sync_kba.md
-    - Metadatenbank: workflow/metadatenbank.md
-    - Datenbankinkonsistenzen: workflow/inkonsistenzen.md
   - Textstruktur:
     - Gliederung: textstruktur/gliederung.md
     - Überschriften: textstruktur/ueberschriften.md
@@ -80,5 +76,9 @@ nav:
     - Orte: datenbank/orte.md
   - Abkürzungen: abkuerzungen.md
   - Bibelbücher: bibel.md
+  - Workflow: 
+    - Synchronisieren der Vorlagen ins KBA: workflow/sync_kba.md
+    - Metadatenbank: workflow/metadatenbank.md
+    - Datenbankinkonsistenzen: workflow/inkonsistenzen.md
   - API: api/index.md
   
