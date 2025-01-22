@@ -12,7 +12,8 @@ Verschiedene Beziehungen zum edierten Text (offene Liste) sind möglich:
 
 * Vorlage der Edition
 * Weitere Vorlage
-* Weiter Druck
+* Weiteres Material 
+* Weiterer Druck
 * Weiteres Manuskript
 * Material zum Kontext \[nur wenn sehr wichtig\]
 * Exemplar von A

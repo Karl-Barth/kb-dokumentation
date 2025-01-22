@@ -77,8 +77,8 @@ nav:
   - Abkürzungen: abkuerzungen.md
   - Bibelbücher: bibel.md
   - Workflow: 
-    - Synchronisieren der Vorlagen ins KBA: workflow/sync_kba.md
-    - Metadatenbank: workflow/metadatenbank.md
+    - Synchronisierung von Daten ins KBA: workflow/sync_kba.md
+    #- Metadatenbank: workflow/metadatenbank.md
     - Datenbankinkonsistenzen: workflow/inkonsistenzen.md
   - API: api/index.md
   
