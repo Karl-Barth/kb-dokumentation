@@ -15,8 +15,11 @@
 Je länger die Abkürzung desto älter das Kirchengesangsbuch:
 
 - __rkg__: Gesangsbuch der evangelisch-reformierten Kirchen der deutschsprachigen Schweiz (1952) Alternative Abkürzung: GERS 1952
+[ [Volltext](https://archive.org/details/gesangbuchdereva00schw/page/n5/mode/2up) ]
 - __ekg__: [Deutsches Evangelisches Kirchengesangbuch](https://de.wikipedia.org/wiki/Evangelisches_Kirchengesangbuch) (1950)
+- [ [Liste](https://de.wikipedia.org/wiki/Liste_der_Kirchenlieder_im_Evangelischen_Gesangbuch) ]
 - __erkg__: Gesangbuch für die evangelisch-reformirte Kirche der deutschen Schweiz (1891) Alternative Abkürzung: GERS 1891
+  [ [Volltext](https://archive.org/details/gesangbuchfurdie00unse_0/page/n5/mode/2up) ]
 - __eg__: [Evangelisches Gesangsbuch](https://de.wikipedia.org/wiki/Evangelisches_Gesangbuch) Deutschlands (1993ff.)
 - __rg__: Reformiertes Gesangbuch der deutschsprachigen Schweiz (1998) [songtool](https://songtool.gottesdienst-ref.ch)
 - __reichslieder__: Reichs-Lieder. Deutsches Gemeinschafts-Liederbuch (1914)
