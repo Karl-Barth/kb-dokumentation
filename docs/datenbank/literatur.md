@@ -1,5 +1,7 @@
 # Literatur
 
+Regeln für die TEI-Auszeichnung im Text (`<bibl corresp="…">`) siehe [Textelemente → Literatur](../textelemente/literatur.md).
+
 `bibls` werden wie `actors` oder `places` als Entitäten in der Meta-Datenbank erfasst. Dieses Vorgehen ersetzt die detaillierte Auszeichnung von `<bibl>` im TEI. Dort müssen nur noch Kursivierungen gekennzeichnet werden.
 
 Grundsätzlich wird versucht, die Entität `bibl` kompatibel zu [biblatex](https://mirror.init7.net/ctan/info/translations/biblatex/de/biblatex-de-Benutzerhandbuch.pdf) und zur TEI (`bibl`) umzusetzen. Eintragstypen und Eingabefelder entsprechen jeweils biblatex-Vorgaben.
@@ -33,6 +35,8 @@ Für das angezeigte Formular wie für die Formatierung des Eintrags, ist der Ein
 Autoren, Editoren und Orte können, müssen aber keine `kbga-actor-id` enthalten.
 
 Bei Eingabe der `id` wird automatisch eine Verknüpfung zu den Akteuren/Orten gemacht.
+
+Eine abweichende Schreibweise kann in markdownähnlicher Syntax angegeben werden: `\[Anzeigetext\](id)`. Beispiel: `\[M.L.\](8595)` zeigt «M.L.» an, verknüpft aber mit dem Eintrag zu Loosli, Max.
 
 ## Titel
 
