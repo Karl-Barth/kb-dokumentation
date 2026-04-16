@@ -1,5 +1,8 @@
 # Bücher der Bibel (Abkürzungen und Reihenfolge)
 
+Für die TEI-Auszeichnung von Bibelstellen siehe
+[Textelemente → Bibelstellen](textelemente/bibelstellen.md).
+
 ## AT
 #### Genesis
 <table>

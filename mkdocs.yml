@@ -73,6 +73,7 @@ nav:
     - Orte: textelemente/orte.md
     - Lieder: textelemente/lieder.md
     - Literatur: textelemente/literatur.md
+    - Bibelstellen: textelemente/bibelstellen.md
   - Datenbank:
     - Texte: datenbank/texte.md
     - Akteure: datenbank/akteure.md
