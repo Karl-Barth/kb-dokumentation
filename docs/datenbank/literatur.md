@@ -48,7 +48,7 @@ Im Buchtitel kann mit `::` eine Segmentierung verschiedener Titelteile vorgenomm
 
 3) `Hauptitel :: Bandangabe :: Buchtitel :: Titelzusatz`
 
-Die zusätzlichen "Felder" entsprechen den Feldern `maintitle` und `titleaddon` in `biblatex`.
+Die zusätzlichen «Felder» entsprechen den Feldern `maintitle` und `titleaddon` in `biblatex`.
 
 ### Aufsatztitel
 
@@ -88,7 +88,7 @@ Die Angabe der Titel richtet sich grundsätzlich nach den `@level` wie sie in de
 
 
 ## Auflage, Ausgabe
-Um die Auflage anzugeben, kann im Feld Auflgabe (edition) eine Zahl angegeben werden. Wenn mehr zur Ausgabe bekannt ist, kann hier auch der volle Text dazu eingegeben werden (z.B. "3. vollständig überarbeitete Ausgabe"). Ist beispielsweise das Jahr der Auflage bekannt kann es wie folgt angegeben werden: 3. Auflage 1988
+Um die Auflage anzugeben, kann im Feld Auflgabe (edition) eine Zahl angegeben werden. Wenn mehr zur Ausgabe bekannt ist, kann hier auch der volle Text dazu eingegeben werden (z.B. «3. vollständig überarbeitete Ausgabe»). Ist beispielsweise das Jahr der Auflage bekannt kann es wie folgt angegeben werden: 3. Auflage 1988
 
 ### Mehrere Auflagen
 Werden verschiedene Auflagen zitiert, ist festzustellen ob diese voneinander abweichen. Wenn zwei Ausgaben z.B. unterschiedlich umfangreich sind, werden beide Ausgaben als in einem eigenen `<bibl>`-Eintrag aufgenommen werden. Bei unveränderten Nachdrucken oder Neuauflagen genügt ein Eintrag in der Datenbank. Eine der verwendeten Auflagen wird als Haupteintrag geführt, weitere Auflagen werden in Klammerns gesetzt, z.B.: 
@@ -114,7 +114,7 @@ Das Erscheinungsdatung wird wenn möglich als einfache Jahreszahl angegeben. Mö
 Werden insbesondere dann verwendet, wenn eine Reihe oder eine Zeitschrift als Ganzes erfasst wird.
 
 ## URL
-Es kann ein Link auf den Text/die Ausgabe im Internet und ein Datum, wann diese zuletzt gecheckt wurde, eingegeben werden. Bei originalen Webpublikationen ist der Typ "Website" auszuwählen.
+Es kann ein Link auf den Text/die Ausgabe im Internet und ein Datum, wann diese zuletzt gecheckt wurde, eingegeben werden. Bei originalen Webpublikationen ist der Typ «Website» auszuwählen.
 
 ## Klassiker
 Für Klassiker, die ohne bibliografische Angaben zitiert werden, wird eine Referenzausgabe in der Datenbank aufgenommen. Beispiele: Confessio Augustana, Goethes Faust usw.
@@ -124,9 +124,26 @@ Für Klassiker, die ohne bibliografische Angaben zitiert werden, wird eine Refer
 
 In der DB werden folgende Felder ausgefüllt: 
 
-- bibl-Typ = Film
-- Autor:innen = Regisseur:in
-- Buchtitel = Filmtitel
-- Publikationsdatum
+
+| Bezeichnung in der DB | Kommentar |
+|-----------------------|-----------|
+| Bibl Typ  | Film |
+| Autor:innen | Regisseur:in |
+| Buchtitel | Filmtitel |
+| Publikationsdatum | Erscheinungsjahr |
 
 Als Resource wird der Wikipedia-Eintrag zum Film. Falls dieser nicht verfügbar ist, wird der englische Wikipedia-Eintrag (provider: wikipedia en) manuell verlinkt. Der Eintrag auf die IMDb ist ebenfalls manuell zu verlinken (z.B. Provider = IMDb, Provider-ID (letzter Teil der URL) = tt0021572, URL = [https://www.imdb.com/title/tt0021572/](https://www.imdb.com/title/tt0021572/))
+
+## Archivbestände und Archivquellen
+
+Archive und Archivbestände können in in der Literaturdatenbank erfasst werden (Type: Archivbestand). Bei Beständen, die für die Edition besonders relevant sind (z.B. Nachlässe aus dem Umkreis Barths) wird der einzelne Bestand inkl. Signatur erfasst, ansonsten nur das Archiv.
+
+
+| Bezeichnung in der DB | Kommentar |
+|-----------------------|-----------|
+| Bibl Typ | Archivbestand |
+| Provenienz | z.B. Nachlasser (damit kann dieser Eintrag mit einem Akteur verknüpft werden) |
+| Titel | Titel im Archiv |
+| Archiv | Name des Archivs |
+| URL | Link auf den Bestand oder das Archiv |
+| Signatur | Archivsignatur |

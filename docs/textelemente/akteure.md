@@ -68,9 +68,9 @@ Als Organisation gilt z.B.:
 2. Eine Institution oder ihre Abteilung (Fakultät, Direktion, Reichstag, …).
 3. Ein Staat oder eine Stadt, sofern er oder sie handelt ("Frankreich erklärt den Krieg …").
 
-Ausnahmen — keine Auszeichnung als Organisation erhalten:
+Ausnahmen (keine Auszeichnung als Organisation):
 
-- **Unbestimmte Plural-Kollektive** wie "die" Deutschen oder "das" Volk Israel. "Israel" wird nur dann ausgezeichnet, wenn sicher der heutige Staat oder (selten) das antike Nordreich gemeint ist.
+- **Unbestimmte Plural-Kollektive** wie "die" Deutschen oder "das" Volk Israel. "Israel" wird nur dann ausgezeichnet, wenn sicher der heutige Staat oder das antike Nordreich gemeint ist.
 - **Unbestimmte Kollektive von Organisationen**, die es als eigene Organisation nicht gibt: "die" Staaten Westeuropas, die alliierten Armeen, "die" evangelische/katholische/orthodoxe Kirche, die theologischen Fakultäten. Ist aus dem Kontext ersichtlich, dass eine bestimmte, abgrenzbare Organisation gemeint ist, wird doch ausgezeichnet.
 
 !!! note ""

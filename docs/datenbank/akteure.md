@@ -19,7 +19,7 @@ Kollektiv-Personen-Bezeichnungen, für die es keine konkrete Organisationsstrukt
 !!! note ""
     Je bekannter die Person, desto weniger Angaben insgesamt und desto deutlicher die Beschränkung auf Funktionen und biographische Stationen, die für die Bedeutung der Person und für Barth relevant sind.
 
-### Grundmuster eines Eintrags:
+### Grundmuster eines Eintrags
 - Grundkennzeichnung (z. B. = Deutscher evangelischer Theologe / deutscher Politiker o.ä.)
 - Hauptfunktione (plus ggf. für uns / für Barth wichtige weitere Funktion[en])
 - ggf. Beziehung zu Barth
@@ -30,5 +30,3 @@ Kollektiv-Personen-Bezeichnungen, für die es keine konkrete Organisationsstrukt
 - Beginn Stichpunkt oder ganzer Satz (oder beides erlaubt)
 - Name und Geburtsdaten nicht wiederholen
 - Auf Wertungen möglichst verzichten
-
-
