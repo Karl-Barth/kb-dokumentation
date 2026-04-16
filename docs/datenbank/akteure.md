@@ -32,19 +32,3 @@ Kollektiv-Personen-Bezeichnungen, für die es keine konkrete Organisationsstrukt
 - Auf Wertungen möglichst verzichten
 
 
-## Interne Bemerkung (Legacy)
-
-- Im Kommentarfenster mittels Tagging einen Hinweis hinterlassen zum Bearbeitungsstand der Daten.
-- In der Datenbank im Suchfeld das Tagging verwenden, um die entsprechenden Akteure zu finden.
-
-Tagging-Codierung im Kommentarfenster
-
-- \#E --> Biogramm aus der Fussnote der Edition.
-- \#E! --> Biogramm zur Kontrolle und/oder Überarbeitung an den Editor (aktuell Peter Zocher).
-- \#S --> Signiert vom E!, sobald das vom Editor bearbeitet wurde, bitte im Kommentar hinterlassen.
-- \#F! --> An alle, Biogramm fehlt hier noch oder muss noch überarbeitet werden.
-- \#K!E --> Ganzer Eintrag zur Kontrolle an den Editor.
-- \#K? --> Bitte kontrollieren (an Andreas Kraenzle) mit dem angehängten Problembeschrieb.
-- \#W --> Quelle: Wikipedia
-- \#A --> Quelle: Andere (unklare Quelle). Hier kann man hinter dem \# noch mit Link oder Buch-Angaben ergänzen. 
-- \#RC --> Wenn ich das Biogramm nicht aus der KBA übernehmen konnte, weil bspw. keins vorhanden war, dann kennzeichne ich damit, dass ich es selbst verfasst hab.

@@ -68,6 +68,7 @@ nav:
     - Zeilenumbruch: textstruktur/zeilenumbruch.md
   - Textelemente:
     - Datumsangaben: textelemente/datumsangaben.md
+    - Akteure: textelemente/akteure.md
   - Datenbank:
     - Texte: datenbank/texte.md
     - Akteure: datenbank/akteure.md
