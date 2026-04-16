@@ -114,6 +114,10 @@ Das Erscheinungsdatung wird wenn möglich als einfache Jahreszahl angegeben. Mö
 !!! note ""
     Es müssen beide Daten vollständig sein Oder es werden nur Jahre angegeben.
 
+## Status
+
+Der Status-Wert in der Datenbank (z.B. «Entwurf») wird beim Export automatisch in das `@status`-Attribut des `<bibl>`-Elements übernommen. Für Bearbeiter(innen) der Texte ist der Status nicht relevant — er steuert nur die Anzeige in der automatisch generierten Bibliografie.
+
 ## Abkürzungen
 Werden insbesondere dann verwendet, wenn eine Reihe oder eine Zeitschrift als Ganzes erfasst wird.
 
