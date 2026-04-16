@@ -27,6 +27,29 @@ Wir benutzen `<div>` aber auch, um die einzelnen Genre, die verschieden dargeste
 
 Insbesondere verwenden wir in den Predigten auch `<div>` um die Textbereiche zu kennzeichnen.
 
+## Inhaltsverzeichnis (`<div type="contents">`)
+
+Ein vorangestelltes Inhaltsverzeichnis wird als eigenes `<div type="contents">` erfasst. Die Einträge stehen in einer `<list>` mit `<item>`; die Verlinkung auf den Zielabschnitt erfolgt über `<ref>` mit `@target` auf die jeweilige `xml:id`.
+
+```xml
+<text>
+  <body>
+    <div type="contents">
+      <head>Inhalt</head>
+      <list>
+        <item><ref target="Ges2-vor">Vorwort</ref></item>
+        <item><ref target="Ges2-abk">Abkürzungen</ref></item>
+        <item>
+          <list>
+            <head rend="italic">Einleitung</head>
+            <item><ref target="Ges-sec01">§ 1 Ethik und Dogmatik</ref></item>
+            <item><ref target="Ges-sec02">§ 2 Theologische und philosophische Ethik</ref></item>
+          </list>
+        </item>
+      </list>
+    </div>
+```
+
 ## Texte auf einer Seite online darstellen
 
 Kurze Textabschnitte (`<div>`) innerhalb einer Datei können online auf einer Seite dargestellt werden, indem sie mit einem weiteren `<div>` umschlossen werden.
