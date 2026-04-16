@@ -36,8 +36,6 @@ Autoren, Editoren und Orte können, müssen aber keine `kbga-actor-id` enthalten
 
 Bei Eingabe der `id` wird automatisch eine Verknüpfung zu den Akteuren/Orten gemacht.
 
-Eine abweichende Schreibweise kann in markdownähnlicher Syntax angegeben werden: `\[Anzeigetext\](id)`. Beispiel: `\[M.L.\](8595)` zeigt «M.L.» an, verknüpft aber mit dem Eintrag zu Loosli, Max.
-
 ## Titel
 
 ### Buchtitel (insb. bei mehrbändigen Werke)
