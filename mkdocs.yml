@@ -74,6 +74,7 @@ nav:
     - Lieder: textelemente/lieder.md
     - Literatur: textelemente/literatur.md
     - Bibelstellen: textelemente/bibelstellen.md
+    - Hervorhebungen: textelemente/hervorhebungen.md
   - Datenbank:
     - Texte: datenbank/texte.md
     - Akteure: datenbank/akteure.md
