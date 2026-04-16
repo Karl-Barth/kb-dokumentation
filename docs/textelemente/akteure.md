@@ -27,18 +27,24 @@ weder als Person noch als Organisation getaggt. Beispiele: "die Deutschen",
 <persName ref="kbga-actors-313">Paulus</persName>
 ```
 
-### Auszeichnung
-
 Personen werden ausgezeichnet, wenn sie im Haupttext oder in den
 Originalfussnoten genannt sind. Erscheint der vollständige Name, wird mit
 **Vor- und Zuname** ausgezeichnet.
 
-Innerhalb eines Absatzes wird eine Person mindestens **einmal** getaggt.
-Bei sehr langen oder sehr kurzen Absätzen darf davon abgewichen werden.
+Innerhalb eines Absatzes wird eine Person mindestens einmal getaggt. Bei
+sehr langen oder sehr kurzen Absätzen wird davon abgewichen.
 
 Nicht namentlich erwähnte Personen werden nur getaggt, wenn sie inhaltlich
-von Relevanz sind ("Grüsse an Ihre Frau" eher nicht, der "Führer" hingegen
-schon). Im Zweifelsfall eher taggen als nicht taggen.
+von Relevanz sind ("Grüsse an Ihre Frau" wird in der Regel nicht getaggt,
+der "Führer" schon). Im Zweifelsfall wird eher getaggt als nicht getaggt.
+
+Ausnahmen — keine Auszeichnung erhalten:
+
+- Titel vor dem Namen, sofern sie nicht unmittelbar zum Namen gehören (nicht "D. Karl Barth" oder "Dr. Karl Barth", sondern nur "Karl Barth").
+- Namen innerhalb eines Buch- oder Aufsatz-**Titels**.
+- Autoren von Artikeln, die erst nach dem vorliegenden Text erschienen sind (sie konnten zur Erfassung nicht zur Verfügung stehen).
+- Herausgebernamen in Literaturtiteln (in der Regel).
+- Von einem Personennamen abgeleitete Formen, sofern sie nicht sehr eng auf die Person verweisen: "Aristotelismus" wird nicht mit Aristoteles, "Lutheraner" und "lutherisch" nicht als Person getaggt.
 
 ### Autoren in `<bibl>`
 
@@ -47,16 +53,8 @@ die Datenbank aufgenommen, wenn sie im Sinnhorizont des Haupttextes stehen
 — also wenn der Autor des Haupttextes den Namen gekannt und vermutlich im
 Sinn gehabt haben kann.
 
-Autoren reiner Sekundärliteratur der Editoren erhalten **keine**
+Autoren reiner Sekundärliteratur der Editoren erhalten keine
 `kbga-actors-id` und erscheinen in den neuen Bänden auch nicht im Register.
-
-### Nicht auszeichnen
-
-- Titel vor dem Namen, sofern sie nicht unmittelbar zum Namen gehören: nicht "D. Karl Barth" oder "Dr. Karl Barth", sondern nur "Karl Barth".
-- Namen innerhalb eines Buch- oder Aufsatz-**Titels**.
-- Autoren von Artikeln, die erst **nach** dem vorliegenden Text erschienen sind (diese können zur Erfassung nicht zur Verfügung gestanden haben).
-- Herausgebernamen in Literaturtiteln (in der Regel).
-- Von einem Personennamen abgeleitete Formen, sofern sie nicht sehr eng auf die Person verweisen. So wird z.B. "Aristotelismus" nicht mit Aristoteles und "Lutheraner" oder "lutherisch" nicht als Person getaggt.
 
 ## Organisation `<orgName>`
 
@@ -64,23 +62,21 @@ Autoren reiner Sekundärliteratur der Editoren erhalten **keine**
 <orgName ref="kbga-actors-9056">Heilsarmee</orgName>
 ```
 
-### Auszeichnung
-
 Als Organisation gilt z.B.:
 
-1. Eine Firma oder ein Verlag (wenn nicht Teil einer bibliographischen Angabe).
+1. Eine Firma oder ein Verlag, wenn nicht Teil einer bibliographischen Angabe.
 2. Eine Institution oder ihre Abteilung (Fakultät, Direktion, Reichstag, …).
 3. Ein Staat oder eine Stadt, sofern er oder sie handelt ("Frankreich erklärt den Krieg …").
 
-### Nicht auszeichnen
+Ausnahmen — keine Auszeichnung als Organisation erhalten:
 
-- **Unbestimmte Plural-Kollektive**: "die" Deutschen, "das" Volk Israel. "Israel" nur dann, wenn sicher der heutige Staat oder (selten) das antike Nordreich gemeint ist.
+- **Unbestimmte Plural-Kollektive** wie "die" Deutschen oder "das" Volk Israel. "Israel" wird nur dann ausgezeichnet, wenn sicher der heutige Staat oder (selten) das antike Nordreich gemeint ist.
 - **Unbestimmte Kollektive von Organisationen**, die es als eigene Organisation nicht gibt: "die" Staaten Westeuropas, die alliierten Armeen, "die" evangelische/katholische/orthodoxe Kirche, die theologischen Fakultäten. Ist aus dem Kontext ersichtlich, dass eine bestimmte, abgrenzbare Organisation gemeint ist, wird doch ausgezeichnet.
 
 !!! note ""
-    Grundregel: Wenn nicht eindeutig eine erkennbare, abgrenzbare Institution
-    gemeint ist, lieber **nicht** als Organisation auszeichnen, sondern für
-    eine spätere Auszeichnung als Begriff aufsparen.
+    Grundregel: Bei nicht eindeutig erkennbarer, abgrenzbarer Institution
+    erfolgt keine Auszeichnung als Organisation; die Form bleibt für eine
+    spätere Auszeichnung als Begriff offen.
 
 ## Personen-Gruppen `<rs type="person">`
 
@@ -92,10 +88,10 @@ Das Element `<rs>` wird eingesetzt, wenn mehrere Personen zusammen genannt
 sind ("seine Brüder", "das Ehepaar") oder wenn eine Person nur umschrieben
 erscheint ("Kaiser", "Mutter").
 
-Voraussetzung:
+Voraussetzungen:
 
-1. die Personen sind für den Sinn des Textes wichtig,
-2. sie haben Relevanz für die Ziele der Edition, und
-3. sie wurden im engeren Kontext nicht bereits mit `<persName>` ausgezeichnet.
+1. Die Personen sind für den Sinn des Textes wichtig.
+2. Sie haben Relevanz für die Ziele der Edition.
+3. Sie wurden im engeren Kontext nicht bereits mit `<persName>` ausgezeichnet.
 
 Die IDs werden mit Leerzeichen getrennt in `@ref` eingetragen.
