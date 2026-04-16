@@ -1,5 +1,7 @@
 # Lieder
 
+Regeln für die TEI-Auszeichnung im Text (`<bibl type="song">`) siehe [Textelemente → Lieder](../textelemente/lieder.md).
+
 ## Ziele
 - Liste der verwendeten Lieder ausgeben (mit Vorkomen in der KBGA)
 - Die Lieder sind eindeutig identifizierbar/einheitlich ausgezeichnet

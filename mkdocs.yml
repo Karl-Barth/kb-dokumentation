@@ -62,6 +62,7 @@ nav:
     - Gliederung: textstruktur/gliederung.md
     - Überschriften: textstruktur/ueberschriften.md
     - Absatz: textstruktur/absatz.md
+    - Gedichte: textstruktur/gedichte.md
     - Unterschriften: textstruktur/unterschriften.md
     - Anmerkungen: textstruktur/anmerkungen.md
     - Seitenanfang: textstruktur/seitenanfang.md
@@ -70,6 +71,7 @@ nav:
     - Datumsangaben: textelemente/datumsangaben.md
     - Akteure: textelemente/akteure.md
     - Orte: textelemente/orte.md
+    - Lieder: textelemente/lieder.md
   - Datenbank:
     - Texte: datenbank/texte.md
     - Akteure: datenbank/akteure.md
