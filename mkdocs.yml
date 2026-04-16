@@ -69,6 +69,7 @@ nav:
   - Textelemente:
     - Datumsangaben: textelemente/datumsangaben.md
     - Akteure: textelemente/akteure.md
+    - Orte: textelemente/orte.md
   - Datenbank:
     - Texte: datenbank/texte.md
     - Akteure: datenbank/akteure.md

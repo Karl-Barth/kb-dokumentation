@@ -1,5 +1,7 @@
 # Orte
 
+Regeln für die TEI-Auszeichnung im Text (`<placeName>`) siehe [Textelemente → Orte](../textelemente/orte.md).
+
 ## Namen
 Ist immer auszufüllen! 
 
@@ -204,10 +206,3 @@ Offizielle Abkürzung der Region, z.B. _GES_ für "Grand Est"
 * [https://de.wikipedia.org/wiki/Verwaltungsgliederung_Nordirlands](https://de.wikipedia.org/wiki/Verwaltungsgliederung_Nordirlands)
 
 
-## Interne Bemerkung (Legacy)
-
-Hier können Bemerkungen oder auch eigene Tags eingetragen werden, um auf einen bestimmten Umstand hinzuweisen. Bisher:
-
-- \#LOC Wenn der Eintrag bei geonames nicht dem exakten Ort entspricht (z.B. weil er nicht existiert und nicht ohne grösseren Aufwand eingetragen werden kann, wie etwa Flüsse oder historische Staaten) und die alternative Wahl überprüft werden sollte.
-- \#LOC wenn der Ort bei geonames eingetragen wurde, aber noch nicht auf dem Mirror-Server auftaucht (~4 Wochen Verzögerung) 
-- \#CHECK Wenn besondere Unsicherheit besteht, ob der richtige Ort identifiziert wurde.
