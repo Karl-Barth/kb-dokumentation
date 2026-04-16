@@ -21,9 +21,5 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install mkdocs-material \ 
-             pip install mkdocs-git-revision-date-localized-plugin \
-             pip install mkdocs-git-committers-plugin-2 \
-             pip install markdown-captions
-             pip install mkdocs-render-swagger-plugin
+      - run: pip install mkdocs-material mkdocs-render-swagger-plugin mkdocs-git-revision-date-localized-plugin
       - run: mkdocs gh-deploy --force
