@@ -4,6 +4,8 @@ Akteure sind über die Situation und den Text hinaus stabile Entitäten: Sie hab
 
 Kollektiv-Personen-Bezeichnungen, für die es keine konkrete Organisationsstruktur gibt werden nicht als Akteur getaggt. Beispiele: "die Deutschen", "die Italiener", "die Christen", oder auch "die deutschen Truppen" oder "die deutschen Kirchenführer".
 
+Regeln für die TEI-Auszeichnung im Text (`<persName>`, `<orgName>`, `<rs>`) siehe [Textelemente → Akteure](../textelemente/akteure.md).
+
 ## Namen
 - Es wird die Namensform verwendet, unter der die Person am bekanntesten ist bzw. die am weitesten verbreitet ist. Im Zweifelsfall wird der Titel des Wikipediaartikels verwendet. Bsp: "Friedrich II. (Preußen)" Eine andere Entscheidungshilfe ist der Sprachgebrauch Karl Barths (z.B. Ephesus, nicht Ephesos) oder die Namensform, die für die KBGA am sinnvollsten erscheint (Barth, Franziska nicht Zellweger).
 - Bei Personen die keinen klaren Nachnamen haben wird der Vorname vorangestellt: "Thomas von Aquin" nicht "Aquin, Thomas von" (vor allem Personen des Mittelalters)
