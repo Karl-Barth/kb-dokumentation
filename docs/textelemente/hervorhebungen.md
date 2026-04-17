@@ -19,6 +19,9 @@ gedruckten Ausgabe ab.
 | `italic` | kursiv |
 | `text-recte` | senkrecht (normal), innerhalb eines kursiven Abschnitts |
 | `sup` | hochgestellt |
+| `sub` | tiefgestellt |
+| `top` | Zähler eines Inline-Bruchs |
+| `buttom` | Nenner eines Inline-Bruchs |
 | `bold` | fett |
 | `smallCaps` | Kapitälchen |
 | `spaced` | gesperrt |
@@ -59,6 +62,26 @@ Angaben. Zwischen Erscheinungsjahr und Auflagezahl steht kein Leerzeichen:
 ```
 
 Siehe [Textelemente → Literatur](literatur.md).
+
+## Inline-Brüche (`top` / `buttom`)
+
+Für typografisch gesetzte Brüche im Fliesstext (halbe Stunden, Anteile,
+Auflagenspannen) werden die Werte `top` (Zähler) und `buttom` (Nenner) als
+Paar verwendet. Beide werden auf etwa 50 % der Schriftgrösse skaliert und
+entsprechend hoch- bzw. tiefgestellt dargestellt. `top`/`buttom` sind von
+`sup`/`sub` abzugrenzen: `sup` steht für Auflagezahlen und andere
+hochgestellte Zeichen in 75 % Schriftgrösse, `sub` für tiefgestellte Zeichen;
+`top`/`buttom` hingegen bilden zusammen mit einem Schrägstrich einen Bruch.
+
+```xml
+1<hi rend="top">1</hi>/<hi rend="buttom">2</hi>          <!-- 1½ -->
+<hi rend="top">1</hi>/<hi rend="buttom">2</hi>8 Uhr     <!-- ½8 Uhr (halb acht) -->
+2<hi rend="top">1</hi>/<hi rend="buttom">2</hi>te       <!-- 2½te Internationale -->
+```
+
+Der Schreibfehler `buttom` (statt `bottom`) wurde aus historischen Gründen
+beibehalten; eine Umbenennung würde die Rendering-Regel in der ODD
+voraussetzen.
 
 ## Manuskript-Unterstreichungen
 
