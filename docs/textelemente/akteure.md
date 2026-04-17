@@ -95,3 +95,9 @@ Voraussetzungen:
 3. Sie wurden im engeren Kontext nicht bereits mit `<persName>` ausgezeichnet.
 
 Die IDs werden mit Leerzeichen getrennt in `@ref` eingetragen.
+
+## Biogramme
+
+Biogramme zu Personen (`<seg type="bio">`) und Organisationen
+(`<seg type="org">`) stehen in Sachanmerkungen. Siehe
+[Textstruktur → Anmerkungen](../textstruktur/anmerkungen.md#biogramme-seg-typebio-seg-typeorg).

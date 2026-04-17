@@ -2,6 +2,11 @@
 
 Anmerkungen/Fussnoten werden mit `<note>` in den Text eingefügt.
 
+Innerhalb der Anmerkungen wird grundsätzlich **zurückhaltender getaggt**
+als im Haupttext. Namen, Orte und Datumsangaben werden nur getaggt, wenn
+sie im Sinnhorizont des Haupttextes stehen — wenn also der Schreibende an
+das, was in der Anmerkung steht, gedacht haben kann.
+
 Es werden folgende Typen unterschieden:
 
 - Sachanmerkungen der Herausgeber: `<note>` (arabische Ziffern)
@@ -9,11 +14,11 @@ Es werden folgende Typen unterschieden:
 - Originalfussnoten: `<note type="original">`
 - Anmerkungen der digitalen Ausgabe: `<note type="digital">`
 
-<!-- Fussnoten: @place entfernen-->
+Wenn `@n` angegeben wird, wird der Wert für die Kennzeichnung der Fußnote
+im Haupttext sowie in der Fußnotenzählung verwendet. Dies ist insbesondere
+für "*"-Fussnoten von Bedeutung.
 
-Wenn `@n` angegeben wird, wird der Wert für die Kennzeichnung der Fußnote im Haupttext sowie in der Fußnotenzählung verwendet. Dies ist insbesondere für "*"-Fussnoten von Bedeutung.
-
-Jede Fußnote erhält eine `@xml:id`, damit sie verlinkt werden kann. Die Standard-Kennzeichnung der Fußnoten sollte sein.
+Jede Fußnote erhält eine `@xml:id`, damit sie verlinkt werden kann.
 
 ## Sachanmerkungen
 
@@ -84,7 +89,80 @@ Beispiel: Die 7. Sterchen-Fussnote in einem Text:
 
 ## Digitale Anmerkungen
 
-Digitale Anmerkungen kommen nur in der digitalen Edition vor und enthalten einen zusätzlichen Kommentar oder eine Korrektur des Textes der gedruckten Textausgabe.
+Digitale Anmerkungen kommen nur in der digitalen Edition vor und enthalten
+einen zusätzlichen Kommentar oder eine Korrektur des Textes der gedruckten
+Textausgabe. Sie sind äusserst sparsam einzusetzen. Der Originaltext bleibt
+sichtbar und wird mit der Fussnote kommentiert. Reine Druckfehler hingegen
+werden mit `<choice>/<sic>/<corr>` korrigiert — siehe
+[Korrekturen der Druckausgabe](../textelemente/korrekturen-der-druckausgabe.md).
+
+Digitale Anmerkungen erhalten `@type="digital"`, `@resp` mit dem Kürzel der
+verantwortlichen Person und `@n` für die korrekte Einordnung in den
+Fussnotenapparat:
+
+```xml
+<note resp="ak" type="digital" xml:id="nα" n="α">Richtig: 
+<persName ref="kbga-actors-4707">Gregor VII.</persName> 
+(um <date from="1025" to="1085">1025–1085</date>)</note>
+```
+
+Digitale Anmerkungen können auch innerhalb einer bestehenden Fussnote stehen
+(verschachtelte `<note>`):
+
+```xml
+<note xml:id="n02">Herkunft nicht nachweisbar.
+  <note type="digital" resp="ak" xml:id="nα"> 
+    <ref type="pub-" target="../volume/48/p586#fn_n94">1914-1921, 
+    S. 586f., Anm. 94</ref>
+  </note>
+</note>
+```
+
+## Fussnoten für mehrere Textstellen (`<ptr>`)
+
+Bezieht sich dieselbe Fussnote auf mehrere Textstellen, wird an der zweiten
+Stelle ein `<ptr>` gesetzt, das auf die `@xml:id` der bestehenden Fussnote
+verweist. Das Fussnotenzeichen wird dort erneut angezeigt und verlinkt auf
+dieselbe Fussnote:
+
+```xml
+<note xml:id="n01"> Der angezeigte Text </note>
+<!-- … an anderer Stelle im selben Text: -->
+<ptr n="1" type="note" target="n01"/>
+```
+
+## Biogramme (`<seg type="bio">`, `<seg type="org">`)
+
+Biogramme zu Personen und Organisationen stehen in Sachanmerkungen und
+werden mit `<seg>` markiert. Innerhalb des `<seg>` muss mindestens die
+Person bzw. Organisation mit `<persName>` / `<orgName>` und `@ref`
+ausgezeichnet sein. Weitere Auszeichnungen innerhalb des Biogramms sind
+nicht nötig (Pop-ups werden im Biogramm-Bereich unterdrückt).
+
+```xml
+<seg type="bio">
+  <persName ref="kbga-actors-296">Friedrich Niebergall</persName> 
+  (20.3.1866-20.9.1932), 1892 Pfarrer in Kirn, seit 1903 akademische
+  Lehrtätigkeit als praktischer Theologe in Heidelberg, seit 1922 als
+  Ordinarius in Marburg.
+</seg>
+```
+
+Für Organisationen wird `<seg type="org">` verwendet:
+
+```xml
+<seg type="org">Die Zeitschrift 
+  «<orgName ref="kbga-actors-6169">Zwischen den Zeiten</orgName>» 
+  wurde 1912 gemeinsam von 
+  <persName ref="kbga-actors-2151">Karl Barth</persName>, 
+  <persName ref="kbga-actors-137">Friedrich Gogarten</persName>, 
+  <persName ref="kbga-actors-403">Eduard Thurneysen</persName> und 
+  <persName ref="kbga-actors-275">Georg Merz</persName> begründet.
+</seg>
+```
+
+Zu `<persName>` und `<orgName>` allgemein siehe
+[Textelemente → Akteure](../textelemente/akteure.md).
 
 ## Abweichungen von Standard-Kennzeichnungen
  
