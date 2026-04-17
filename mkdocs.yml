@@ -53,6 +53,7 @@ extra:
   social:
     - icon: fontawesome/brands/mastodon 
       link: https://social.anoxinon.de/@anton
+copyright: "&copy; 2023–2026 Karl Barth-Archiv"
 repo_url: https://github.com/Karl-Barth/kb-dokumentation
 repo_name: Karl-Barth/kb-dokumentation
 edit_uri: edit/main/docs/
