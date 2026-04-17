@@ -28,23 +28,9 @@ Ausführliche Dokumentation:
 
 ## Beispiele
 
-**Beispiel 1:**
-
 ```xml
-I don't know,
-      Juan. It's so far in the past now — how
-<corr>can we</corr> prove
-      or disprove anyone's theories?
-```
-
-**Beispiel 2:**
-
-```xml
-I don't know, Juan. It's so far in the past now —
-      how
 <choice>
-  <sic>we can</sic>
-  <corr>can we</corr>
-</choice> prove or
-      disprove anyone's theories?
+  <sic source="pga">Ernst</sic>
+  <corr resp="ak" type="corr">Emil</corr>
+</choice> Balla
 ```

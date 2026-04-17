@@ -27,3 +27,9 @@ Wird für Querverweise und für Fussnoten verwendet, die im Text mehrere Fussnot
 
 - `cross` — Anker für Querverweis
 - `note` — Stelle für zweites Fussnotenzeichen; in der note/@target wird die @xml:id gesetzt
+
+## Beispiele
+
+```xml
+<anchor n="1" xml:id="n1511a"/>
+```

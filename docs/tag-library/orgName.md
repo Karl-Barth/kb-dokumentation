@@ -15,3 +15,9 @@ Ausführliche Dokumentation:
 ## Inhaltsmodell
 
 - *macro.phraseSeq*
+
+## Beispiele
+
+```xml
+<orgName ref="kbga-actors-8209">Theologische Fakultät Göttingen</orgName>
+```

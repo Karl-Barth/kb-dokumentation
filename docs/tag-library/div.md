@@ -54,3 +54,27 @@ Enthält eine xml:id eines korrespondierenden divs
 
 **abstractModel-structure-div-in-ab-or-p**
 :   Abstract model violation: p and ab may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.
+
+## Beispiele
+
+**Beispiel 1:**
+
+```xml
+<div type="letter">
+  <head>Brief Nr. 3</head>
+  <opener>Lieber Herr Barth!</opener>
+  <p>...</p>
+  <closer>
+    <salute>Mit herzlichem Gruß</salute>
+    <signed><persName ref="kbga-actors-512">Rudolf Bultmann</persName></signed>
+  </closer>
+</div>
+```
+
+**Beispiel 2:**
+
+```xml
+<div type="abstract">
+  <p>Zusammenfassung des Textes...</p>
+</div>
+```

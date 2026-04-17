@@ -26,3 +26,9 @@ Ausführliche Dokumentation:
 - `person`
 - `organisation`
 - `place`
+
+## Beispiele
+
+```xml
+<rs type="person" ref="kbga-actors-27">Bruders</rs>
+```

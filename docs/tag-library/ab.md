@@ -20,3 +20,9 @@ Ausführliche Dokumentation:
 
 **abstractModel-structure-ab-in-l**
 :   Abstract model violation: Metrical lines may not contain higher-level divisions such as p or ab, unless ab is a child of figure or note, or is a descendant of floatingText.
+
+## Beispiele
+
+```xml
+<ab rend="center">* * *</ab>
+```

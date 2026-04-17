@@ -27,3 +27,9 @@ Enthält eine ID aus der Meta-DB (https://kbga.karl-barth.ch)
 ### `@key` (optional)
 
 Enthält eine normalisierte Schreibweise. Sollte nur provisorisch genutzt werden und durch ein @ref ersetzt werden
+
+## Beispiele
+
+```xml
+<persName ref="kbga-actors-512">Bultmann, Rudolf</persName>
+```

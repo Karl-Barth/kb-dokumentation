@@ -26,3 +26,10 @@ Ausführliche Dokumentation:
 
 **abstractModel-structure-p-in-l**
 :   Abstract model violation: Metrical lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.
+
+## Beispiele
+
+```xml
+<p>Gottes Gebot geht mich an, sofern ich als Christ ein Glied
+  seines auserwählten Volkes bin.</p>
+```

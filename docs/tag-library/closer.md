@@ -22,3 +22,15 @@ Ausführliche Dokumentation:
 - *model.gLike*
 - *model.phrase*
 - *model.global*
+
+## Beispiele
+
+```xml
+<closer>
+  <salute>Mit herzlichem Gruß</salute>
+  <salute>Ihr</salute>
+  <signed>
+    <persName ref="kbga-actors-512">Rudolf Bultmann</persName>
+  </signed>
+</closer>
+```

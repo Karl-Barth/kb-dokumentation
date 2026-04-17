@@ -34,3 +34,9 @@ erlaubt es, die Abkürzung nach einer geeigneten Typologie zu klassifizieren.
 - `title` — eine Abkürzung für eine Anrede oder einen akademischen Titel (Dr., Hr., Fr., ...)
 - `organization` — eine Abkürzung für den Namen einer Organisation.
 - `geographic` — die Abkürzung steht für einen geografischen Namen.
+
+## Beispiele
+
+```xml
+<abbr type="acron">CVJM</abbr>
+```

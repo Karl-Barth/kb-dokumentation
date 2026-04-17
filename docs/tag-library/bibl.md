@@ -67,3 +67,9 @@ Bezeichnung der Quelle für einen edierten Text
 
 **song2**
 :   song2: bibl[@type='song'] darf keinen @subtype enthalten.
+
+## Beispiele
+
+```xml
+<bibl xml:id="A" type="source">A (Vorlage der Edition): Bultmann, Rudolf, Rudolf Bultmann an Karl Barth, 11. Juni 1911. <ref target="https://kba.karl-barth.ch/objects/7950">KBA 9311.73</ref>.</bibl>
+```

@@ -55,3 +55,23 @@ klassifiziert den Titel entsprechend einer geeigneten Typologie.
 - `edition` — Titel der Edition
 - `text` — Titel (verwendet als Angabe in der aps)
 - `addon` — Für Erweiterung des Titels
+
+## Beispiele
+
+**Beispiel 1:**
+
+```xml
+<title type="volume" n="vol-01">Karl Barth – Rudolf Bultmann. Briefwechsel 1911–1966</title>
+```
+
+**Beispiel 2:**
+
+```xml
+<title type="content">Karl Barth an Rudolf Bultmann</title>
+```
+
+**Beispiel 3:**
+
+```xml
+<title type="citation_line_1">Karl Barth an Rudolf Bultmann, 16. Juli 1928</title>
+```
