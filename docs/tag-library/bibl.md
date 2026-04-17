@@ -6,9 +6,11 @@
 
 Bibliographische Angabe. Unterscheidet zwischen gedruckter Gesamtausgabe (pga), Alexander Street Press (asp), Quellen (source) und Liedern (song).
 
-!!! note "Ausführliche Dokumentation"
-    [Textelemente > Literatur](https://dokumentation.karl-barth.ch/textelemente/literatur/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textelemente > Literatur](https://dokumentation.karl-barth.ch/textelemente/literatur/)
 
 ## Inhaltsmodell
 
@@ -24,7 +26,7 @@ Bibliographische Angabe. Unterscheidet zwischen gedruckter Gesamtausgabe (pga), 
 
 ## Attribute
 
-### `@type`
+### `@type` (optional)
 
 **Mögliche Werte:**
 
@@ -32,7 +34,7 @@ Bibliographische Angabe. Unterscheidet zwischen gedruckter Gesamtausgabe (pga), 
 - `asp` — Alexander Street Press (digital edition)
 - `source` — Quelle für einen Text der KBGA
 
-### `@subtype` (geschlossene Werteliste)
+### `@subtype` (optional, geschlossene Werteliste)
 
 Angabe der Funktion einer Quelle für den edierten Text
 
@@ -48,15 +50,15 @@ Angabe der Funktion einer Quelle für den edierten Text
 - `rg` — Reformiertes Gesangsbuch der deutschsprachigen Schweiz (1998)
 - `reichslieder` — Reichs-Lieder. Deutsches Gemeinschafts-Liederbuch
 
-### `@n`
+### `@n` (optional)
 
 Bezeichnung der Quelle für einen edierten Text
 
-**Datentyp:** `string `[A-Z][0-9]?``
+**Datentyp:** string — Pattern: `[A-Z][0-9]?`
 
-### `@xml:id`
+### `@xml:id` (optional)
 
-**Datentyp:** `ID `(b[\-0-9]+|pga|asp|kbga-(sources|bibls|songs|actors|places|keywords)-[0-9]+|[A-Z]\d*)``
+**Datentyp:** ID — Pattern: `(b[\-0-9]+|pga|asp|kbga-(sources|bibls|songs|actors|places|keywords)-[0-9]+|[A-Z]\d*)`
 
 ## Constraints
 

@@ -12,13 +12,13 @@ associates an interpretative annotation directly with a span of text.
 
 ## Attribute
 
-### `@from`
+### `@from` (optional)
 
-**Datentyp:** `teidata.pointer`
+**Datentyp:** teidata.pointer
 
-### `@to`
+### `@to` (optional)
 
-**Datentyp:** `teidata.pointer`
+**Datentyp:** teidata.pointer
 
 ## Constraints
 

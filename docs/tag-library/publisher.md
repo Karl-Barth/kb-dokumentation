@@ -7,6 +7,12 @@
 gibt den Namen der Organisation an, die für die Veröffentlichung und Verbreitung eines
     bibliografischen Objekts verantwortlich ist.
 
+## Erläuterung
+
+Außer bei der Transkription von bibliografischen Angaben, ist der vollständige Name des
+      Unternehmens gegenüber einer abgekürzten Version, wie sie etwa auf der gedruckten Titelseite zu
+      finden ist, zu bevorzugen.
+
 ## Inhaltsmodell
 
 - *macro.phraseSeq*

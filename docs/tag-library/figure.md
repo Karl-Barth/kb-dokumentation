@@ -6,9 +6,11 @@
 
 Abbildung mit optionaler Beschreibung (figDesc) und Grafik (graphic).
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Bilder](https://dokumentation.karl-barth.ch/textstruktur/bilder/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textstruktur > Bilder](https://dokumentation.karl-barth.ch/textstruktur/bilder/)
 
 ## Inhaltsmodell
 

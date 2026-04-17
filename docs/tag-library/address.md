@@ -6,9 +6,18 @@
 
 enthält eine Postadresse, z. B. eines Verlegers, einer Organisation oder einer Einzelperson.
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Unterschriften](https://dokumentation.karl-barth.ch/textstruktur/unterschriften/)
+## Erläuterung
 
+Dieses Element sollte ausschließlich für
+    postalische Addressen verwendet werden. Innerhalb des Elements
+    kann das generische addrLine-Element als Alternative zu
+    den spezielleren Elementen aus der model.addrPart-Klasse, wie street
+    (Straße), postCode (Postleitzahl), etc. verwendet
+    werden.
+
+Ausführliche Dokumentation:
+
+- [Textstruktur > Unterschriften](https://dokumentation.karl-barth.ch/textstruktur/unterschriften/)
 
 ## Inhaltsmodell
 
@@ -18,7 +27,7 @@ enthält eine Postadresse, z. B. eines Verlegers, einer Organisation oder einer 
 
 ## Attribute
 
-### `@type` (erweiterbare Werteliste)
+### `@type` (optional, erweiterbare Werteliste)
 
 **Mögliche Werte:**
 
@@ -28,9 +37,9 @@ enthält eine Postadresse, z. B. eines Verlegers, einer Organisation oder einer 
 - `military`
 - `physical`
 
-### `@role`
+### `@role` (optional)
 
-**Datentyp:** `teidata.enumerated`
+**Datentyp:** teidata.enumerated
 
 **Mögliche Werte:**
 

@@ -6,9 +6,11 @@
 
 Referenzierende Zeichenkette für Akteure, die nicht als persName oder orgName ausgezeichnet werden (z.B. Pronomen, Umschreibungen). Der @type unterscheidet person, organisation, place, conference.
 
-!!! note "Ausführliche Dokumentation"
-    [Textelemente > Akteure](https://dokumentation.karl-barth.ch/textelemente/akteure/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textelemente > Akteure](https://dokumentation.karl-barth.ch/textelemente/akteure/)
 
 ## Inhaltsmodell
 
@@ -16,7 +18,7 @@ Referenzierende Zeichenkette für Akteure, die nicht als persName oder orgName a
 
 ## Attribute
 
-### `@type`
+### `@type` (optional)
 
 **Mögliche Werte:**
 

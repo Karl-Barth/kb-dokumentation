@@ -12,4 +12,4 @@ Umfangsangabe innerhalb einer bibliographischen Referenz (Seiten, Teilnummer).
 
 ## Attribute
 
-### `@unit` (geschlossene Werteliste)
+### `@unit` (optional, geschlossene Werteliste)

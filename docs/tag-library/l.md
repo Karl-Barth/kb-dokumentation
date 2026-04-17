@@ -6,9 +6,11 @@
 
 enthält eine einzelne, möglicherweise unvollständige, Verszeile.
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur/gedichte/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur/gedichte/)
 
 ## Inhaltsmodell
 

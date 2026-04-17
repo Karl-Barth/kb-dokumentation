@@ -8,9 +8,15 @@ enthält kurze Angaben zu Entstehungsort, -datum, -zeit, usw. eines Briefs, Zeit
     anderen Werks. Diese können als Überschrift oder Nachsatz dem Text voran- bzw. nachgestellt
     werden.
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Dateline](https://dokumentation.karl-barth.ch/textstruktur/dateline/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textstruktur > Dateline](https://dokumentation.karl-barth.ch/textstruktur/dateline/)
+
+## Erlaubt in
+
+**Textstruktur:** [`<closer>`](closer.md), [`<opener>`](opener.md)
 
 ## Inhaltsmodell
 

@@ -6,9 +6,11 @@
 
 Ortsname mit Verweis auf die Meta-DB via @ref (kbga-places-ID). Das @key kann provisorisch eine normalisierte Schreibweise enthalten.
 
-!!! note "Ausführliche Dokumentation"
-    [Textelemente > Orte](https://dokumentation.karl-barth.ch/textelemente/orte/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textelemente > Orte](https://dokumentation.karl-barth.ch/textelemente/orte/)
 
 ## Inhaltsmodell
 
@@ -16,12 +18,12 @@ Ortsname mit Verweis auf die Meta-DB via @ref (kbga-places-ID). Das @key kann pr
 
 ## Attribute
 
-### `@ref`
+### `@ref` (optional)
 
 Enthält eine ID aus der Meta-DB (https://kbga.karl-barth.ch)
 
-**Datentyp:** `string `(kbga-places-\d+ ?)+``
+**Datentyp:** string — Pattern: `(kbga-places-\d+ ?)+`
 
-### `@key`
+### `@key` (optional)
 
 Enthält eine normalisierte Schreibweise. Sollte nur provisorisch genutzt werden und durch ein @ref ersetzt werden

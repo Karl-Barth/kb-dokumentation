@@ -6,9 +6,19 @@
 
 Identifikator, z.B. URL oder KBA-Objektnummer.
 
-!!! note "Ausführliche Dokumentation"
-    [Textelemente > Querverweise](https://dokumentation.karl-barth.ch/textelemente/querverweise/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textelemente > Querverweise](https://dokumentation.karl-barth.ch/textelemente/querverweise/)
+
+## Erlaubt in
+
+**Header:** [`<idno>`](idno.md)
+
+**Namen und Daten:** [`<event>`](event.md)
+
+**Handschriftenbeschreibung:** [`<altIdentifier>`](altIdentifier.md), [`<msIdentifier>`](msIdentifier.md)
 
 ## Inhaltsmodell
 
@@ -18,13 +28,13 @@ Identifikator, z.B. URL oder KBA-Objektnummer.
 
 ## Attribute
 
-### `@xml:id`
+### `@xml:id` (optional)
 
-### `@type` (erweiterbare Werteliste)
+### `@type` (optional, erweiterbare Werteliste)
 
 bestimmt die Art des Identifikators (z. B. ISBN, Sozialversicherungsnummer, URI)
 
-**Datentyp:** `teidata.enumerated`
+**Datentyp:** teidata.enumerated
 
 **Mögliche Werte:**
 
@@ -35,3 +45,16 @@ bestimmt die Art des Identifikators (z. B. ISBN, Sozialversicherungsnummer, URI)
 - `VIAF`
 - `ESTC`
 - `OCLC`
+
+## Beispiele
+
+```xml
+<idno type="ISBN">978-1-906964-22-1</idno>
+<idno type="ISSN">0143-3385</idno>
+<idno type="DOI">10.1000/123</idno>
+<idno type="URI">http://www.worldcat.org/oclc/185922478</idno>
+<idno type="URI">http://authority.nzetc.org/463/</idno>
+<idno type="LT">Thomason Tract E.537(17)</idno>
+<idno type="Wing">C695</idno>
+<idno type="oldCat"><g ref="#sym"/>345</idno>
+```

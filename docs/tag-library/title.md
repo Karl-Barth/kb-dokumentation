@@ -6,17 +6,29 @@
 
 Titel mit verschiedenen Funktionen, unterschieden durch @type: Bandtitel (volume), inhaltlicher Titel (content), formaler Titel (formal), Zitierzeilen (citation_line_1–3), Editionstitel (edition) und Texttitel (text).
 
+## Erläuterung
+
+Die Attribute key und ref, die durch die Zugehörigkeit zur Klasse
+      att.canonical verfügbar sind, können dafür verwendet werden, den
+      kanonischen Titel anzugeben: Ersteres indem (z. B.) die Kennung eines Datensatzes einer externen
+      Bibliothek herangezogen wird; Letzteres durch den Verweis auf ein XML-Element, das den
+      kanonischen Titel enthält.
+
+## Erlaubt in
+
+**Header:** [`<titleStmt>`](titleStmt.md)
+
 ## Inhaltsmodell
 
 - *macro.paraContent*
 
 ## Attribute
 
-### `@level` (geschlossene Werteliste)
+### `@level` (optional, geschlossene Werteliste)
 
 gibt den bibliografischen Typ eines Titels an, d.h. ob er einen Artikel, ein Buch, eine Zeitschrift, eine Reihe oder unpubliziertes Material bezeichnet.
 
-**Datentyp:** `teidata.enumerated`
+**Datentyp:** teidata.enumerated
 
 **Mögliche Werte:**
 
@@ -26,11 +38,11 @@ gibt den bibliografischen Typ eines Titels an, d.h. ob er einen Artikel, ein Buc
 - `s` — der Titel bezeichnet eine Reihe von ansonsten selbständig publizierten Veröffentlichungen, wie z. B. eine Buchreihe.
 - `u` — der Titel bezieht sich auf unveröffentliches Material (incl. universitäre Qualifikationsarbeiten, soweit sie nicht von einem Verlag veröffentlicht worden sind).
 
-### `@type` (geschlossene Werteliste)
+### `@type` (optional, geschlossene Werteliste)
 
 klassifiziert den Titel entsprechend einer geeigneten Typologie.
 
-**Datentyp:** `teidata.enumerated`
+**Datentyp:** teidata.enumerated
 
 **Mögliche Werte:**
 

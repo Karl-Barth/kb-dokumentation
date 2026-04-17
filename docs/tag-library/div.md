@@ -6,9 +6,11 @@
 
 Gliederungseinheit eines Textes. Der @type unterscheidet Textsorten (letter, sermon, speech etc.) und Strukturteile (opener, closer, abstract, songs).
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Gliederung](https://dokumentation.karl-barth.ch/textstruktur/gliederung/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textstruktur > Gliederung](https://dokumentation.karl-barth.ch/textstruktur/gliederung/)
 
 ## Inhaltsmodell
 
@@ -28,7 +30,7 @@ Gliederungseinheit eines Textes. Der @type unterscheidet Textsorten (letter, ser
 
 ## Attribute
 
-### `@type` (erweiterbare Werteliste)
+### `@type` (optional, erweiterbare Werteliste)
 
 **Mögliche Werte:**
 
@@ -41,7 +43,7 @@ Gliederungseinheit eines Textes. Der @type unterscheidet Textsorten (letter, ser
 - `chapter`
 - `alternative-text` — Eine andere Version eines Textes.
 
-### `@corresp`
+### `@corresp` (optional)
 
 Enthält eine xml:id eines korrespondierenden divs
 

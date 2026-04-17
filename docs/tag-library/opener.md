@@ -7,9 +7,11 @@
 fasst Datumszeile, Verfasserangabe, Anredeformel und ähnliche Phrasen zusammen, die einleitend zu
     Beginn eines Abschnitts stehen, vor allem bei einem Brief.
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Dateline](https://dokumentation.karl-barth.ch/textstruktur/dateline/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textstruktur > Dateline](https://dokumentation.karl-barth.ch/textstruktur/dateline/)
 
 ## Inhaltsmodell
 

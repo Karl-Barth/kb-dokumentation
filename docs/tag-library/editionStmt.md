@@ -6,6 +6,10 @@
 
 Angaben zur digitalen Edition (Titel, Förderer).
 
+## Erlaubt in
+
+**Header:** [`<fileDesc>`](fileDesc.md)
+
 ## Inhaltsmodell
 
 - [`<edition>`](edition.md)

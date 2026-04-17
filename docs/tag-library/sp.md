@@ -6,9 +6,14 @@
 
 enthält eine einzelne Figurenrede in einem Dramentext oder eine entsprechende Passage in einem Prosatext oder lyrischen Text.
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Woertliche Rede](https://dokumentation.karl-barth.ch/textstruktur/woertliche-rede/)
+## Erläuterung
 
+Das who-Attribut an diesem Element kann entweder zusätzlich zum
+      speaker-Element eingesetzt werden oder alternativ dazu.
+
+Ausführliche Dokumentation:
+
+- [Textstruktur > Woertliche Rede](https://dokumentation.karl-barth.ch/textstruktur/woertliche-rede/)
 
 ## Inhaltsmodell
 

@@ -6,11 +6,12 @@
 
 Ankerpunkt für Querverweise (@type='cross') und für Fussnoten mit mehreren Fussnotenzeichen (@type='note').
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Anmerkungen](https://dokumentation.karl-barth.ch/textstruktur/anmerkungen/)
+## Erläuterung
 
-    [Textelemente > Querverweise](https://dokumentation.karl-barth.ch/textelemente/querverweise/)
+Ausführliche Dokumentation:
 
+- [Textstruktur > Anmerkungen](https://dokumentation.karl-barth.ch/textstruktur/anmerkungen/)
+- [Textelemente > Querverweise](https://dokumentation.karl-barth.ch/textelemente/querverweise/)
 
 ## Inhaltsmodell
 
@@ -18,7 +19,7 @@ Leeres Element.
 
 ## Attribute
 
-### `@type` (geschlossene Werteliste)
+### `@type` (optional, geschlossene Werteliste)
 
 Wird für Querverweise und für Fussnoten verwendet, die im Text mehrere Fussnotenzeichen haben.
 

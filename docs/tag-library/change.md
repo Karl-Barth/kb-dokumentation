@@ -6,14 +6,28 @@
 
 Änderungsvermerk in der revisionDesc. Enthält Zeitstempel der letzten Header-Generierung.
 
+## Erläuterung
+
+Das who-Attribut kann dafür verwendet werden, um zu einem beliebigen anderen 
+      Element zu verweisen, sollte aber typischerweise auf ein respStmt- oder 
+      person-Element innerhalb des TEI-Headers zeigen, um die für die Änderungen 
+      Verantwortlichen und deren Rolle zu identifizieren.
+    Es wird empfohlen, Änderungen so aufzuzeichnen, dass die neuesten am Anfang eingetragen werden. 
+      Das status-Attribut kann dafür verwendet werden, 
+      um den Zustand des Dokuments nach erfolgter Änderung zu beschreiben.
+
+## Erlaubt in
+
+**Header:** [`<revisionDesc>`](revisionDesc.md)
+
 ## Inhaltsmodell
 
 - *macro.specialPara*
 
 ## Attribute
 
-### `@target`
+### `@target` (optional)
 
 verweist auf ein oder mehrere Elemente, die zu dieser Änderung gehören.
 
-**Datentyp:** `teidata.pointer`
+**Datentyp:** teidata.pointer

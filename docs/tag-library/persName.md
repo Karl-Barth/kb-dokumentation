@@ -6,9 +6,11 @@
 
 Personenname mit Verweis auf die Meta-DB via @ref (kbga-actors-ID). Das @key kann provisorisch eine normalisierte Schreibweise enthalten.
 
-!!! note "Ausführliche Dokumentation"
-    [Textelemente > Akteure](https://dokumentation.karl-barth.ch/textelemente/akteure/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textelemente > Akteure](https://dokumentation.karl-barth.ch/textelemente/akteure/)
 
 ## Inhaltsmodell
 
@@ -16,12 +18,12 @@ Personenname mit Verweis auf die Meta-DB via @ref (kbga-actors-ID). Das @key kan
 
 ## Attribute
 
-### `@ref`
+### `@ref` (optional)
 
 Enthält eine ID aus der Meta-DB (https://kbga.karl-barth.ch)
 
-**Datentyp:** `string `(kbga-actors-\d+ ?)+``
+**Datentyp:** string — Pattern: `(kbga-actors-\d+ ?)+`
 
-### `@key`
+### `@key` (optional)
 
 Enthält eine normalisierte Schreibweise. Sollte nur provisorisch genutzt werden und durch ein @ref ersetzt werden

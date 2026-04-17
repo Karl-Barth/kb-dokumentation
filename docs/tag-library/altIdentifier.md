@@ -6,6 +6,10 @@
 
 Alternativer Identifikator für eine Quelle (URI, KBA-ID, KBGA-Sources-ID).
 
+## Erlaubt in
+
+**Handschriftenbeschreibung:** [`<msIdentifier>`](msIdentifier.md)
+
 ## Inhaltsmodell
 
 - `<institution>`

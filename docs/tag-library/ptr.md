@@ -6,9 +6,13 @@
 
 defines a pointer to another location.
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Anmerkungen](https://dokumentation.karl-barth.ch/textstruktur/anmerkungen/)
+## Erläuterung
 
+Die target und cRef-Attribute schließen sich gegenseitig aus.
+
+Ausführliche Dokumentation:
+
+- [Textstruktur > Anmerkungen](https://dokumentation.karl-barth.ch/textstruktur/anmerkungen/)
 
 ## Inhaltsmodell
 

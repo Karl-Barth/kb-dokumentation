@@ -16,9 +16,9 @@ contains a structured
 
 ## Attribute
 
-### `@type` (erweiterbare Werteliste)
+### `@type` (optional, erweiterbare Werteliste)
 
-**Datentyp:** `teidata.enumerated`
+**Datentyp:** teidata.enumerated
 
 **Mögliche Werte:**
 

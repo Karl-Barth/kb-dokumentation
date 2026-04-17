@@ -8,6 +8,10 @@ beschreibt die Quelle, von der sich der elektronische Text ableitet.
         Üblicherweise eine bibliografische Beschreibung im Falle eines digitalisierten Textes oder eine Bezeichnung wie 
         born digital für einen nur in elektronischer Form vorliegenden Text.
 
+## Erlaubt in
+
+**Header:** [`<fileDesc>`](fileDesc.md)
+
 ## Inhaltsmodell
 
 - *model.pLike*

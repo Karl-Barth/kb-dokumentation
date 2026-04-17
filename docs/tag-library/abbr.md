@@ -6,17 +6,23 @@
 
 Abkürzung mit Verweis auf das Abkürzungsverzeichnis via @ref.
 
+## Erläuterung
+
+Werden Abkürzungen stillschweigend aufgelöst, 
+    sollte diese Vorgehensweise im TEI-Header über das editorialDecl-Element dokumentiert werden, 
+    entweder in einem normalization- oder einem p-Element.
+
 ## Inhaltsmodell
 
 - *macro.phraseSeq*
 
 ## Attribute
 
-### `@type`
+### `@type` (optional)
 
 erlaubt es, die Abkürzung nach einer geeigneten Typologie zu klassifizieren.
 
-**Datentyp:** `teidata.enumerated`
+**Datentyp:** teidata.enumerated
 
 **Mögliche Werte:**
 

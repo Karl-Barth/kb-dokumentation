@@ -6,9 +6,11 @@
 
 Anonymer Block, verwendet für zentrierte oder anders formatierte Textabschnitte ohne Absatz-Semantik.
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Absatz](https://dokumentation.karl-barth.ch/textstruktur/absatz/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textstruktur > Absatz](https://dokumentation.karl-barth.ch/textstruktur/absatz/)
 
 ## Inhaltsmodell
 

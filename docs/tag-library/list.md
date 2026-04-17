@@ -6,9 +6,18 @@
 
 enthält eine Reihe von Listenpunkten, die als Liste organisiert sind.
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Listen](https://dokumentation.karl-barth.ch/textstruktur/listen/)
+## Erläuterung
 
+Die Liste kann mit einer Überschrift head beginnen. Sie kann auch aus Paaren von Labels und Beschreibungen bestehen, 
+          sodass dann für jeden Teil spezielle Überschriften (headLabel, headItem) verwendet werden können.
+
+Ausführliche Dokumentation:
+
+- [Textstruktur > Listen](https://dokumentation.karl-barth.ch/textstruktur/listen/)
+
+## Erlaubt in
+
+**Header:** [`<keywords>`](keywords.md), [`<revisionDesc>`](revisionDesc.md)
 
 ## Inhaltsmodell
 
@@ -28,11 +37,11 @@ enthält eine Reihe von Listenpunkten, die als Liste organisiert sind.
 
 ## Attribute
 
-### `@type` (erweiterbare Werteliste)
+### `@type` (optional, erweiterbare Werteliste)
 
 beschreibt die Art der Listenpunkte.
 
-**Datentyp:** `teidata.enumerated`
+**Datentyp:** teidata.enumerated
 
 **Mögliche Werte:**
 
@@ -50,3 +59,47 @@ beschreibt die Art der Listenpunkte.
 
 **gloss-list-must-have-labels**
 :   The content of a "gloss" list should include a sequence of one or more pairs of a label element followed by an item element
+
+## Beispiele
+
+```xml
+<div1 type="section">
+        <head>Athelstan's Ordinance</head>
+        <list rend="numbered">
+          <item n="1">Concerning thieves. First, that no thief is to be spared who is caught with
+            the stolen goods, [if he is] over twelve years and [if the value of the goods is] over
+            eightpence. 
+            <list rend="numbered"><item n="1.1">And if anyone does spare one, he is to pay for the thief with his
+              wergild — and the thief is to be no nearer a settlement on that account — or to
+              clear himself by an oath of that amount.</item><item n="1.2">If, however, he [the thief] wishes to defend himself or to escape, he is
+                not to be spared [whether younger or older than twelve].</item><item n="1.3">If a thief is put into prison, he is to be in prison 40 days, and he may
+                  then be redeemed with 120 shillings; and the kindred are to stand surety for him
+                  that he will desist for ever.</item><item n="1.4">And if he steals after that, they are to pay for him with his wergild,
+                    or to bring him back there.</item><item n="1.5">And if he steals after that, they are to pay for him with his wergild,
+                      whether to the king or to him to whom it rightly belongs; and everyone of those who
+                      supported him is to pay 120 shillings to the king as a fine.</item></list>
+          </item>
+          <item n="2">Concerning lordless men. And we pronounced about these lordless men, from whom
+            no justice can be obtained, that one should order their kindred to fetch back such a
+            person to justice and to find him a lord in public meeting. 
+            <list rend="numbered"><item n="2.1">And if they then will not, or cannot, produce him on that appointed day,
+              he is then to be a fugitive afterwards, and he who encounters him is to strike him
+              down as a thief.</item><item n="2.2">And he who harbours him after that, is to pay for him with his wergild
+                or to clear himself by an oath of that amount.</item></list>
+          </item>
+          <item n="3">Concerning the refusal of justice. The lord who refuses justice and upholds
+            his guilty man, so that the king is appealed to, is to repay the value of the goods and
+            120 shillings to the king; and he who appeals to the king before he demands justice as
+            often as he ought, is to pay the same fine as the other would have done, if he had
+            refused him justice. 
+            <list rend="numbered"><item n="3.1">And the lord who is an accessory to a theft by his slave, and it becomes
+              known about him, is to forfeit the slave and be liable to his wergild on the first
+              occasionp if he does it more often, he is to be liable to pay all that he owns.</item><item n="3.2">And likewise any of the king's treasurers or of our reeves, who has been
+                an accessory of thieves who have committed theft, is to liable to the same.</item></list>
+          </item>
+          <item n="4">Concerning treachery to a lord. And we have pronounced concerning treachery to
+            a lord, that he [who is accused] is to forfeit his life if he cannot deny it or is
+            afterwards convicted at the three-fold ordeal.</item>
+        </list>
+      </div1>
+```

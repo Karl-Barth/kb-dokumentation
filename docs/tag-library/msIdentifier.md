@@ -6,6 +6,10 @@
 
 contains the information required to identify the manuscript or similar object being described.
 
+## Erlaubt in
+
+**Handschriftenbeschreibung:** [`<msDesc>`](msDesc.md)
+
 ## Inhaltsmodell
 
 - `<institution>`

@@ -6,9 +6,18 @@
 
 enthält eine oder mehrere Verse bzw. Verszeilen, die zusammen eine formale Einheit (z. B. Strophe, Refrain) bilden.
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur/gedichte/)
+## Erläuterung
 
+enthält lediglich Vers(zeil)en (l) oder verschachtelte Gruppen von Vers(zeil)en
+      (lg); eine Überschrift ist fakultativ.
+
+Ausführliche Dokumentation:
+
+- [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur/gedichte/)
+
+## Erlaubt in
+
+**Kernmodule:** [`<head>`](head.md), [`<lg>`](lg.md), [`<sp>`](sp.md)
 
 ## Inhaltsmodell
 

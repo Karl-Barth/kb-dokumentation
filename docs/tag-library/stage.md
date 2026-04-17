@@ -6,17 +6,22 @@
 
 enthält jegliche Regieanweisung in einem Dramentext oder -fragment.
 
+## Erläuterung
+
+Das who-Attribut kann verwendet werden, um die Person oder Personen näher zu
+      bezeichnen, die die Regieanweisung ausführen.
+
 ## Inhaltsmodell
 
 - *macro.specialPara*
 
 ## Attribute
 
-### `@type` (erweiterbare Werteliste)
+### `@type` (optional, erweiterbare Werteliste)
 
 beschreibt die Art der Regieanweisung.
 
-**Datentyp:** `teidata.enumerated`
+**Datentyp:** teidata.enumerated
 
 **Mögliche Werte:**
 

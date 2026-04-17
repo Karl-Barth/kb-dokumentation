@@ -6,9 +6,11 @@
 
 Absatz. Darf nicht verschachtelt werden (ausser innerhalb von note).
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Absatz](https://dokumentation.karl-barth.ch/textstruktur/absatz/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textstruktur > Absatz](https://dokumentation.karl-barth.ch/textstruktur/absatz/)
 
 ## Inhaltsmodell
 

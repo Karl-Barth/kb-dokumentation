@@ -6,6 +6,10 @@
 
 Enthält den gesamten Textkörper eines KBGA-Dokuments.
 
+## Erlaubt in
+
+**Textstruktur:** [`<text>`](text.md)
+
 ## Inhaltsmodell
 
 - `<schemaSpec>`

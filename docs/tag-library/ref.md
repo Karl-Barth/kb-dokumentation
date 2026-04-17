@@ -6,9 +6,11 @@
 
 Verweis auf eine andere Ressource. Dient für Bibelstellen, Literaturverweise, Querverweise und URLs.
 
-!!! note "Ausführliche Dokumentation"
-    [Textelemente > Querverweise](https://dokumentation.karl-barth.ch/textelemente/querverweise/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textelemente > Querverweise](https://dokumentation.karl-barth.ch/textelemente/querverweise/)
 
 ## Inhaltsmodell
 

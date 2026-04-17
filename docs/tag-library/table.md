@@ -6,9 +6,15 @@
 
 enthält Text, der in Tabellenform, also in Zeilen und Spalten, dargestellt ist.
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Tabellen](https://dokumentation.karl-barth.ch/textstruktur/tabellen/)
+## Erläuterung
 
+Enthält eine Reihe von Zeilen und optional eine Überschrift.
+    Jegliche Information die grafische Darstellung betreffend, sollte mit dem globalen
+      rend-Attribut auf der Ebene von Tabelle, Zeile oder Zelle verzeichnet werden.
+
+Ausführliche Dokumentation:
+
+- [Textstruktur > Tabellen](https://dokumentation.karl-barth.ch/textstruktur/tabellen/)
 
 ## Inhaltsmodell
 
@@ -23,14 +29,14 @@ enthält Text, der in Tabellenform, also in Zeilen und Spalten, dargestellt ist.
 
 ## Attribute
 
-### `@rows`
+### `@rows` (optional)
 
 gibt die Anzahl der Tabellenzeilen an.
 
-**Datentyp:** `teidata.count`
+**Datentyp:** teidata.count
 
-### `@cols`
+### `@cols` (optional)
 
 gibt die Anzahl der Tabellenspalten an.
 
-**Datentyp:** `teidata.count`
+**Datentyp:** teidata.count

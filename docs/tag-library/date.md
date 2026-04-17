@@ -6,9 +6,11 @@
 
 enthält ein Datum in beliebigem Format.
 
-!!! note "Ausführliche Dokumentation"
-    [Textelemente > Datumsangaben](https://dokumentation.karl-barth.ch/textelemente/datumsangaben/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textelemente > Datumsangaben](https://dokumentation.karl-barth.ch/textelemente/datumsangaben/)
 
 ## Inhaltsmodell
 

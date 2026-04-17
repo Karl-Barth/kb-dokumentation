@@ -6,9 +6,11 @@
 
 Schlussformel eines Briefes (Gruss, Unterschrift, Datum).
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Dateline](https://dokumentation.karl-barth.ch/textstruktur/dateline/)
+## Erläuterung
 
+Ausführliche Dokumentation:
+
+- [Textstruktur > Dateline](https://dokumentation.karl-barth.ch/textstruktur/dateline/)
 
 ## Inhaltsmodell
 

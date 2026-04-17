@@ -9,9 +9,21 @@ enthält Material, das vom umgebenden Text durch
     haben, wie z. B. direkte Rede, wiedergegebene Gedanken, Fachbegriffe, Jargon, Distanzierung 
     des Autors, Zitate aus anderen Texten, erwähnte aber nicht benutzte Passagen.
 
-!!! note "Ausführliche Dokumentation"
-    [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur/gedichte/)
+## Erläuterung
 
+Das Element kann benutzt werden, um anzuzeigen, dass eine Textpassage sich vom umgebenden Text 
+      unterscheidet - aus Gründen, die nicht näher spezifiziert werden. Wenn das Element in dieser 
+      Weise benutzt wird, kann das q-Element als syntactic sugar 
+      (d.h. vereinfachte Schreibweise) für das hi-Element mit einem entsprechenden 
+      Wert im rend-Attribut gedacht werden.
+
+Ausführliche Dokumentation:
+
+- [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur/gedichte/)
+
+## Erlaubt in
+
+**Kernmodule:** [`<cit>`](cit.md), [`<sp>`](sp.md)
 
 ## Inhaltsmodell
 
@@ -19,12 +31,12 @@ enthält Material, das vom umgebenden Text durch
 
 ## Attribute
 
-### `@type` (erweiterbare Werteliste)
+### `@type` (optional, erweiterbare Werteliste)
 
 kann verwendet werden, um anzuzeigen, ob die abgesetzte 
         Textpassage gesprochen oder gedacht wird, oder um sie auf andere Weise detaillierter zu beschreiben.
 
-**Datentyp:** `teidata.enumerated`
+**Datentyp:** teidata.enumerated
 
 **Mögliche Werte:**
 

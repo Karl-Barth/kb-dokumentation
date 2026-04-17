@@ -15,10 +15,10 @@ contains or describes any kind of graphic or written signal
 
 ## Attribute
 
-### `@function`
+### `@function` (optional)
 
-**Datentyp:** `teidata.word`
+**Datentyp:** teidata.word
 
-### `@target`
+### `@target` (optional)
 
-**Datentyp:** `teidata.pointer`
+**Datentyp:** teidata.pointer

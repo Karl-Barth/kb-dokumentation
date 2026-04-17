@@ -6,6 +6,10 @@
 
 Zusammenfassung oder Regest eines Textes, typisch am Anfang eines Briefes oder Vortrags.
 
+## Erlaubt in
+
+**Textstruktur:** [`<opener>`](opener.md)
+
 ## Inhaltsmodell
 
 - *model.global*
