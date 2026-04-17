@@ -4,6 +4,8 @@ Tabelle.
 
 Siehe [Textstruktur > Tabellen](https://dokumentation.karl-barth.ch/textstruktur/tabellen/)
 
+[TEI Guidelines: table](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-table.html)
+
 **Modul:** figures — Abbildungen und Tabellen
 
 ## Attribute
@@ -15,6 +17,10 @@ Siehe [Textstruktur > Tabellen](https://dokumentation.karl-barth.ch/textstruktur
 **@cols** (optional)
 :   gibt die Anzahl der Tabellenspalten an.
 :   Datentyp: teidata.count
+
+**@rend** (optional)
+
+**@type** (optional)
 
 
 ## Kann enthalten

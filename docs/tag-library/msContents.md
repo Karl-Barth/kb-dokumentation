@@ -3,6 +3,8 @@
 describes the intellectual content of a manuscript, manuscript
     part, or other object either as a series of paragraphs or as a series of structured manuscript items.
 
+[TEI Guidelines: msContents](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-msContents.html)
+
 **Modul:** msdescription — Handschriftenbeschreibung
 
 ## Enthalten in

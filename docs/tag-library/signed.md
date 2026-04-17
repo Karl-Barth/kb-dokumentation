@@ -4,7 +4,16 @@ enthält die abschließende Grußformel o.Ä. die ein Vorwort, eine Widmung oder
 
 Siehe [Textstruktur > Unterschriften](https://dokumentation.karl-barth.ch/textstruktur/unterschriften/)
 
+[TEI Guidelines: signed](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-signed.html)
+
 **Modul:** textstructure — Textstruktur
+
+## Attribute
+
+**@rend** (optional)
+
+**@rendition** (optional)
+
 
 ## Enthalten in
 

@@ -4,7 +4,20 @@ Abbildung mit optionaler Beschreibung (figDesc) und Grafik (graphic).
 
 Siehe [Textstruktur > Bilder](https://dokumentation.karl-barth.ch/textstruktur/bilder/)
 
+[TEI Guidelines: figure](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-figure.html)
+
 **Modul:** figures — Abbildungen und Tabellen
+
+## Attribute
+
+**@n** (optional)
+
+**@rend** (optional)
+
+**@rendition** (optional)
+
+**@xml:id** (optional)
+
 
 ## Kann enthalten
 

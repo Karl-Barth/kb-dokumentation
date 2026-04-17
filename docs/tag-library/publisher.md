@@ -7,6 +7,8 @@ Außer bei der Transkription von bibliografischen Angaben, ist der vollständige
       Unternehmens gegenüber einer abgekürzten Version, wie sie etwa auf der gedruckten Titelseite zu
       finden ist, zu bevorzugen.
 
+[TEI Guidelines: publisher](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-publisher.html)
+
 **Modul:** core — Kernmodule
 
 ## Content Model

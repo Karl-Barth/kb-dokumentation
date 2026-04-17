@@ -4,7 +4,22 @@ Absatz. Darf nicht verschachtelt werden (ausser innerhalb von note).
 
 Siehe [Textstruktur > Absatz](https://dokumentation.karl-barth.ch/textstruktur/absatz/)
 
+[TEI Guidelines: p](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-p.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@corresp** (optional)
+
+**@n** (optional)
+
+**@rend** (optional)
+
+**@xml:id** (optional)
+
+**@xml:lang** (optional)
+
 
 ## Constraints
 

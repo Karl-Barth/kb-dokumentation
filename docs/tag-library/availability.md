@@ -4,6 +4,8 @@ Lizenzinformationen zur Publikation. Wird aus der Datenbank generiert.
 
 Es sollte ein einheitliches Format verwendet werden.
 
+[TEI Guidelines: availability](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-availability.html)
+
 **Modul:** header — Header
 
 ## Content Model

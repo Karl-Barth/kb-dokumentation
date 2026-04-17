@@ -4,7 +4,14 @@ Anonymer Block, verwendet für zentrierte oder anders formatierte Textabschnitte
 
 Siehe [Textstruktur > Absatz](https://dokumentation.karl-barth.ch/textstruktur/absatz/)
 
+[TEI Guidelines: ab](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-ab.html)
+
 **Modul:** linking — Linking
+
+## Attribute
+
+**@rend** (optional)
+
 
 ## Constraints
 

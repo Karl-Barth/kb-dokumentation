@@ -4,7 +4,26 @@ Anmerkung (Fussnote, Endnote, editorische Anmerkung). Der @type unterscheidet Fu
 
 Siehe [Textstruktur > Anmerkungen](https://dokumentation.karl-barth.ch/textstruktur/anmerkungen/)
 
+[TEI Guidelines: note](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-note.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@n** (optional)
+
+**@place** (optional)
+
+**@resp** (optional)
+
+**@target** (optional)
+
+**@type** (optional)
+
+**@xml:id** (optional)
+
+**@xml:lang** (optional)
+
 
 ## Enthalten in
 

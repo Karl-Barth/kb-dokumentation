@@ -3,6 +3,8 @@
 enthält ein anonymes oder jemandem zugeschriebenes Zitat, das am Beginn eines Abschnitts,
     Kapitels oder auf einer Titelseite steht.
 
+[TEI Guidelines: epigraph](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-epigraph.html)
+
 **Modul:** textstructure — Textstruktur
 
 ## Enthalten in

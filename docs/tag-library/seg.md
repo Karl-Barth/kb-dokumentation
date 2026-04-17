@@ -9,7 +9,22 @@ Das seg-Element kann nach Gutdünken verwendet werden, um jegliches Textsegment,
       Elementen auf dieses Segment verweisen zu können, z. B. um ein Ziel für einen ptr oder
       ein ähnliches Element zur Verfügung zu stellen.
 
+[TEI Guidelines: seg](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-seg.html)
+
 **Modul:** linking — Linking
+
+## Attribute
+
+**@corresp** (optional)
+
+**@n** (optional)
+
+**@type** (optional)
+
+**@xml:id** (optional)
+
+**@xml:lang** (optional)
+
 
 ## Content Model
 

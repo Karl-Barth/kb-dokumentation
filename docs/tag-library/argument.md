@@ -2,6 +2,8 @@
 
 Zusammenfassung oder Regest eines Textes, typisch am Anfang eines Briefes oder Vortrags.
 
+[TEI Guidelines: argument](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-argument.html)
+
 **Modul:** textstructure — Textstruktur
 
 ## Enthalten in

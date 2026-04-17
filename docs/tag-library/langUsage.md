@@ -2,6 +2,8 @@
 
 beschreibt Sprachen, Subsprachen, Register, Dialekte usw., die innerhalb eines Textes vorkommen.
 
+[TEI Guidelines: langUsage](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-langUsage.html)
+
 **Modul:** header — Header
 
 ## Kann enthalten

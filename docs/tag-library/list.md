@@ -4,6 +4,8 @@ Liste. Der @type unterscheidet geordnete und ungeordnete Listen.
 
 Siehe [Textstruktur > Listen](https://dokumentation.karl-barth.ch/textstruktur/listen/)
 
+[TEI Guidelines: list](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-list.html)
+
 **Modul:** core — Kernmodule
 
 ## Attribute
@@ -20,6 +22,8 @@ Siehe [Textstruktur > Listen](https://dokumentation.karl-barth.ch/textstruktur/l
                 üblicherweise in einem religiösen Ritual verwendet werden.
 :   `syllogism` — jeder Listenpunkt ist Teil eines Arguments, das aus zwei oder mehr Prämissen 
                 und einem daraus gezogenen Schluss besteht.
+
+**@rend** (optional)
 
 
 ## Enthalten in

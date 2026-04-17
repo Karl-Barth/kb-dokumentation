@@ -13,7 +13,14 @@ Kann einen einfachen Fließtext enthalten oder eine Sequenz von Chunks.
 
 Siehe [Textstruktur > Listen](https://dokumentation.karl-barth.ch/textstruktur/listen/)
 
+[TEI Guidelines: item](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-item.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@n** (optional)
+
 
 ## Enthalten in
 

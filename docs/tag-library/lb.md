@@ -20,6 +20,8 @@ Es ist Konvention, dass lb-Elemente an der Stelle im Text stehen sollen,
 
 Siehe [Textstruktur > Zeilenumbruch](https://dokumentation.karl-barth.ch/textstruktur/zeilenumbruch/)
 
+[TEI Guidelines: lb](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-lb.html)
+
 **Modul:** core — Kernmodule
 
 ## Kann enthalten

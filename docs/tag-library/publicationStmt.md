@@ -8,6 +8,8 @@ Wenn die Angaben zur Veröffentlichung mehrere Mitglieder der Klassen model.publ
           die Adresse, den Identifikator, die Verfügbarkeit und das Veröffentlichungsdatum enthalten, auf den Namen des Verlags, des 
           Distributors oder der Freigabeinstanz folgen, und zwar möglichst in dieser Reihenfolge.
 
+[TEI Guidelines: publicationStmt](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-publicationStmt.html)
+
 **Modul:** header — Header
 
 ## Enthalten in

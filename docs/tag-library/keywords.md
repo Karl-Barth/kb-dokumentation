@@ -9,6 +9,8 @@ Jedes einzelne Schlagwort (zusammengesetzte Themen-Schlagwörter eingeschlossen)
           Allerdings ist dieses Vorgehen veraltet und wird daher nicht empfohlen.
       Wenn keine kontrollierte Liste für die verwendeten Schlagwörter existiert, sollte das scheme-Attribute nicht gesetzt werden.
 
+[TEI Guidelines: keywords](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-keywords.html)
+
 **Modul:** header — Header
 
 ## Attribute

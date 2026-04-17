@@ -4,6 +4,8 @@ Referenzierende Zeichenkette für Akteure, die nicht als persName oder orgName a
 
 Siehe [Textelemente > Akteure](https://dokumentation.karl-barth.ch/textelemente/akteure/)
 
+[TEI Guidelines: rs](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-rs.html)
+
 **Modul:** core — Kernmodule
 
 ## Attribute
@@ -13,6 +15,10 @@ Siehe [Textelemente > Akteure](https://dokumentation.karl-barth.ch/textelemente/
 :   `person`
 :   `organisation`
 :   `place`
+
+**@n** (optional)
+
+**@ref** (optional)
 
 
 ## Beispiele

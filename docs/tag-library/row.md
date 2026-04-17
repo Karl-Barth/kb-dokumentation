@@ -4,6 +4,8 @@ enthält eine Zeile einer Tabelle.
 
 Siehe [Textstruktur > Tabellen](https://dokumentation.karl-barth.ch/textstruktur/tabellen/)
 
+[TEI Guidelines: row](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-row.html)
+
 **Modul:** figures — Abbildungen und Tabellen
 
 ## Enthalten in

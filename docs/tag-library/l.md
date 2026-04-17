@@ -4,7 +4,16 @@ Verszeile.
 
 Siehe [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur/gedichte/)
 
+[TEI Guidelines: l](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-l.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@rend** (optional)
+
+**@xml:space** (optional)
+
 
 ## Kann enthalten
 

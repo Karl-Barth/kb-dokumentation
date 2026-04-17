@@ -9,6 +9,8 @@ Dieses Element ist obligatorisch. Es ist notwendig,
       TEI version="4.4.0" xml:lang="it" 
         xmlns="http://www.tei-c.org/ns/1.0".
 
+[TEI Guidelines: TEI](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-TEI.html)
+
 **Modul:** textstructure — Textstruktur
 
 ## Attribute
@@ -16,6 +18,8 @@ Dieses Element ist obligatorisch. Es ist notwendig,
 **@version** (optional)
 :   gibt die Versionsnummer der TEI-Richtlinien an, gegen die dieses Dokument validiert wird.
 :   Datentyp: teidata.version
+
+**@xml:id** (optional)
 
 
 ## Enthalten in

@@ -4,7 +4,24 @@ Seitenumbruch. Das @ed unterscheidet die Ausgabe (pga, A), @n die Seitenzahl.
 
 Siehe [Textstruktur > Seitenanfang](https://dokumentation.karl-barth.ch/textstruktur/seitenanfang/)
 
+[TEI Guidelines: pb](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-pb.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@break** (optional)
+
+**@ed** (optional)
+
+**@n** (optional)
+
+**@rend** (optional)
+
+**@type** (optional)
+
+**@xml:id** (optional)
+
 
 ## Kann enthalten
 

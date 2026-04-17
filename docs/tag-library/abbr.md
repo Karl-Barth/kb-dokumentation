@@ -6,6 +6,8 @@ Werden Abkürzungen stillschweigend aufgelöst,
     sollte diese Vorgehensweise im TEI-Header über das editorialDecl-Element dokumentiert werden, 
     entweder in einem normalization- oder einem p-Element.
 
+[TEI Guidelines: abbr](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-abbr.html)
+
 **Modul:** core — Kernmodule
 
 ## Attribute

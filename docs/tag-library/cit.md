@@ -2,6 +2,8 @@
 
 Zitat mit optionaler bibliographischer Angabe.
 
+[TEI Guidelines: cit](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-cit.html)
+
 **Modul:** core — Kernmodule
 
 ## Kann enthalten

@@ -16,7 +16,7 @@ theme:
     #- navigation.tabs
     #- navigation.tabs.sticky
     #- navigation.path
-    #- navigation.indexes
+    - navigation.indexes
     - navigation.footer
 extra_css:
   - style.css
@@ -100,7 +100,7 @@ nav:
   #  - Synchronisierung von Daten ins KBA: workflow/sync_kba.md
   #  - Datenbankinkonsistenzen: workflow/inkonsistenzen.md
   - Tag-Library:
-    - Übersicht: tag-library/index.md
+    - tag-library/index.md
     - TEI: tag-library/TEI.md
     - ab: tag-library/ab.md
     - abbr: tag-library/abbr.md

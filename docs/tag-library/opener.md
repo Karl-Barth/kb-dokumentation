@@ -5,6 +5,8 @@ fasst Datumszeile, Verfasserangabe, Anredeformel und ähnliche Phrasen zusammen,
 
 Siehe [Textstruktur > Dateline](https://dokumentation.karl-barth.ch/textstruktur/dateline/)
 
+[TEI Guidelines: opener](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-opener.html)
+
 **Modul:** textstructure — Textstruktur
 
 ## Kann enthalten

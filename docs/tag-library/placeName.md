@@ -4,6 +4,8 @@ Ortsname mit Verweis auf die Meta-DB via @ref (kbga-places-ID). Das @key kann pr
 
 Siehe [Textelemente > Orte](https://dokumentation.karl-barth.ch/textelemente/orte/)
 
+[TEI Guidelines: placeName](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-placeName.html)
+
 **Modul:** namesdates — Namen und Daten
 
 ## Attribute
@@ -14,6 +16,8 @@ Siehe [Textelemente > Orte](https://dokumentation.karl-barth.ch/textelemente/ort
 
 **@key** (optional)
 :   Enthält eine normalisierte Schreibweise. Sollte nur provisorisch genutzt werden und durch ein @ref ersetzt werden
+
+**@rend** (optional)
 
 
 ## Beispiele

@@ -7,6 +7,8 @@ Das who-Attribut an diesem Element kann entweder zusätzlich zum
 
 Siehe [Textstruktur > Woertliche Rede](https://dokumentation.karl-barth.ch/textstruktur/woertliche-rede/)
 
+[TEI Guidelines: sp](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-sp.html)
+
 **Modul:** core — Kernmodule
 
 ## Kann enthalten

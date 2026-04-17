@@ -10,7 +10,14 @@ Adressen können entweder als eine Abfolge von Zeilen kodiert werden oder als ei
 
 Siehe [Textstruktur > Unterschriften](https://dokumentation.karl-barth.ch/textstruktur/unterschriften/)
 
+[TEI Guidelines: addrLine](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-addrLine.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@rendition** (optional)
+
 
 ## Content Model
 

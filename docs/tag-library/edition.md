@@ -2,7 +2,14 @@
 
 beschreibt die Details einer Ausgabe eines Textes.
 
+[TEI Guidelines: edition](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-edition.html)
+
 **Modul:** header — Header
+
+## Attribute
+
+**@rend** (optional)
+
 
 ## Enthalten in
 

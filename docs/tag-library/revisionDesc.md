@@ -7,6 +7,8 @@ Wenn an diesem Element gesetzt, sollte das status-Attribut den aktuellen
           Attribut den jeweiligen Status zum Zeitpunkt der Änderung an. Die change-Elemente 
           werden der Konvention nach so angeordnet, dass die letzte Änderung am Anfang steht und die erste zum Schluss.
 
+[TEI Guidelines: revisionDesc](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-revisionDesc.html)
+
 **Modul:** header — Header
 
 ## Enthalten in

@@ -5,6 +5,8 @@ enthält eine detaillierte Beschreibung der nicht-bibliografischen Merkmale des 
 
 Obwohl durch das Inhaltsmodell erlaubt, erscheint es in den seltensten Fällen sinnvoll, mehrere Vorkommen der erlaubten Kindelemente der profileDesc zu notieren – außer diese beziehen sich auf unterschiedliche Texte.
 
+[TEI Guidelines: profileDesc](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-profileDesc.html)
+
 **Modul:** header — Header
 
 ## Content Model

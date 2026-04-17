@@ -2,6 +2,8 @@
 
 contains the information required to identify the manuscript or similar object being described.
 
+[TEI Guidelines: msIdentifier](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-msIdentifier.html)
+
 **Modul:** msdescription — Handschriftenbeschreibung
 
 ## Enthalten in

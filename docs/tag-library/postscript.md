@@ -2,6 +2,8 @@
 
 enthält einen Nachtrag (Postskriptum), z. B. zu einem Brief.
 
+[TEI Guidelines: postscript](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-postscript.html)
+
 **Modul:** textstructure — Textstruktur
 
 ## Content Model

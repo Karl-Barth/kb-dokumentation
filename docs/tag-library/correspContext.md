@@ -2,6 +2,8 @@
 
 provides references to preceding or following correspondence related to this piece of correspondence.
 
+[TEI Guidelines: correspContext](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-correspContext.html)
+
 **Modul:** header — Header
 
 ## Content Model

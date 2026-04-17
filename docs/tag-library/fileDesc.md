@@ -9,6 +9,8 @@ Die wesentliche Informationsquelle für die Erstellung eines Katalogeintrags ode
           behandelt werden können, enthalten. Es beinhaltet außerdem eine vollständige bibliografische Beschreibung der 
           Quelle selbst bzw. der Quellen von welchen sich der elektronische Text ableitet.
 
+[TEI Guidelines: fileDesc](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-fileDesc.html)
+
 **Modul:** header — Header
 
 ## Enthalten in

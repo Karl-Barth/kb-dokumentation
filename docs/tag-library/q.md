@@ -4,6 +4,8 @@ Direkte Rede oder Zitat im Fliesstext.
 
 Siehe [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur/gedichte/)
 
+[TEI Guidelines: q](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-q.html)
+
 **Modul:** core — Kernmodule
 
 ## Attribute
@@ -22,6 +24,10 @@ Siehe [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur
 :   `emph` — rhetorische Emphase
 :   `mentioned` — bezieht sich auf sich selbst, 
             nicht auf den üblichen Bezugspunkt
+
+**@rend** (optional)
+
+**@xml:lang** (optional)
 
 
 ## Enthalten in

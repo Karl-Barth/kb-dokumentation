@@ -2,6 +2,8 @@
 
 associates an interpretative annotation directly with a span of text.
 
+[TEI Guidelines: span](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-span.html)
+
 **Modul:** analysis — Analyse
 
 ## Attribute

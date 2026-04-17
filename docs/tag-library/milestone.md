@@ -12,7 +12,16 @@ Das globale n-Attribut gibt für dieses Element die neue Zahl
     Die Reihenfolge des Auftretens von mehreren milestone-Elementen 
       an einem gegebenen Punkt ist normalerweise nicht signifikant.
 
+[TEI Guidelines: milestone](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-milestone.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@unit** (optional)
+
+**@xml:id** (optional)
+
 
 ## Kann enthalten
 

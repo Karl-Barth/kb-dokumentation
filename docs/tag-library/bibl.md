@@ -4,6 +4,8 @@ Bibliographische Angabe. Unterscheidet zwischen gedruckter Gesamtausgabe (pga), 
 
 Siehe [Textelemente > Literatur](https://dokumentation.karl-barth.ch/textelemente/literatur/)
 
+[TEI Guidelines: bibl](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-bibl.html)
+
 **Modul:** core — Kernmodule
 
 ## Attribute
@@ -31,6 +33,8 @@ Siehe [Textelemente > Literatur](https://dokumentation.karl-barth.ch/textelement
 
 **@xml:id** (optional)
 :   Datentyp: ID — Pattern: `(b[\-0-9]+|pga|asp|kbga-(sources|bibls|songs|actors|places|keywords)-[0-9]+|[A-Z]\d*)`
+
+**@corresp** (optional)
 
 
 ## Kann enthalten

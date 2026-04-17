@@ -4,7 +4,14 @@ Strophe oder Versgruppe.
 
 Siehe [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur/gedichte/)
 
+[TEI Guidelines: lg](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-lg.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@xml:space** (optional)
+
 
 ## Enthalten in
 

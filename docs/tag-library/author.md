@@ -14,6 +14,8 @@ Insbesondere wenn eine Katalogisierung auf Basis des TEI-Headers erfolgen soll, 
       Auszeichnungen für Namen von Personen, Organisationen oder Orten beinhalten - insbesondere
       wenn mehrere Namen vorhanden sind.
 
+[TEI Guidelines: author](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-author.html)
+
 **Modul:** core — Kernmodule
 
 ## Attribute

@@ -3,6 +3,8 @@
 gruppiert Informationen über Art oder Thematik eines Textes unter 
       Bezug auf ein Standard-Klassifikationsschema, einen Thesaurus o. ä.
 
+[TEI Guidelines: textClass](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-textClass.html)
+
 **Modul:** header — Header
 
 ## Kann enthalten

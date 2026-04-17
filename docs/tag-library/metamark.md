@@ -5,6 +5,8 @@ contains or describes any kind of graphic or written signal
    should be read rather than forming part of the actual content of
    the document.
 
+[TEI Guidelines: metamark](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-metamark.html)
+
 **Modul:** transcr — Transkription
 
 ## Attribute

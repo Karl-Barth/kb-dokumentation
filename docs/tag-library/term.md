@@ -20,7 +20,18 @@ Wenn dieses Element innerhalb eines index-Elements auftritt, so wird es als Lemm
           Da sich die Attribute target und cRef gegenseitig ausschließen und mit dem ref-Attribut überlappen, 
           sind diese als "veraltet" gekennzeichnet und können mit einer der folgenden Guideline-Auflagen entfernt werden.
 
+[TEI Guidelines: term](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-term.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@key** (optional)
+
+**@ref** (optional)
+
+**@type** (optional)
+
 
 ## Enthalten in
 

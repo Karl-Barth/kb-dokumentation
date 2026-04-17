@@ -2,7 +2,16 @@
 
 enthält eine Liste von bibliografischen Angaben jeglicher Art.
 
+[TEI Guidelines: listBibl](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-listBibl.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@rend** (optional)
+
+**@type** (optional)
+
 
 ## Content Model
 

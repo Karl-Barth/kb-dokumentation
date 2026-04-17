@@ -8,6 +8,8 @@ Die Attribute key und ref, die durch die Zugehörigkeit zur Klasse
       Bibliothek herangezogen wird; Letzteres durch den Verweis auf ein XML-Element, das den
       kanonischen Titel enthält.
 
+[TEI Guidelines: title](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-title.html)
+
 **Modul:** core — Kernmodule
 
 ## Attribute
@@ -33,6 +35,12 @@ Die Attribute key und ref, die durch die Zugehörigkeit zur Klasse
 :   `edition` — Titel der Edition
 :   `text` — Titel (verwendet als Angabe in der aps)
 :   `addon` — Für Erweiterung des Titels
+
+**@n** (optional)
+
+**@rend** (optional)
+
+**@xml:lang** (optional)
 
 
 ## Enthalten in

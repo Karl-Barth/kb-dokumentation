@@ -4,6 +4,8 @@ Gliederungseinheit eines Textes. Der @type unterscheidet Textsorten (letter, ser
 
 Siehe [Textstruktur > Gliederung](https://dokumentation.karl-barth.ch/textstruktur/gliederung/)
 
+[TEI Guidelines: div](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-div.html)
+
 **Modul:** textstructure — Textstruktur
 
 ## Attribute
@@ -20,6 +22,12 @@ Siehe [Textstruktur > Gliederung](https://dokumentation.karl-barth.ch/textstrukt
 
 **@corresp** (optional)
 :   Enthält eine xml:id eines korrespondierenden divs
+
+**@rend** (optional)
+
+**@xml:id** (optional)
+
+**@xml:lang** (optional)
 
 
 ## Constraints

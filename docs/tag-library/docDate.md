@@ -8,6 +8,8 @@ Vgl. das allgemeine date-Element im core-Modul. Dieses
       Datum des gesamten Dokuments verwendet werden, nicht für Datierungen von Abschnitten oder
       Teilen.
 
+[TEI Guidelines: docDate](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-docDate.html)
+
 **Modul:** textstructure — Textstruktur
 
 ## Enthalten in

@@ -2,6 +2,8 @@
 
 contains a list of descriptions, each of which provides information about an identifiable event.
 
+[TEI Guidelines: listEvent](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-listEvent.html)
+
 **Modul:** namesdates — Namen und Daten
 
 ## Content Model

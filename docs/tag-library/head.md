@@ -4,7 +4,20 @@
 
 Siehe [Textstruktur > Ueberschriften](https://dokumentation.karl-barth.ch/textstruktur/ueberschriften/)
 
+[TEI Guidelines: head](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-head.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@corresp** (optional)
+
+**@rend** (optional)
+
+**@type** (optional)
+
+**@xml:id** (optional)
+
 
 ## Kann enthalten
 

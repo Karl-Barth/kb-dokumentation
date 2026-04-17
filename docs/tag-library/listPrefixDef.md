@@ -2,6 +2,8 @@
 
 contains a list of definitions of prefixing schemes used in teidata.pointer values, showing how abbreviated URIs using each scheme may be expanded into full URIs.
 
+[TEI Guidelines: listPrefixDef](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-listPrefixDef.html)
+
 **Modul:** header — Header
 
 ## Enthalten in

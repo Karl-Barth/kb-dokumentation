@@ -4,6 +4,8 @@ Korrektur eines Fehlers in der Druckausgabe. Der @type unterscheidet inhaltliche
 
 Siehe [Textelemente > Korrektionen Der Druckausgabe](https://dokumentation.karl-barth.ch/textelemente/korrektionen-der-druckausgabe/)
 
+[TEI Guidelines: corr](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-corr.html)
+
 **Modul:** core — Kernmodule
 
 ## Attribute
@@ -12,6 +14,8 @@ Siehe [Textelemente > Korrektionen Der Druckausgabe](https://dokumentation.karl-
 :   `corr` — korrigiert einen inhaltlichen Fehler
 :   `misprint` — korrigiert einen Druckfehler
 :   `update` — wenn Angaben veraltet sind, z.B. URLs
+
+**@resp** (optional)
 
 
 ## Beispiele

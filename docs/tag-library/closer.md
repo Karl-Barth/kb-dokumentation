@@ -4,6 +4,8 @@ Schlussformel eines Briefes (Gruss, Unterschrift, Datum).
 
 Siehe [Textstruktur > Dateline](https://dokumentation.karl-barth.ch/textstruktur/dateline/)
 
+[TEI Guidelines: closer](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-closer.html)
+
 **Modul:** textstructure — Textstruktur
 
 ## Kann enthalten

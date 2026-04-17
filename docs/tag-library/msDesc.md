@@ -3,7 +3,20 @@
 contains a description of a single identifiable
     manuscript or other text-bearing object such as an early printed book.
 
+[TEI Guidelines: msDesc](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-msDesc.html)
+
 **Modul:** msdescription — Handschriftenbeschreibung
+
+## Attribute
+
+**@n** (optional)
+
+**@subtype** (optional)
+
+**@type** (optional)
+
+**@xml:id** (optional)
+
 
 ## Kann enthalten
 

@@ -11,6 +11,8 @@ Dieses Element sollte ausschließlich für
 
 Siehe [Textstruktur > Unterschriften](https://dokumentation.karl-barth.ch/textstruktur/unterschriften/)
 
+[TEI Guidelines: address](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-address.html)
+
 **Modul:** core — Kernmodule
 
 ## Attribute
@@ -33,6 +35,10 @@ Siehe [Textstruktur > Unterschriften](https://dokumentation.karl-barth.ch/textst
 :   `finish`
 :   `pickup`
 :   `dropOff`
+
+**@rend** (optional)
+
+**@rendition** (optional)
 
 
 ## Content Model

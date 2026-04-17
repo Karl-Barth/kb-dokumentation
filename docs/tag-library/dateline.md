@@ -6,7 +6,16 @@ enthält kurze Angaben zu Entstehungsort, -datum, -zeit, usw. eines Briefs, Zeit
 
 Siehe [Textstruktur > Dateline](https://dokumentation.karl-barth.ch/textstruktur/dateline/)
 
+[TEI Guidelines: dateline](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-dateline.html)
+
 **Modul:** textstructure — Textstruktur
+
+## Attribute
+
+**@rend** (optional)
+
+**@rendition** (optional)
+
 
 ## Enthalten in
 

@@ -4,7 +4,22 @@ Verweis auf eine andere Ressource. Dient für Bibelstellen, Literaturverweise, Q
 
 Siehe [Textelemente > Querverweise](https://dokumentation.karl-barth.ch/textelemente/querverweise/)
 
+[TEI Guidelines: ref](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-ref.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@corresp** (optional)
+
+**@n** (optional)
+
+**@subtype** (optional)
+
+**@target** (optional)
+
+**@type** (optional)
+
 
 ## Constraints
 

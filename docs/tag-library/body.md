@@ -2,6 +2,8 @@
 
 Enthält den gesamten Textkörper eines KBGA-Dokuments.
 
+[TEI Guidelines: body](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-body.html)
+
 **Modul:** textstructure — Textstruktur
 
 ## Enthalten in

@@ -4,7 +4,14 @@ Markiert die fehlerhafte Stelle in der Druckausgabe (innerhalb von choice/sic/co
 
 Siehe [Textelemente > Korrektionen Der Druckausgabe](https://dokumentation.karl-barth.ch/textelemente/korrektionen-der-druckausgabe/)
 
+[TEI Guidelines: sic](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-sic.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@ed** (optional)
+
 
 ## Beispiele
 

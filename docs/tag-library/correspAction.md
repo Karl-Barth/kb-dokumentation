@@ -5,6 +5,8 @@ contains a structured
   date related to the sending/receiving of a message or any other
   action related to the correspondence.
 
+[TEI Guidelines: correspAction](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-correspAction.html)
+
 **Modul:** header — Header
 
 ## Attribute

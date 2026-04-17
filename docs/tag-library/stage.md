@@ -5,6 +5,8 @@ enthält jegliche Regieanweisung in einem Dramentext oder -fragment.
 Das who-Attribut kann verwendet werden, um die Person oder Personen näher zu
       bezeichnen, die die Regieanweisung ausführen.
 
+[TEI Guidelines: stage](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-stage.html)
+
 **Modul:** core — Kernmodule
 
 ## Attribute

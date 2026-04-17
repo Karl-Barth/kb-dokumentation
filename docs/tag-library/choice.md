@@ -4,6 +4,8 @@ Gruppiert sic/corr-Paare für Korrekturen der Druckausgabe.
 
 Siehe [Textelemente > Korrektionen Der Druckausgabe](https://dokumentation.karl-barth.ch/textelemente/korrektionen-der-druckausgabe/)
 
+[TEI Guidelines: choice](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-choice.html)
+
 **Modul:** core — Kernmodule
 
 ## Enthalten in

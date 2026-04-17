@@ -10,6 +10,8 @@ Das who-Attribut kann dafür verwendet werden, um zu einem beliebigen anderen
       Das status-Attribut kann dafür verwendet werden, 
       um den Zustand des Dokuments nach erfolgter Änderung zu beschreiben.
 
+[TEI Guidelines: change](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-change.html)
+
 **Modul:** header — Header
 
 ## Attribute
@@ -17,6 +19,8 @@ Das who-Attribut kann dafür verwendet werden, um zu einem beliebigen anderen
 **@target** (optional)
 :   verweist auf ein oder mehrere Elemente, die zu dieser Änderung gehören.
 :   Datentyp: teidata.pointer
+
+**@when** (optional)
 
 
 ## Enthalten in

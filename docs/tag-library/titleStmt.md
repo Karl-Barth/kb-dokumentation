@@ -2,6 +2,8 @@
 
 sollte mehrere Titel für verschiedene Zwecke enhalten.
 
+[TEI Guidelines: titleStmt](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-titleStmt.html)
+
 **Modul:** header — Header
 
 ## Enthalten in

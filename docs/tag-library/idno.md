@@ -4,6 +4,8 @@ Identifikator, z.B. URL oder KBA-Objektnummer.
 
 Siehe [Textelemente > Querverweise](https://dokumentation.karl-barth.ch/textelemente/querverweise/)
 
+[TEI Guidelines: idno](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-idno.html)
+
 **Modul:** header — Header
 
 ## Attribute
@@ -20,6 +22,8 @@ Siehe [Textelemente > Querverweise](https://dokumentation.karl-barth.ch/textelem
 :   `VIAF`
 :   `ESTC`
 :   `OCLC`
+
+**@rend** (optional)
 
 
 ## Enthalten in

@@ -6,7 +6,14 @@ enthält eine Anrede oder Grußformel, die einem Vorwort, einer Widmung oder ein
 
 Siehe [Textstruktur > Unterschriften](https://dokumentation.karl-barth.ch/textstruktur/unterschriften/)
 
+[TEI Guidelines: salute](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-salute.html)
+
 **Modul:** textstructure — Textstruktur
+
+## Attribute
+
+**@rendition** (optional)
+
 
 ## Enthalten in
 

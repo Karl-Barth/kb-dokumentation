@@ -9,6 +9,8 @@ Dieses Element ist als Ersatz für den Inhalt seines Elternelements figure gedac
 
 Siehe [Textstruktur > Bilder](https://dokumentation.karl-barth.ch/textstruktur/bilder/)
 
+[TEI Guidelines: figDesc](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-figDesc.html)
+
 **Modul:** figures — Abbildungen und Tabellen
 
 ## Enthalten in

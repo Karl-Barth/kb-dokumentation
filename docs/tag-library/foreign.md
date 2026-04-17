@@ -4,7 +4,16 @@ Fremdsprachiger Text. Das @xml:lang gibt die Sprache an, @rend das Darstellungsf
 
 Siehe [Textelemente > Fremdsprache](https://dokumentation.karl-barth.ch/textelemente/fremdsprache/)
 
+[TEI Guidelines: foreign](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-foreign.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@rend** (optional)
+
+**@xml:lang** (optional)
+
 
 ## Content Model
 

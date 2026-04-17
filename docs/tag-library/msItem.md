@@ -3,6 +3,8 @@
 describes an individual work or item within the intellectual
   content of a manuscript, manuscript part, or other object.
 
+[TEI Guidelines: msItem](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-msItem.html)
+
 **Modul:** msdescription — Handschriftenbeschreibung
 
 ## Enthalten in

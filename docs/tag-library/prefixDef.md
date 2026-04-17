@@ -3,6 +3,8 @@
 defines a prefixing scheme used in teidata.pointer values,
   showing how abbreviated URIs using the scheme may be expanded into full URIs.
 
+[TEI Guidelines: prefixDef](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-prefixDef.html)
+
 **Modul:** header — Header
 
 ## Attribute

@@ -2,6 +2,8 @@
 
 Alternativer Identifikator für eine Quelle (URI, KBA-ID, KBGA-Sources-ID).
 
+[TEI Guidelines: altIdentifier](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-altIdentifier.html)
+
 **Modul:** msdescription — Handschriftenbeschreibung
 
 ## Enthalten in

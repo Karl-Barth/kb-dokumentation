@@ -8,6 +8,8 @@ Das creation-Element kann dafür verwendet werden, Einzelheiten über die Entste
           enthalten; diese sollten mithilfe des listChange-Elements ausgezeichnet werden. Das creation-Element darf 
           aber nicht mit dem publicationStmt-Element, das Zeit und Ort der Veröffentlichung verzeichnet, verwechselt werden.
 
+[TEI Guidelines: creation](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-creation.html)
+
 **Modul:** header — Header
 
 ## Kann enthalten

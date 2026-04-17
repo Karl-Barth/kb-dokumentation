@@ -4,6 +4,8 @@ beschreibt eine einzelne Sprache oder eine Subsprache, die innerhalb eines Texte
 
 Insbesondere für Subsprachen sollte eine Beschreibung als Inhalt des Elements angegeben werden.
 
+[TEI Guidelines: language](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-language.html)
+
 **Modul:** header — Header
 
 ## Attribute

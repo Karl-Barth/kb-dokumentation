@@ -2,6 +2,8 @@
 
 enthält Daten mit Bezug zu etwas Bemerkenswertem, das in der Zeit geschieht.
 
+[TEI Guidelines: event](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-event.html)
+
 **Modul:** namesdates — Namen und Daten
 
 ## Kann enthalten

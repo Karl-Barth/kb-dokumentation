@@ -5,6 +5,8 @@ enthält eine spezielle Form von Überschrift oder Bezeichnung für einen oder m
 
 Siehe [Textstruktur > Woertliche Rede](https://dokumentation.karl-barth.ch/textstruktur/woertliche-rede/)
 
+[TEI Guidelines: speaker](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-speaker.html)
+
 **Modul:** core — Kernmodule
 
 ## Enthalten in

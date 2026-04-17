@@ -4,6 +4,8 @@ Personenname mit Verweis auf die Meta-DB via @ref (kbga-actors-ID). Das @key kan
 
 Siehe [Textelemente > Akteure](https://dokumentation.karl-barth.ch/textelemente/akteure/)
 
+[TEI Guidelines: persName](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-persName.html)
+
 **Modul:** namesdates — Namen und Daten
 
 ## Attribute

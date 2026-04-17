@@ -7,7 +7,14 @@ Dieses Element sollte nicht benutzt werden, um einen Text wiederzugeben, der an 
       Stelle in einer anderen Struktur eingefügt ist, wie z. B. eine eingebettete oder zitierte
       Erzählung. Für diesen Zweck wird das Element floatingText benutzt.
 
+[TEI Guidelines: text](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-text.html)
+
 **Modul:** textstructure — Textstruktur
+
+## Attribute
+
+**@xml:lang** (optional)
+
 
 ## Kann enthalten
 

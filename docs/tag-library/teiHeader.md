@@ -4,6 +4,8 @@ wird aus der Meta- und Registerdatenbank erzeugt und soll im XML nicht veränder
 
 Eines der wenigen Elemente, die verpflichtend für ein valides TEI-Dokument sind.
 
+[TEI Guidelines: teiHeader](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-teiHeader.html)
+
 **Modul:** header — Header
 
 ## Enthalten in

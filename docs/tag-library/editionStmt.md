@@ -2,6 +2,8 @@
 
 Angaben zur digitalen Edition (Titel, Förderer).
 
+[TEI Guidelines: editionStmt](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-editionStmt.html)
+
 **Modul:** header — Header
 
 ## Enthalten in

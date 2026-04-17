@@ -4,7 +4,28 @@ Datumsangabe mit maschinenlesbarem Datum in @when, @from/@to oder @notBefore/@no
 
 Siehe [Textelemente > Datumsangaben](https://dokumentation.karl-barth.ch/textelemente/datumsangaben/)
 
+[TEI Guidelines: date](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-date.html)
+
 **Modul:** core — Kernmodule
+
+## Attribute
+
+**@from** (optional)
+
+**@notAfter** (optional)
+
+**@notBefore** (optional)
+
+**@period** (optional)
+
+**@rend** (optional)
+
+**@to** (optional)
+
+**@type** (optional)
+
+**@when** (optional)
+
 
 ## Kann enthalten
 
