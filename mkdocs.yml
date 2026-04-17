@@ -89,6 +89,11 @@ nav:
     - Lieder: datenbank/lieder.md
     - Literatur: datenbank/literatur.md
     - Orte: datenbank/orte.md
+  - Textsorten:
+    - Predigten: textsorten/predigten.md
+    - Briefe: textsorten/briefe.md
+    - Vorlesungsreihen: textsorten/vorlesungsreihen.md
+    - Vorträge: textsorten/vortraege.md
   - Abkürzungen: abkuerzungen.md
   - Bibelbücher: bibel.md
   - Workflow: 

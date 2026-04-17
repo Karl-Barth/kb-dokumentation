@@ -79,6 +79,9 @@ stehen:
 
 Siehe auch [Textstruktur → Unterschriften](unterschriften.md).
 
+Genre-spezifische Beispiele: [Textsorten → Predigten](../textsorten/predigten.md),
+[Textsorten → Briefe](../textsorten/briefe.md).
+
 ## Abweichende Ausrichtung
 
 Muss die Ausrichtung vom Standard abweichen (z.B. eine Adresse auf der

@@ -27,6 +27,11 @@ Wir benutzen `<div>` aber auch, um die einzelnen Genre, die verschieden dargeste
 
 Insbesondere verwenden wir in den Predigten auch `<div>` um die Textbereiche zu kennzeichnen.
 
+Genre-spezifische Gliederung: [Textsorten → Predigten](../textsorten/predigten.md),
+[Textsorten → Briefe](../textsorten/briefe.md),
+[Textsorten → Vorlesungsreihen](../textsorten/vorlesungsreihen.md),
+[Textsorten → Vorträge](../textsorten/vortraege.md).
+
 ## Inhaltsverzeichnis (`<div type="contents">`)
 
 Ein vorangestelltes Inhaltsverzeichnis wird als eigenes `<div type="contents">` erfasst. Die Einträge stehen in einer `<list>` mit `<item>`; die Verlinkung auf den Zielabschnitt erfolgt über `<ref>` mit `@target` auf die jeweilige `xml:id`.
