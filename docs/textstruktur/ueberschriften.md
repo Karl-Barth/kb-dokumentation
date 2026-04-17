@@ -55,20 +55,25 @@ Unterüberschriften, die sich auf den selben Abschnitt wie die Hauptüberschrift
       <p>...
 ```
 
-## Abweichende Formatierungen
+## Spezialtypen
 
-Standardmässig werden Unterüberschriften kursiv und zentriert dargestellt. Abweichende Formatierungen können über `@rend` spezifiziert werden. 
+| `@type` | Bedeutung | Darstellung |
+|---|---|---|
+| `sub` | Untertitel | kursiv, zentriert |
+| `header` | Titel in Grossbuchstaben | zentriert, Majuskeln, vergrössert |
+| `event` | Kirchenkalender-Anlass | zentriert, wie Bibelstellenangabe |
 
-Werte (bisher verwendet)
+## Abweichende Formatierungen (`@rend`)
 
-- "left"
-- "head-kursiv" (identisch wie italic?)
-- "italic"
-- "larger-text" (bis jetzt nur einmal verwendet, evtl. rausschmeissen?)
+Standardmässig werden Unterüberschriften kursiv und zentriert dargestellt.
+Abweichende Formatierungen werden über `@rend` gesteuert:
 
-## Texte ohne Überschrift
+| `@rend` | Darstellung |
+|---|---|
+| `left` | linksbündig |
+| `italic` | kursiv |
 
-siehe
+## Genre-spezifische Überschriften
 
-- Predigten  
-- Briefe
+Predigten, Briefe, Vorlesungsreihen und Vorträge haben eigene
+Überschrift-Konventionen — siehe [Textsorten](../textsorten/predigten.md).

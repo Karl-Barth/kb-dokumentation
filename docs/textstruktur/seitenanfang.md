@@ -78,5 +78,26 @@ Bei Trennung von "ck" wird daraus im Druck "k-k". Für die digitale Edition muss
 Die Vorlagen der Edition sind in der `<srcDesc>` im `<teiHeader>` erfasst. Die direkte Vorlage für die Edition enthält dort die `@xml:id="A"`. Im Text wird auf diese Source mit `@ed="A` verwiesen. Die Seitenzahl wird in `@n` (mit ganzen Zahl) erfasst:
 
 ```xml
-<pb ed="A" n="3"> <!-- Seite 3 der Vorlage -->
+<pb ed="A" n="3"/> <!-- Seite 3 der Vorlage -->
+```
+
+## Darstellungsregeln
+
+- Seitenumbrüche der gedruckten Gesamtausgabe werden mit dem Pipe-Zeichen
+  `|` am linken Rand angezeigt. Daneben steht die Seitenzahl.
+- Fällt der Seitenumbruch mit einem neuen Absatz zusammen, wird das
+  Pipe-Zeichen weggelassen (`@rend="noPipe"`).
+- Seitenumbrüche gedruckter Vorlagen werden im Text dargestellt (zwischen
+  zwei Pipes, grau und kleiner).
+- Seitenumbrüche handschriftlicher Vorlagen aus dem Archiv werden **nicht**
+  dargestellt.
+
+### Beide Seitenumbrüche am Zeilenanfang
+
+Stehen am Zeilenanfang sowohl ein Vorlagen-`<pb>` als auch ein `<pb ed="pga">`,
+wird nur der Vorlagen-Umbruch dargestellt. Das Pipe-Zeichen wird nur beim
+`<pb ed="pga">` unterdrückt:
+
+```xml
+<p><pb ed="A" n="49"/> <pb rend="noPipe" xml:id="p048" ed="pga"/>Liebe Brüder!</p>
 ```

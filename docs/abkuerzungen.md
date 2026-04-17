@@ -1,4 +1,20 @@
-# Abkürzungen 
+# Abkürzungen
+
+## Umgang mit `<abbr>` im TEI
+
+Abkürzungen werden **nicht** mit `<abbr>` ausgezeichnet. Stattdessen:
+
+- Abkürzungen für **Organisationen** (EKiD, SPD, NZZ, ZK der SED) werden
+  mit `<orgName>` ausgezeichnet und in die Datenbank aufgenommen.
+- Abkürzungen für **Personen** (V.v.E. = Viktor von Ernst) werden mit
+  `<persName>` ausgezeichnet.
+- **WS** / **SS** (Winter-/Sommersemester) werden als Datumsangabe
+  ausgezeichnet — siehe [Textelemente → Datumsangaben](textelemente/datumsangaben.md).
+- **N.T.** / **A.T.** (Neues/Altes Testament) werden nicht ausgezeichnet.
+- Bestehende `<abbr>`-Auszeichnungen in älteren Bänden werden bei der
+  Bearbeitung durch `<orgName>` bzw. `<persName>` ersetzt.
+
+## Projekt-Abkürzungen
 
 | Abkürzung | Auflösung                | Kommentar    |
 |-----------|--------------------------|--------------|

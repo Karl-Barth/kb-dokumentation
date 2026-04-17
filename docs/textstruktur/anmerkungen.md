@@ -42,10 +42,29 @@ In den textkritischen Anmerkungen wird häufig auf Vorlagen verwiesen:
 <ref corresp="B">Mskr.</ref>...
 ```
 
-Die Vorlagen sind im `<teiHeader>` in `<srcDesc>` aufgelistet und enthalten eine entsprechende `@xml:id`. Die Vorlagen sind in der Datenbank mit den Texten verknüpft.
+Die Vorlagen sind im `<teiHeader>` unter `sourceDesc` aufgelistet und
+enthalten eine `@xml:id` (z.B. `"A"`, `"B"`). Im TEI-Text wird mit
+`<ref corresp="B">Mskr.</ref>` auf die entsprechende Vorlage verwiesen:
+
+```xml
+<!-- teiHeader -->
+<sourceDesc>
+  <bibl xml:id="A" type="source">A (Vorlage der Edition): …</bibl>
+  <bibl xml:id="B" type="source">B (Weitere Vorlage): …</bibl>
+</sourceDesc>
+
+<!-- textkritische Fussnote -->
+<note type="textcritical" xml:id="ng">
+  <ref corresp="B">Mskr.</ref>: „Nachschreiben in menschlicher Sprache"
+  (die nicht in das <ref corresp="A">Tskr.</ref> übernommenen Worte …)
+</note>
+```
 
 !!! note "Datenbank oder `kb_latest_version` für `xml:id`"
-    Der `<teiHeader>` wird aus der Datenbank erzeugt. Für die Feststellung der korrekten `@xml:id` ist also die Datenbank oder die `kb_latest_version` zu konsultieren.
+    Der `<teiHeader>` wird aus der Datenbank erzeugt. Für die Feststellung
+    der korrekten `@xml:id` ist die Datenbank oder `kb_latest_version` zu
+    konsultieren (in `kb_xml_src` ist die `@xml:id` manchmal noch nicht
+    eingetragen).
 
 ### Textkritische Fußnoten mit von-bis Kennzeichnung
 
