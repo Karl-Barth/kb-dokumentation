@@ -1,13 +1,20 @@
-# `<figure>`
-*Abbildung*
+# `<figure/>` (Abbildung)
+
+**Modul:** Abbildungen und Tabellen
+
+## Beschreibung
 
 Abbildung mit optionaler Beschreibung (figDesc) und Grafik (graphic).
 
-!!! note "Dokumentation"
-    - [Bilder](https://dokumentation.karl-barth.ch/textstruktur/bilder/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Bilder](https://dokumentation.karl-barth.ch/textstruktur/bilder/)
 
-**Modul:** figures
 
-## Content-Model
+## Inhaltsmodell
 
-model.headLike, model.common, `<figDesc>`, model.graphicLike, model.global, model.divBottom
+- [`<figDesc>`](figDesc.md)
+- *model.headLike*
+- *model.common*
+- *model.graphicLike*
+- *model.global*
+- *model.divBottom*

@@ -1,13 +1,16 @@
-# `<choice>`
-*Alternative*
+# `<choice/>` (Alternative)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 Gruppiert sic/corr-Paare für Korrekturen der Druckausgabe.
 
-!!! note "Dokumentation"
-    - [Korrektionen Der Druckausgabe](https://dokumentation.karl-barth.ch/textelemente/korrektionen-der-druckausgabe/)
+!!! note "Ausführliche Dokumentation"
+    [Textelemente > Korrektionen Der Druckausgabe](https://dokumentation.karl-barth.ch/textelemente/korrektionen-der-druckausgabe/)
 
-**Modul:** core
 
-## Content-Model
+## Inhaltsmodell
 
-model.choicePart, `<choice>`
+- [`<choice>`](choice.md)
+- *model.choicePart*

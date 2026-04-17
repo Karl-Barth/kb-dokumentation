@@ -1,9 +1,14 @@
-# `<argument>`
+# `<argument/>`
+
+**Modul:** Textstruktur
+
+## Beschreibung
 
 Zusammenfassung oder Regest eines Textes, typisch am Anfang eines Briefes oder Vortrags.
 
-**Modul:** textstructure
+## Inhaltsmodell
 
-## Content-Model
-
-model.global, model.headLike, model.common, model.global
+- *model.global*
+- *model.headLike*
+- *model.common*
+- *model.global*

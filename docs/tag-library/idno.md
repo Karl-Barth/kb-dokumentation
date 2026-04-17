@@ -1,20 +1,37 @@
-# `<idno>`
-*Identifikator*
+# `<idno/>` (Identifikator)
+
+**Modul:** Header
+
+## Beschreibung
 
 Identifikator, z.B. URL oder KBA-Objektnummer.
 
-!!! note "Dokumentation"
-    - [Querverweise](https://dokumentation.karl-barth.ch/textelemente/querverweise/)
+!!! note "Ausführliche Dokumentation"
+    [Textelemente > Querverweise](https://dokumentation.karl-barth.ch/textelemente/querverweise/)
 
-**Modul:** header
+
+## Inhaltsmodell
+
+- Beliebiger Textinhalt
+- [`<idno>`](idno.md)
+- *model.gLike*
 
 ## Attribute
 
-| Attribut | Beschreibung | Werte |
-|----------|-------------|-------|
-| `@xml:id` |  |  |
-| `@type` | bestimmt die Art des Identifikators (z. B. ISBN, Sozialversicherungsnummer, URI) | `ISBN`, `ISSN`, `DOI`, `URI`, `VIAF`, `ESTC`, `OCLC` (erweiterbar) |
+### `@xml:id`
 
-## Content-Model
+### `@type` (erweiterbare Werteliste)
 
-Text, model.gLike, `<idno>`
+bestimmt die Art des Identifikators (z. B. ISBN, Sozialversicherungsnummer, URI)
+
+**Datentyp:** `teidata.enumerated`
+
+**Mögliche Werte:**
+
+- `ISBN`
+- `ISSN`
+- `DOI`
+- `URI`
+- `VIAF`
+- `ESTC`
+- `OCLC`

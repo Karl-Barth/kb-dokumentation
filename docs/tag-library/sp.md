@@ -1,13 +1,23 @@
-# `<sp>`
-*Figurenrede*
+# `<sp/>` (Figurenrede)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 enthält eine einzelne Figurenrede in einem Dramentext oder eine entsprechende Passage in einem Prosatext oder lyrischen Text.
 
-!!! note "Dokumentation"
-    - [Woertliche Rede](https://dokumentation.karl-barth.ch/textstruktur/woertliche-rede/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Woertliche Rede](https://dokumentation.karl-barth.ch/textstruktur/woertliche-rede/)
 
-**Modul:** core
 
-## Content-Model
+## Inhaltsmodell
 
-model.stageLike, model.global, model.lLike, model.pLike, model.listLike, model.attributable, `<speaker>`, `<lg>`, `<q>`
+- [`<speaker>`](speaker.md)
+- [`<lg>`](lg.md)
+- [`<q>`](q.md)
+- *model.stageLike*
+- *model.global*
+- *model.lLike*
+- *model.pLike*
+- *model.listLike*
+- *model.attributable*

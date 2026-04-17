@@ -1,13 +1,15 @@
-# `<addrLine>`
-*Adresszeile*
+# `<addrLine/>` (Adresszeile)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 enthält eine Zeile einer Postadresse.
 
-!!! note "Dokumentation"
-    - [Unterschriften](https://dokumentation.karl-barth.ch/textstruktur/unterschriften/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Unterschriften](https://dokumentation.karl-barth.ch/textstruktur/unterschriften/)
 
-**Modul:** core
 
-## Content-Model
+## Inhaltsmodell
 
-macro.phraseSeq
+- *macro.phraseSeq*

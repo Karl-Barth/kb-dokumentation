@@ -1,14 +1,16 @@
-# `<figDesc>`
-*Beschreibung einer Abbildung*
+# `<figDesc/>` (Beschreibung einer Abbildung)
+
+**Modul:** Abbildungen und Tabellen
+
+## Beschreibung
 
 enthält einen kurzen Beschreibungstext des Inhalts oder des Aussehens einer Abbildung, um etwa
     ein Bild ohne dessen Anzeige dokumentieren zu können.
 
-!!! note "Dokumentation"
-    - [Bilder](https://dokumentation.karl-barth.ch/textstruktur/bilder/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Bilder](https://dokumentation.karl-barth.ch/textstruktur/bilder/)
 
-**Modul:** figures
 
-## Content-Model
+## Inhaltsmodell
 
-macro.limitedContent
+- *macro.limitedContent*

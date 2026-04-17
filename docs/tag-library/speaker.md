@@ -1,14 +1,16 @@
-# `<speaker>`
-*Sprecher*
+# `<speaker/>` (Sprecher)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 enthält eine spezielle Form von Überschrift oder Bezeichnung für einen oder mehrere Namen von
     Figuren in einem Dramentext oder -fragment.
 
-!!! note "Dokumentation"
-    - [Woertliche Rede](https://dokumentation.karl-barth.ch/textstruktur/woertliche-rede/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Woertliche Rede](https://dokumentation.karl-barth.ch/textstruktur/woertliche-rede/)
 
-**Modul:** core
 
-## Content-Model
+## Inhaltsmodell
 
-macro.phraseSeq
+- *macro.phraseSeq*

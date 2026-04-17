@@ -1,16 +1,20 @@
-# `<ptr>`
+# `<ptr/>`
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 defines a pointer to another location.
 
-!!! note "Dokumentation"
-    - [Anmerkungen](https://dokumentation.karl-barth.ch/textstruktur/anmerkungen/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Anmerkungen](https://dokumentation.karl-barth.ch/textstruktur/anmerkungen/)
 
-**Modul:** core
 
-## Content-Model
+## Inhaltsmodell
 
-(leer)
+Leeres Element.
 
 ## Constraints
 
-- **ptrAtts**: Only one of the attributes @target and @cRef may be supplied on .
+**ptrAtts**
+:   Only one of the attributes @target and @cRef may be supplied on .

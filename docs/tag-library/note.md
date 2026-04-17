@@ -1,13 +1,15 @@
-# `<note>`
-*Anmerkung*
+# `<note/>` (Anmerkung)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 enthält eine Anmerkung oder Annotation.
 
-!!! note "Dokumentation"
-    - [Anmerkungen](https://dokumentation.karl-barth.ch/textstruktur/anmerkungen/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Anmerkungen](https://dokumentation.karl-barth.ch/textstruktur/anmerkungen/)
 
-**Modul:** core
 
-## Content-Model
+## Inhaltsmodell
 
-macro.specialPara
+- *macro.specialPara*

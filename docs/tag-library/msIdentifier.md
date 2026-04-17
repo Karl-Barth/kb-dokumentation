@@ -1,13 +1,23 @@
-# `<msIdentifier>`
+# `<msIdentifier/>`
+
+**Modul:** Handschriftenbeschreibung
+
+## Beschreibung
 
 contains the information required to identify the manuscript or similar object being described.
 
-**Modul:** msdescription
+## Inhaltsmodell
 
-## Content-Model
-
-model.placeNamePart, `<institution>`, `<repository>`, `<collection>`, `<idno>`, `<msName>`, `<objectName>`, `<altIdentifier>`
+- `<institution>`
+- [`<repository>`](repository.md)
+- `<collection>`
+- [`<idno>`](idno.md)
+- `<msName>`
+- `<objectName>`
+- [`<altIdentifier>`](altIdentifier.md)
+- *model.placeNamePart*
 
 ## Constraints
 
-- **msId_minimal**: An msIdentifier must contain either a repository or location.
+**msId_minimal**
+:   An msIdentifier must contain either a repository or location.

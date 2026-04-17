@@ -1,11 +1,12 @@
-# `<term>`
-*Fachbegriff*
+# `<term/>` (Fachbegriff)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 enthält ein einzelnes Wort, Mehrworttermini 
         oder symbolische Bezeichnungen, die als Fachbegriffe verstanden werden.
 
-**Modul:** core
+## Inhaltsmodell
 
-## Content-Model
-
-macro.phraseSeq
+- *macro.phraseSeq*

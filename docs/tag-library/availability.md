@@ -1,10 +1,12 @@
-# `<availability>`
-*Verfügbarkeit*
+# `<availability/>` (Verfügbarkeit)
+
+**Modul:** Header
+
+## Beschreibung
 
 Lizenzinformationen zur Publikation. Wird aus der Datenbank generiert.
 
-**Modul:** header
+## Inhaltsmodell
 
-## Content-Model
-
-model.availabilityPart, model.pLike
+- *model.availabilityPart*
+- *model.pLike*

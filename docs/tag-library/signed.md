@@ -1,13 +1,15 @@
-# `<signed>`
-*Signatur*
+# `<signed/>` (Signatur)
+
+**Modul:** Textstruktur
+
+## Beschreibung
 
 enthält die abschließende Grußformel o.Ä. die ein Vorwort, eine Widmung oder einen anderen Abschnitt des Textes beendet.
 
-!!! note "Dokumentation"
-    - [Unterschriften](https://dokumentation.karl-barth.ch/textstruktur/unterschriften/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Unterschriften](https://dokumentation.karl-barth.ch/textstruktur/unterschriften/)
 
-**Modul:** textstructure
 
-## Content-Model
+## Inhaltsmodell
 
-macro.paraContent
+- *macro.paraContent*

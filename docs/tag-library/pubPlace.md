@@ -1,10 +1,11 @@
-# `<pubPlace>`
-*Verlagsort*
+# `<pubPlace/>` (Verlagsort)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 enthält den Namen des Orts, an dem ein bibliografisches Objekt veröffentlicht wurde.
 
-**Modul:** core
+## Inhaltsmodell
 
-## Content-Model
-
-macro.phraseSeq
+- *macro.phraseSeq*

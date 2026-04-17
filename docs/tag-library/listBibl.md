@@ -1,10 +1,19 @@
-# `<listBibl>`
-*Liste bibliografischer Angaben*
+# `<listBibl/>` (Liste bibliografischer Angaben)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 enthält eine Liste von bibliografischen Angaben jeglicher Art.
 
-**Modul:** core
+## Inhaltsmodell
 
-## Content-Model
-
-model.headLike, `<desc>`, model.milestoneLike, `<relation>`, `<listRelation>`, model.biblLike, model.milestoneLike, `<relation>`, `<listRelation>`
+- `<desc>`
+- `<relation>`
+- `<listRelation>`
+- `<relation>`
+- `<listRelation>`
+- *model.headLike*
+- *model.milestoneLike*
+- *model.biblLike*
+- *model.milestoneLike*

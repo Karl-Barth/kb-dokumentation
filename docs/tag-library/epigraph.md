@@ -1,11 +1,13 @@
-# `<epigraph>`
-*Motto*
+# `<epigraph/>` (Motto)
+
+**Modul:** Textstruktur
+
+## Beschreibung
 
 enthält ein anonymes oder jemandem zugeschriebenes Zitat, das am Beginn eines Abschnitts,
     Kapitels oder auf einer Titelseite steht.
 
-**Modul:** textstructure
+## Inhaltsmodell
 
-## Content-Model
-
-model.common, model.global
+- *model.common*
+- *model.global*

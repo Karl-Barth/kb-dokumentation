@@ -1,10 +1,19 @@
-# `<cit>`
-*Zitat mit Referenz*
+# `<cit/>` (Zitat mit Referenz)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 Zitat mit optionaler bibliographischer Angabe.
 
-**Modul:** core
+## Inhaltsmodell
 
-## Content-Model
-
-model.biblLike, model.egLike, model.entryPart, model.global, model.graphicLike, model.ptrLike, model.attributable, `<pc>`, `<q>`
+- `<pc>`
+- [`<q>`](q.md)
+- *model.biblLike*
+- *model.egLike*
+- *model.entryPart*
+- *model.global*
+- *model.graphicLike*
+- *model.ptrLike*
+- *model.attributable*

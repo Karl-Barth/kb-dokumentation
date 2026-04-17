@@ -1,19 +1,24 @@
-# `<metamark>`
+# `<metamark/>`
+
+**Modul:** Transkription
+
+## Beschreibung
 
 contains or describes any kind of graphic or written signal
    within a document the function of which is to determine how it
    should be read rather than forming part of the actual content of
    the document.
 
-**Modul:** transcr
+## Inhaltsmodell
+
+- *macro.specialPara*
 
 ## Attribute
 
-| Attribut | Beschreibung | Werte |
-|----------|-------------|-------|
-| `@function` |  | teidata.word |
-| `@target` |  | teidata.pointer |
+### `@function`
 
-## Content-Model
+**Datentyp:** `teidata.word`
 
-macro.specialPara
+### `@target`
+
+**Datentyp:** `teidata.pointer`

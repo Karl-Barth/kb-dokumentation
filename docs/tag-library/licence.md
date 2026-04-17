@@ -1,9 +1,11 @@
-# `<licence>`
+# `<licence/>`
+
+**Modul:** Header
+
+## Beschreibung
 
 beinhaltet für den Text gültige Lizenzinformationen oder andere rechtswirksame Vereinbarungen.
 
-**Modul:** header
+## Inhaltsmodell
 
-## Content-Model
-
-macro.specialPara
+- *macro.specialPara*

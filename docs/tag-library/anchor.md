@@ -1,25 +1,28 @@
-# `<anchor>`
-*Ankerpunkt*
+# `<anchor/>` (Ankerpunkt)
+
+**Modul:** Linking
+
+## Beschreibung
 
 Ankerpunkt für Querverweise (@type='cross') und für Fussnoten mit mehreren Fussnotenzeichen (@type='note').
 
-!!! note "Dokumentation"
-    - [Anmerkungen](https://dokumentation.karl-barth.ch/textstruktur/anmerkungen/)
-    - [Querverweise](https://dokumentation.karl-barth.ch/textelemente/querverweise/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Anmerkungen](https://dokumentation.karl-barth.ch/textstruktur/anmerkungen/)
 
-**Modul:** linking
+    [Textelemente > Querverweise](https://dokumentation.karl-barth.ch/textelemente/querverweise/)
+
+
+## Inhaltsmodell
+
+Leeres Element.
 
 ## Attribute
 
-| Attribut | Beschreibung | Werte |
-|----------|-------------|-------|
-| `@type` | Wird für Querverweise und für Fussnoten verwendet, die im Text mehrere Fussnotenzeichen haben. | `cross`, `note` (geschlossen) |
+### `@type` (geschlossene Werteliste)
 
-### `@type`
+Wird für Querverweise und für Fussnoten verwendet, die im Text mehrere Fussnotenzeichen haben.
 
-- **`cross`**: Anker für Querverweis
-- **`note`**: Stelle für zweites Fussnotenzeichen; in der note/@target wird die @xml:id gesetzt
+**Mögliche Werte:**
 
-## Content-Model
-
-(leer)
+- `cross` — Anker für Querverweis
+- `note` — Stelle für zweites Fussnotenzeichen; in der note/@target wird die @xml:id gesetzt

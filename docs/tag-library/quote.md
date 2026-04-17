@@ -1,9 +1,11 @@
-# `<quote>`
+# `<quote/>`
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 Zitat innerhalb des Textes.
 
-**Modul:** core
+## Inhaltsmodell
 
-## Content-Model
-
-macro.specialPara
+- *macro.specialPara*

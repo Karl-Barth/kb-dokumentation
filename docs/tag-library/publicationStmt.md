@@ -1,10 +1,13 @@
-# `<publicationStmt>`
-*Angaben zur Veröffentlichung*
+# `<publicationStmt/>` (Angaben zur Veröffentlichung)
+
+**Modul:** Header
+
+## Beschreibung
 
 umfasst Angaben zu Veröffentlichung oder Vertrieb eines elektronischen oder sonstigen Textes.
 
-**Modul:** header
+## Inhaltsmodell
 
-## Content-Model
-
-model.publicationStmtPart.agency, model.publicationStmtPart.detail, model.pLike
+- *model.publicationStmtPart.agency*
+- *model.publicationStmtPart.detail*
+- *model.pLike*

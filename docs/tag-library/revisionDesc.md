@@ -1,10 +1,13 @@
-# `<revisionDesc>`
-*Beschreibung der Dateihistorie*
+# `<revisionDesc/>` (Beschreibung der Dateihistorie)
+
+**Modul:** Header
+
+## Beschreibung
 
 dokumentiert die Änderungen, die an der Datei vorgenommen wurden.
 
-**Modul:** header
+## Inhaltsmodell
 
-## Content-Model
-
-`<list>`, `<listChange>`, `<change>`
+- [`<list>`](list.md)
+- `<listChange>`
+- [`<change>`](change.md)

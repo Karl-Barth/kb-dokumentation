@@ -1,16 +1,19 @@
-# `<change>`
-*Änderung*
+# `<change/>` (Änderung)
+
+**Modul:** Header
+
+## Beschreibung
 
 Änderungsvermerk in der revisionDesc. Enthält Zeitstempel der letzten Header-Generierung.
 
-**Modul:** header
+## Inhaltsmodell
+
+- *macro.specialPara*
 
 ## Attribute
 
-| Attribut | Beschreibung | Werte |
-|----------|-------------|-------|
-| `@target` | verweist auf ein oder mehrere Elemente, die zu dieser Änderung gehören. | teidata.pointer |
+### `@target`
 
-## Content-Model
+verweist auf ein oder mehrere Elemente, die zu dieser Änderung gehören.
 
-macro.specialPara
+**Datentyp:** `teidata.pointer`

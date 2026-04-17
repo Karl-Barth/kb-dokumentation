@@ -1,10 +1,13 @@
-# `<editionStmt>`
-*Angaben zur Ausgabe*
+# `<editionStmt/>` (Angaben zur Ausgabe)
+
+**Modul:** Header
+
+## Beschreibung
 
 Angaben zur digitalen Edition (Titel, Förderer).
 
-**Modul:** header
+## Inhaltsmodell
 
-## Content-Model
-
-model.pLike, `<edition>`, model.respLike
+- [`<edition>`](edition.md)
+- *model.pLike*
+- *model.respLike*

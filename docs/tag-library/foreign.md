@@ -1,13 +1,15 @@
-# `<foreign>`
-*fremd*
+# `<foreign/>` (fremd)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 identifiziert ein Wort oder eine Phrase, die zu einer anderen Sprache gehört, als der umgebende Text.
 
-!!! note "Dokumentation"
-    - [Fremdsprache](https://dokumentation.karl-barth.ch/textelemente/fremdsprache/)
+!!! note "Ausführliche Dokumentation"
+    [Textelemente > Fremdsprache](https://dokumentation.karl-barth.ch/textelemente/fremdsprache/)
 
-**Modul:** core
 
-## Content-Model
+## Inhaltsmodell
 
-macro.phraseSeq
+- *macro.phraseSeq*

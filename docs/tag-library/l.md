@@ -1,17 +1,24 @@
-# `<l>`
-*Vers(zeile)*
+# `<l/>` (Vers(zeile))
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 enthält eine einzelne, möglicherweise unvollständige, Verszeile.
 
-!!! note "Dokumentation"
-    - [Gedichte](https://dokumentation.karl-barth.ch/textstruktur/gedichte/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur/gedichte/)
 
-**Modul:** core
 
-## Content-Model
+## Inhaltsmodell
 
-Text, model.gLike, model.phrase, model.inter, model.global
+- Beliebiger Textinhalt
+- *model.gLike*
+- *model.phrase*
+- *model.inter*
+- *model.global*
 
 ## Constraints
 
-- **abstractModel-structure-l-in-l**: Abstract model violation: Lines may not contain lines or lg elements.
+**abstractModel-structure-l-in-l**
+:   Abstract model violation: Lines may not contain lines or lg elements.

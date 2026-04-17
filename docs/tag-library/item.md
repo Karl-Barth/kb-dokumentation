@@ -1,13 +1,15 @@
-# `<item>`
-*Listenpunkt*
+# `<item/>` (Listenpunkt)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 enthält einen Listenpunkt.
 
-!!! note "Dokumentation"
-    - [Listen](https://dokumentation.karl-barth.ch/textstruktur/listen/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Listen](https://dokumentation.karl-barth.ch/textstruktur/listen/)
 
-**Modul:** core
 
-## Content-Model
+## Inhaltsmodell
 
-macro.specialPara
+- *macro.specialPara*

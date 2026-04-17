@@ -1,10 +1,11 @@
-# `<seg>`
-*arbiträres Segment*
+# `<seg/>` (arbiträres Segment)
+
+**Modul:** Linking
+
+## Beschreibung
 
 beschreibt Segmente eines Texts unterhalb des Chunk-Level.
 
-**Modul:** linking
+## Inhaltsmodell
 
-## Content-Model
-
-macro.paraContent
+- *macro.paraContent*

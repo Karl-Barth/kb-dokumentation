@@ -1,19 +1,26 @@
-# `<rs>`
-*verweisende Zeichenkette*
+# `<rs/>` (verweisende Zeichenkette)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 Referenzierende Zeichenkette für Akteure, die nicht als persName oder orgName ausgezeichnet werden (z.B. Pronomen, Umschreibungen). Der @type unterscheidet person, organisation, place, conference.
 
-!!! note "Dokumentation"
-    - [Akteure](https://dokumentation.karl-barth.ch/textelemente/akteure/)
+!!! note "Ausführliche Dokumentation"
+    [Textelemente > Akteure](https://dokumentation.karl-barth.ch/textelemente/akteure/)
 
-**Modul:** core
+
+## Inhaltsmodell
+
+- *macro.phraseSeq*
 
 ## Attribute
 
-| Attribut | Beschreibung | Werte |
-|----------|-------------|-------|
-| `@type` |  | `conference`, `person`, `organisation`, `place` |
+### `@type`
 
-## Content-Model
+**Mögliche Werte:**
 
-macro.phraseSeq
+- `conference`
+- `person`
+- `organisation`
+- `place`

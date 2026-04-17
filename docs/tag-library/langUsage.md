@@ -1,10 +1,12 @@
-# `<langUsage>`
-*Sprachgebrauch*
+# `<langUsage/>` (Sprachgebrauch)
+
+**Modul:** Header
+
+## Beschreibung
 
 beschreibt Sprachen, Subsprachen, Register, Dialekte usw., die innerhalb eines Textes vorkommen.
 
-**Modul:** header
+## Inhaltsmodell
 
-## Content-Model
-
-model.pLike, `<language>`
+- [`<language>`](language.md)
+- *model.pLike*

@@ -1,10 +1,12 @@
-# `<titleStmt>`
-*Angaben zum Titel*
+# `<titleStmt/>` (Angaben zum Titel)
+
+**Modul:** Header
+
+## Beschreibung
 
 sollte mehrere Titel für verschiedene Zwecke enhalten.
 
-**Modul:** header
+## Inhaltsmodell
 
-## Content-Model
-
-`<title>`, model.respLike
+- [`<title>`](title.md)
+- *model.respLike*

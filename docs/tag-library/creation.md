@@ -1,10 +1,13 @@
-# `<creation>`
-*Entstehung*
+# `<creation/>` (Entstehung)
+
+**Modul:** Header
+
+## Beschreibung
 
 beinhaltet Informationen zur Entstehung eines Textes.
 
-**Modul:** header
+## Inhaltsmodell
 
-## Content-Model
-
-Text, model.limitedPhrase, `<listChange>`
+- Beliebiger Textinhalt
+- `<listChange>`
+- *model.limitedPhrase*

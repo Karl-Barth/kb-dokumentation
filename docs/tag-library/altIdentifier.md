@@ -1,9 +1,16 @@
-# `<altIdentifier>`
+# `<altIdentifier/>`
+
+**Modul:** Handschriftenbeschreibung
+
+## Beschreibung
 
 Alternativer Identifikator für eine Quelle (URI, KBA-ID, KBGA-Sources-ID).
 
-**Modul:** msdescription
+## Inhaltsmodell
 
-## Content-Model
-
-model.placeNamePart, `<institution>`, `<repository>`, `<collection>`, `<idno>`, `<note>`
+- `<institution>`
+- [`<repository>`](repository.md)
+- `<collection>`
+- [`<idno>`](idno.md)
+- [`<note>`](note.md)
+- *model.placeNamePart*

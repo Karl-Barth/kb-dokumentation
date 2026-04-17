@@ -1,13 +1,21 @@
-# `<head>`
-*Überschrift*
+# `<head/>` (Überschrift)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 Überschrift einer Gliederungseinheit (div).
 
-!!! note "Dokumentation"
-    - [Ueberschriften](https://dokumentation.karl-barth.ch/textstruktur/ueberschriften/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Ueberschriften](https://dokumentation.karl-barth.ch/textstruktur/ueberschriften/)
 
-**Modul:** core
 
-## Content-Model
+## Inhaltsmodell
 
-Text, `<lg>`, model.gLike, model.phrase, model.inter, model.lLike, model.global
+- Beliebiger Textinhalt
+- [`<lg>`](lg.md)
+- *model.gLike*
+- *model.phrase*
+- *model.inter*
+- *model.lLike*
+- *model.global*

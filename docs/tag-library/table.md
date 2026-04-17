@@ -1,20 +1,36 @@
-# `<table>`
-*Tabelle*
+# `<table/>` (Tabelle)
+
+**Modul:** Abbildungen und Tabellen
+
+## Beschreibung
 
 enthält Text, der in Tabellenform, also in Zeilen und Spalten, dargestellt ist.
 
-!!! note "Dokumentation"
-    - [Tabellen](https://dokumentation.karl-barth.ch/textstruktur/tabellen/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Tabellen](https://dokumentation.karl-barth.ch/textstruktur/tabellen/)
 
-**Modul:** figures
+
+## Inhaltsmodell
+
+- [`<row>`](row.md)
+- *model.headLike*
+- *model.global*
+- *model.global*
+- *model.graphicLike*
+- *model.global*
+- *model.divBottom*
+- *model.global*
 
 ## Attribute
 
-| Attribut | Beschreibung | Werte |
-|----------|-------------|-------|
-| `@rows` | gibt die Anzahl der Tabellenzeilen an. | teidata.count |
-| `@cols` | gibt die Anzahl der Tabellenspalten an. | teidata.count |
+### `@rows`
 
-## Content-Model
+gibt die Anzahl der Tabellenzeilen an.
 
-model.headLike, model.global, `<row>`, model.global, model.graphicLike, model.global, model.divBottom, model.global
+**Datentyp:** `teidata.count`
+
+### `@cols`
+
+gibt die Anzahl der Tabellenspalten an.
+
+**Datentyp:** `teidata.count`

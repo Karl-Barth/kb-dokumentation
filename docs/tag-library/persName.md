@@ -1,19 +1,27 @@
-# `<persName>`
+# `<persName/>`
+
+**Modul:** Namen und Daten
+
+## Beschreibung
 
 Personenname mit Verweis auf die Meta-DB via @ref (kbga-actors-ID). Das @key kann provisorisch eine normalisierte Schreibweise enthalten.
 
-!!! note "Dokumentation"
-    - [Akteure](https://dokumentation.karl-barth.ch/textelemente/akteure/)
+!!! note "Ausführliche Dokumentation"
+    [Textelemente > Akteure](https://dokumentation.karl-barth.ch/textelemente/akteure/)
 
-**Modul:** namesdates
+
+## Inhaltsmodell
+
+- *macro.phraseSeq*
 
 ## Attribute
 
-| Attribut | Beschreibung | Werte |
-|----------|-------------|-------|
-| `@ref` | Enthält eine ID aus der Meta-DB (https://kbga.karl-barth.ch) | string ((kbga-actors-\d+ ?)+) |
-| `@key` | Enthält eine normalisierte Schreibweise. Sollte nur provisorisch genutzt werden und durch ein @ref ersetzt werden |  |
+### `@ref`
 
-## Content-Model
+Enthält eine ID aus der Meta-DB (https://kbga.karl-barth.ch)
 
-macro.phraseSeq
+**Datentyp:** `string `(kbga-actors-\d+ ?)+``
+
+### `@key`
+
+Enthält eine normalisierte Schreibweise. Sollte nur provisorisch genutzt werden und durch ein @ref ersetzt werden

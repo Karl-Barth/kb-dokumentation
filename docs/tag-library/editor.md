@@ -1,9 +1,11 @@
-# `<editor>`
+# `<editor/>`
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 Herausgeberangabe in einer bibliographischen Referenz.
 
-**Modul:** core
+## Inhaltsmodell
 
-## Content-Model
-
-macro.phraseSeq
+- *macro.phraseSeq*

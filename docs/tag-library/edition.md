@@ -1,10 +1,11 @@
-# `<edition>`
-*Ausgabe*
+# `<edition/>` (Ausgabe)
+
+**Modul:** Header
+
+## Beschreibung
 
 beschreibt die Details einer Ausgabe eines Textes.
 
-**Modul:** header
+## Inhaltsmodell
 
-## Content-Model
-
-macro.phraseSeq
+- *macro.phraseSeq*

@@ -1,13 +1,15 @@
-# `<cell>`
-*Tabellenzelle*
+# `<cell/>` (Tabellenzelle)
+
+**Modul:** Abbildungen und Tabellen
+
+## Beschreibung
 
 Tabellenzelle.
 
-!!! note "Dokumentation"
-    - [Tabellen](https://dokumentation.karl-barth.ch/textstruktur/tabellen/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Tabellen](https://dokumentation.karl-barth.ch/textstruktur/tabellen/)
 
-**Modul:** figures
 
-## Content-Model
+## Inhaltsmodell
 
-macro.specialPara
+- *macro.specialPara*

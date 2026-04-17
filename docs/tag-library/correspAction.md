@@ -1,18 +1,29 @@
-# `<correspAction>`
+# `<correspAction/>`
+
+**Modul:** Header
+
+## Beschreibung
 
 contains a structured
   description of the place, the name of a person/organization and the
   date related to the sending/receiving of a message or any other
   action related to the correspondence.
 
-**Modul:** header
+## Inhaltsmodell
+
+- *model.correspActionPart*
+- *model.pLike*
 
 ## Attribute
 
-| Attribut | Beschreibung | Werte |
-|----------|-------------|-------|
-| `@type` |  | `sent`, `received`, `transmitted`, `redirected`, `forwarded` (erweiterbar) |
+### `@type` (erweiterbare Werteliste)
 
-## Content-Model
+**Datentyp:** `teidata.enumerated`
 
-model.correspActionPart, model.pLike
+**Mögliche Werte:**
+
+- `sent`
+- `received`
+- `transmitted`
+- `redirected`
+- `forwarded`

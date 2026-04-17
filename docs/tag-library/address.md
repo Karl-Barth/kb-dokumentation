@@ -1,20 +1,45 @@
-# `<address>`
-*Adresse*
+# `<address/>` (Adresse)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 enthält eine Postadresse, z. B. eines Verlegers, einer Organisation oder einer Einzelperson.
 
-!!! note "Dokumentation"
-    - [Unterschriften](https://dokumentation.karl-barth.ch/textstruktur/unterschriften/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Unterschriften](https://dokumentation.karl-barth.ch/textstruktur/unterschriften/)
 
-**Modul:** core
+
+## Inhaltsmodell
+
+- *model.global*
+- *model.addrPart*
+- *model.global*
 
 ## Attribute
 
-| Attribut | Beschreibung | Werte |
-|----------|-------------|-------|
-| `@type` |  | `billing`, `delivery`, `mailing`, `military`, `physical` (erweiterbar) |
-| `@role` |  | `sender`, `return`, `recipient `, `work`, `home`, `start`, `finish`, `pickup`, `dropOff` |
+### `@type` (erweiterbare Werteliste)
 
-## Content-Model
+**Mögliche Werte:**
 
-model.global, model.addrPart, model.global
+- `billing`
+- `delivery`
+- `mailing`
+- `military`
+- `physical`
+
+### `@role`
+
+**Datentyp:** `teidata.enumerated`
+
+**Mögliche Werte:**
+
+- `sender`
+- `return`
+- `recipient `
+- `work`
+- `home`
+- `start`
+- `finish`
+- `pickup`
+- `dropOff`

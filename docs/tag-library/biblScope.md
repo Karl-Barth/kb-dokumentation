@@ -1,16 +1,15 @@
-# `<biblScope>`
-*Geltungsbereich einer bibliografischen Referenz*
+# `<biblScope/>` (Geltungsbereich einer bibliografischen Referenz)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 Umfangsangabe innerhalb einer bibliographischen Referenz (Seiten, Teilnummer).
 
-**Modul:** core
+## Inhaltsmodell
+
+- *macro.phraseSeq*
 
 ## Attribute
 
-| Attribut | Beschreibung | Werte |
-|----------|-------------|-------|
-| `@unit` |  |  |
-
-## Content-Model
-
-macro.phraseSeq
+### `@unit` (geschlossene Werteliste)

@@ -1,10 +1,11 @@
-# `<docDate>`
-*Datierung des Dokuments*
+# `<docDate/>` (Datierung des Dokuments)
+
+**Modul:** Textstruktur
+
+## Beschreibung
 
 enthält die Datierung des Dokuments, wie auf der Titelseite oder in einer Datumszeile angegeben.
 
-**Modul:** textstructure
+## Inhaltsmodell
 
-## Content-Model
-
-macro.phraseSeq
+- *macro.phraseSeq*

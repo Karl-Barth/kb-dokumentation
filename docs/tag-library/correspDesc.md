@@ -1,10 +1,13 @@
-# `<correspDesc>`
+# `<correspDesc/>`
+
+**Modul:** Header
+
+## Beschreibung
 
 contains a description
     of the actions related to one act of correspondence.
 
-**Modul:** header
+## Inhaltsmodell
 
-## Content-Model
-
-model.correspDescPart, model.pLike
+- *model.correspDescPart*
+- *model.pLike*

@@ -1,13 +1,15 @@
-# `<row>`
-*Tabellenzeile*
+# `<row/>` (Tabellenzeile)
+
+**Modul:** Abbildungen und Tabellen
+
+## Beschreibung
 
 enthält eine Zeile einer Tabelle.
 
-!!! note "Dokumentation"
-    - [Tabellen](https://dokumentation.karl-barth.ch/textstruktur/tabellen/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Tabellen](https://dokumentation.karl-barth.ch/textstruktur/tabellen/)
 
-**Modul:** figures
 
-## Content-Model
+## Inhaltsmodell
 
-`<cell>`
+- [`<cell>`](cell.md)

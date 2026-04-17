@@ -1,13 +1,25 @@
-# `<opener>`
+# `<opener/>`
+
+**Modul:** Textstruktur
+
+## Beschreibung
 
 fasst Datumszeile, Verfasserangabe, Anredeformel und ähnliche Phrasen zusammen, die einleitend zu
     Beginn eines Abschnitts stehen, vor allem bei einem Brief.
 
-!!! note "Dokumentation"
-    - [Dateline](https://dokumentation.karl-barth.ch/textstruktur/dateline/)
+!!! note "Ausführliche Dokumentation"
+    [Textstruktur > Dateline](https://dokumentation.karl-barth.ch/textstruktur/dateline/)
 
-**Modul:** textstructure
 
-## Content-Model
+## Inhaltsmodell
 
-Text, model.gLike, model.phrase, `<argument>`, `<byline>`, `<dateline>`, `<epigraph>`, `<salute>`, `<signed>`, model.global
+- Beliebiger Textinhalt
+- [`<argument>`](argument.md)
+- `<byline>`
+- [`<dateline>`](dateline.md)
+- [`<epigraph>`](epigraph.md)
+- [`<salute>`](salute.md)
+- [`<signed>`](signed.md)
+- *model.gLike*
+- *model.phrase*
+- *model.global*

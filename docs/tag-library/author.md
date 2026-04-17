@@ -1,16 +1,17 @@
-# `<author>`
-*Autor*
+# `<author/>` (Autor)
+
+**Modul:** Kernmodule
+
+## Beschreibung
 
 Verfasserangabe im teiHeader. Das @ref verweist auf die Personen-ID in der Meta-DB.
 
-**Modul:** core
+## Inhaltsmodell
+
+- *macro.phraseSeq*
 
 ## Attribute
 
-| Attribut | Beschreibung | Werte |
-|----------|-------------|-------|
-| `@ref` |  | teidata.pattern |
+### `@ref`
 
-## Content-Model
-
-macro.phraseSeq
+**Datentyp:** `teidata.pattern`
