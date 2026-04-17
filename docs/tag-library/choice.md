@@ -1,31 +1,48 @@
-# `<choice/>` (Alternative)
-
-**Modul:** Kernmodule
-
-## Beschreibung
+# `<choice>` Alternative
 
 Gruppiert sic/corr-Paare für Korrekturen der Druckausgabe.
 
-## Erläuterung
+Siehe [Textelemente > Korrektionen Der Druckausgabe](https://dokumentation.karl-barth.ch/textelemente/korrektionen-der-druckausgabe/)
 
-Ausführliche Dokumentation:
+**Modul:** core — Kernmodule
 
-- [Textelemente > Korrektionen Der Druckausgabe](https://dokumentation.karl-barth.ch/textelemente/korrektionen-der-druckausgabe/)
+## Attribute
 
-## Erlaubt in
+**att.cmc** provides attributes categorizing how the element content was created in a CMC environment.
 
-**Kernmodule:** [`<choice>`](choice.md)
+**@generatedBy** (optional, erweiterbar)
+:   Datentyp: teidata.enumerated
+:   `human`
+:   `template`
+:   `system`
+:   `bot`
+:   `unspecified`
 
-## Inhaltsmodell
 
-- [`<choice>`](choice.md)
-- *model.choicePart*
+## Enthalten in
+
+**core:** [choice](choice.md) "Gruppiert sic/corr-Paare für Korrekturen der Druckausgabe."
+
+## Kann enthalten
+
+**core:** [choice](choice.md) "Gruppiert sic/corr-Paare für Korrekturen der Druckausgabe."
 
 ## Beispiele
 
 ```xml
 <choice>
-                <sic source="pga">Ernst</sic>
-                <corr resp="ak" type="corr">Emil</corr>
-              </choice> Balla
+    <sic source="pga">Ernst</sic>
+    <corr resp="ak" type="corr">Emil</corr>
+  </choice> Balla
+```
+
+## Content Model
+
+```xml
+<content>
+  <alternate minOccurs="2" maxOccurs="unbounded">
+    <classRef key="model.choicePart"/>
+    <elementRef key="choice"/>
+  </alternate>
+</content>
 ```

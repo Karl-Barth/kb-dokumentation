@@ -1,12 +1,6 @@
-# `<change/>` (Änderung)
-
-**Modul:** Header
-
-## Beschreibung
+# `<change>` Änderung
 
 Änderungsvermerk in der revisionDesc. Enthält Zeitstempel der letzten Header-Generierung.
-
-## Erläuterung
 
 Das who-Attribut kann dafür verwendet werden, um zu einem beliebigen anderen 
       Element zu verweisen, sollte aber typischerweise auf ein respStmt- oder 
@@ -16,18 +10,30 @@ Das who-Attribut kann dafür verwendet werden, um zu einem beliebigen anderen
       Das status-Attribut kann dafür verwendet werden, 
       um den Zustand des Dokuments nach erfolgter Änderung zu beschreiben.
 
-## Erlaubt in
-
-**Header:** [`<revisionDesc>`](revisionDesc.md)
-
-## Inhaltsmodell
-
-- *macro.specialPara*
+**Modul:** header — Header
 
 ## Attribute
 
-### `@target` (optional)
+**att.datable** provides attributes for normalization of elements
+    that contain dates, times, or datable events.
 
-verweist auf ein oder mehrere Elemente, die zu dieser Änderung gehören.
+**@period** (optional)
+:   Datentyp: teidata.pointer
 
-**Datentyp:** teidata.pointer
+
+**@target** (optional)
+:   verweist auf ein oder mehrere Elemente, die zu dieser Änderung gehören.
+:   Datentyp: teidata.pointer
+
+
+## Enthalten in
+
+**header:** [revisionDesc](revisionDesc.md) "dokumentiert die Änderungen, die an der Datei vorgenommen wu"
+
+## Content Model
+
+```xml
+<content>
+  <macroRef key="macro.specialPara"/>
+</content>
+```

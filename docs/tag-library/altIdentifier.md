@@ -1,20 +1,50 @@
-# `<altIdentifier/>`
-
-**Modul:** Handschriftenbeschreibung
-
-## Beschreibung
+# `<altIdentifier>`
 
 Alternativer Identifikator für eine Quelle (URI, KBA-ID, KBGA-Sources-ID).
 
-## Erlaubt in
+**Modul:** msdescription — Handschriftenbeschreibung
 
-**Handschriftenbeschreibung:** [`<msIdentifier>`](msIdentifier.md)
+## Attribute
 
-## Inhaltsmodell
+**att.datable** provides attributes for normalization of elements
+    that contain dates, times, or datable events.
 
-- `<institution>`
-- [`<repository>`](repository.md)
-- `<collection>`
-- [`<idno>`](idno.md)
-- [`<note>`](note.md)
-- *model.placeNamePart*
+**@period** (optional)
+:   Datentyp: teidata.pointer
+
+
+**att.typed** provides attributes that can be used to classify or subclassify elements in any way.
+
+**@type** (optional)
+:   Datentyp: teidata.enumerated
+
+**@subtype** (optional)
+:   Datentyp: teidata.enumerated
+
+
+## Enthalten in
+
+**msdescription:** [msIdentifier](msIdentifier.md) "contains the information required to identify the manuscript"
+
+## Kann enthalten
+
+**core:** [note](note.md) "enthält eine Anmerkung oder Annotation."
+
+**header:** [idno](idno.md) "Identifikator, z.B. URL oder KBA-Objektnummer."
+
+**msdescription:** [repository](repository.md) "contains the name of a repository within which manuscripts o"
+
+## Content Model
+
+```xml
+<content>
+  <sequence minOccurs="1" maxOccurs="1">
+    <classRef key="model.placeNamePart" expand="sequenceOptional"/>
+    <elementRef key="institution" minOccurs="0"/>
+    <elementRef key="repository" minOccurs="0"/>
+    <elementRef key="collection" minOccurs="0"/>
+    <elementRef key="idno"/>
+    <elementRef key="note" minOccurs="0"/>
+  </sequence>
+</content>
+```

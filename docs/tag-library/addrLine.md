@@ -1,12 +1,6 @@
-# `<addrLine/>` (Adresszeile)
-
-**Modul:** Kernmodule
-
-## Beschreibung
+# `<addrLine>` Adresszeile
 
 enthält eine Zeile einer Postadresse.
-
-## Erläuterung
 
 Adressen können entweder als eine Abfolge von Zeilen kodiert werden oder als eine beliebige Folge 
           von Elementen der model.addrPart-Klasse. Andere, nicht-postalische Formen von Adressen, 
@@ -14,10 +8,41 @@ Adressen können entweder als eine Abfolge von Zeilen kodiert werden oder als ei
           sondern müssen innerhalb eines addrLine-Elements kodiert werden, wenn sie Teil einer gedruckten Adresse in einer 
           Textvorlage sind.
 
-Ausführliche Dokumentation:
+Siehe [Textstruktur > Unterschriften](https://dokumentation.karl-barth.ch/textstruktur/unterschriften/)
 
-- [Textstruktur > Unterschriften](https://dokumentation.karl-barth.ch/textstruktur/unterschriften/)
+**Modul:** core — Kernmodule
 
-## Inhaltsmodell
+## Attribute
 
-- *macro.phraseSeq*
+**att.global** stellt gemeinsame Attribute für alle Elemente im TEI-Kodierungsschema bereit.
+
+**@xml:id** (optional)
+:   liefert einen Identifikator für das Element, welches dieses Attribut trägt.
+:   Datentyp: ID
+
+**@n** (optional)
+:   gibt eine Nummer (oder eine andere Bezeichnung) für ein Element an, die innerhalb des Dokuments nicht zwangsläufig eindeutig ist.
+:   Datentyp: teidata.text
+
+**@xml:lang** (optional)
+:   gibt die Sprache des Elementinhalts durch ein Tag an, das nach BCP 47 festgelegt wird.
+:   Datentyp: teidata.language
+
+**@xml:base** (optional)
+:   liefert eine Basis-URI-Referenz, mit der Anwendungen relative URI-Referenzen in absolute auflösen können.
+:   Datentyp: teidata.pointer
+
+**@xml:space** (optional, geschlossene Werteliste)
+:   signalisiert die gewünschte Handhabung von Leerzeichen durch Anwendungen.
+:   Datentyp: teidata.enumerated
+:   `default`
+:   `preserve`
+
+
+## Content Model
+
+```xml
+<content>
+    <macroRef key="macro.phraseSeq"/>
+  </content>
+```

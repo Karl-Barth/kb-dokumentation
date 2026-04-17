@@ -1,17 +1,27 @@
-# `<editionStmt/>` (Angaben zur Ausgabe)
-
-**Modul:** Header
-
-## Beschreibung
+# `<editionStmt>` Angaben zur Ausgabe
 
 Angaben zur digitalen Edition (Titel, Förderer).
 
-## Erlaubt in
+**Modul:** header — Header
 
-**Header:** [`<fileDesc>`](fileDesc.md)
+## Enthalten in
 
-## Inhaltsmodell
+**header:** [fileDesc](fileDesc.md) "enthält die vollständige bibliografische Beschreibung einer "
 
-- [`<edition>`](edition.md)
-- *model.pLike*
-- *model.respLike*
+## Kann enthalten
+
+**header:** [edition](edition.md) "beschreibt die Details einer Ausgabe eines Textes."
+
+## Content Model
+
+```xml
+<content>
+  <alternate minOccurs="1" maxOccurs="1">
+    <classRef key="model.pLike" minOccurs="1" maxOccurs="unbounded"/>
+    <sequence minOccurs="1" maxOccurs="1">
+      <elementRef key="edition"/>
+      <classRef key="model.respLike" minOccurs="0" maxOccurs="unbounded"/>
+    </sequence>
+  </alternate>
+</content>
+```

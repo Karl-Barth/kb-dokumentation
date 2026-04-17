@@ -1,34 +1,81 @@
-# `<rs/>` (verweisende Zeichenkette)
-
-**Modul:** Kernmodule
-
-## Beschreibung
+# `<rs>` verweisende Zeichenkette
 
 Referenzierende Zeichenkette für Akteure, die nicht als persName oder orgName ausgezeichnet werden (z.B. Pronomen, Umschreibungen). Der @type unterscheidet person, organisation, place, conference.
 
-## Erläuterung
+Siehe [Textelemente > Akteure](https://dokumentation.karl-barth.ch/textelemente/akteure/)
 
-Ausführliche Dokumentation:
-
-- [Textelemente > Akteure](https://dokumentation.karl-barth.ch/textelemente/akteure/)
-
-## Inhaltsmodell
-
-- *macro.phraseSeq*
+**Modul:** core — Kernmodule
 
 ## Attribute
 
-### `@type` (optional)
+**att.global** stellt gemeinsame Attribute für alle Elemente im TEI-Kodierungsschema bereit.
 
-**Mögliche Werte:**
+**@xml:id** (optional)
+:   liefert einen Identifikator für das Element, welches dieses Attribut trägt.
+:   Datentyp: ID
 
-- `conference`
-- `person`
-- `organisation`
-- `place`
+**@n** (optional)
+:   gibt eine Nummer (oder eine andere Bezeichnung) für ein Element an, die innerhalb des Dokuments nicht zwangsläufig eindeutig ist.
+:   Datentyp: teidata.text
+
+**@xml:lang** (optional)
+:   gibt die Sprache des Elementinhalts durch ein Tag an, das nach BCP 47 festgelegt wird.
+:   Datentyp: teidata.language
+
+**@xml:base** (optional)
+:   liefert eine Basis-URI-Referenz, mit der Anwendungen relative URI-Referenzen in absolute auflösen können.
+:   Datentyp: teidata.pointer
+
+**@xml:space** (optional, geschlossene Werteliste)
+:   signalisiert die gewünschte Handhabung von Leerzeichen durch Anwendungen.
+:   Datentyp: teidata.enumerated
+:   `default`
+:   `preserve`
+
+
+**att.cmc** provides attributes categorizing how the element content was created in a CMC environment.
+
+**@generatedBy** (optional, erweiterbar)
+:   Datentyp: teidata.enumerated
+:   `human`
+:   `template`
+:   `system`
+:   `bot`
+:   `unspecified`
+
+
+**att.naming** provides attributes common to elements which refer to named persons, places, organizations etc.
+
+**@role** (optional)
+:   Datentyp: teidata.enumerated
+
+
+**att.typed** provides attributes that can be used to classify or subclassify elements in any way.
+
+**@type** (optional)
+:   Datentyp: teidata.enumerated
+
+**@subtype** (optional)
+:   Datentyp: teidata.enumerated
+
+
+**@type** (optional)
+:   `conference`
+:   `person`
+:   `organisation`
+:   `place`
+
 
 ## Beispiele
 
 ```xml
 <rs type="person" ref="kbga-actors-27">Bruders</rs>
+```
+
+## Content Model
+
+```xml
+<content>
+  <macroRef key="macro.phraseSeq"/>
+</content>
 ```

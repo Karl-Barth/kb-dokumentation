@@ -1,16 +1,18 @@
-# `<availability/>` (Verfügbarkeit)
-
-**Modul:** Header
-
-## Beschreibung
+# `<availability>` Verfügbarkeit
 
 Lizenzinformationen zur Publikation. Wird aus der Datenbank generiert.
 
-## Erläuterung
-
 Es sollte ein einheitliches Format verwendet werden.
 
-## Inhaltsmodell
+**Modul:** header — Header
 
-- *model.availabilityPart*
-- *model.pLike*
+## Content Model
+
+```xml
+<content>
+  <alternate minOccurs="1" maxOccurs="unbounded">
+    <classRef key="model.availabilityPart"/>
+    <classRef key="model.pLike"/>
+  </alternate>
+</content>
+```
