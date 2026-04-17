@@ -1,29 +1,25 @@
+/* Custom styles for KBGA documentation */
 
-
-
-dl {
+/* Definition lists in Datenbank-Seiten (legacy) */
+.md-content dl.datenbank {
     background-color: aliceblue;
     padding-left: 10px;
     padding-bottom: 5px;
 }
-dd {
-    padding-top: 10px;
-    
-}
-dt {
+.md-content dl.datenbank dt {
     float: left;
     font-weight: bold;
     margin-right: 0.5em;
-    margin-bottom: -1em;
     padding-top: 10px;
 }
-dt:after {
+.md-content dl.datenbank dt:after {
     content: ": ";
 }
-dd:after {
+.md-content dl.datenbank dd {
+    padding-top: 10px;
+}
+.md-content dl.datenbank dd:after {
     content: " ";
     clear: left;
     display: block;
-    margin-bottom: -.8em;
-    
 }

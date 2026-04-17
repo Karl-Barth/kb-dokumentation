@@ -96,10 +96,9 @@ nav:
     - Vorträge: textsorten/vortraege.md
   - Abkürzungen: abkuerzungen.md
   - Bibelbücher: bibel.md
-  - Workflow: 
-    - Synchronisierung von Daten ins KBA: workflow/sync_kba.md
-    #- Metadatenbank: workflow/metadatenbank.md
-    - Datenbankinkonsistenzen: workflow/inkonsistenzen.md
+  #- Workflow:  # verschoben ins Wiki
+  #  - Synchronisierung von Daten ins KBA: workflow/sync_kba.md
+  #  - Datenbankinkonsistenzen: workflow/inkonsistenzen.md
   - Tag-Library:
     - Übersicht: tag-library/index.md
     - TEI: tag-library/TEI.md
