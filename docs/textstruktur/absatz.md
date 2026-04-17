@@ -38,6 +38,18 @@ zu 3. anstelle einer Überschrift `<head>` zur Vermeidung eines neuen `<div>`
 zu 4. um möglichst die Darstellung der gedruckten Ausgabe wiederzugeben, was bisher nur im Bd. 55 gemacht wurde
 
 
+## Sternchen-Trenner
+
+Zur optischen Hervorhebung eines Abschnittwechsels wird eine Zeile mit
+Sternchen zwischen zwei Absätzen eingefügt. Dafür wird `<ab>` (statt `<p>`)
+verwendet:
+
+```xml
+… der vorherige Absatz</p>
+<ab rend="center">*   *   *</ab>
+<p>der nachfolgende Absatz …
+```
+
 ## Darstellung in der digitalen Edition
 
-Die Darstellung eines Absatzes erfolgt standardmässig ohne Einzug und mit Abstand (eine Leerzeile) zwischen den Absätzen. 
+Die Darstellung eines Absatzes erfolgt standardmässig ohne Einzug und mit Abstand (eine Leerzeile) zwischen den Absätzen.
