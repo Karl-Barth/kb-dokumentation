@@ -82,6 +82,7 @@ nav:
     - Hervorhebungen: textelemente/hervorhebungen.md
     - Korrekturen der Druckausgabe: textelemente/korrekturen-der-druckausgabe.md
     - Fremdsprache: textelemente/fremdsprache.md
+    - Querverweise und Links: textelemente/querverweise.md
   - Datenbank:
     - Texte: datenbank/texte.md
     - Akteure: datenbank/akteure.md
