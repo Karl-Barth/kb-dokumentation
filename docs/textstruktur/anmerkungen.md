@@ -89,16 +89,28 @@ Beispiel: Die 7. Sterchen-Fussnote in einem Text:
 
 ## Digitale Anmerkungen
 
-Digitale Anmerkungen kommen nur in der digitalen Edition vor und enthalten
-einen zusätzlichen Kommentar oder eine Korrektur des Textes der gedruckten
-Textausgabe. Sie sind äusserst sparsam einzusetzen. Der Originaltext bleibt
-sichtbar und wird mit der Fussnote kommentiert. Reine Druckfehler hingegen
-werden mit `<choice>/<sic>/<corr>` korrigiert — siehe
+Digitale Anmerkungen kommen nur in der digitalen Edition vor. Sie sind
+äusserst sparsam einzusetzen und dienen zwei Zwecken:
+
+- **Inhaltliche Korrektur**, bei der der Originaltext sichtbar bleiben soll.
+  Beispiel: Der Autor schreibt "Gregor VI.", meint aber Gregor VII. — das
+  ist kein blosser Druckfehler, sondern ein sachlicher Irrtum, der im
+  Original erkennbar bleiben und in einer Fussnote kommentiert werden soll.
+- **Nachträgliche Ergänzung**, z.B. ein Querverweis auf eine andere Stelle
+  der Gesamtausgabe, der bei der Drucklegung noch nicht existierte.
+
+Reine Druckfehler (Buchstabendreher, falsche Schreibung) werden dagegen
+**nicht** mit digitalen Anmerkungen kommentiert, sondern stillschweigend
+mit `<choice>/<sic>/<corr>` korrigiert — siehe
 [Korrekturen der Druckausgabe](../textelemente/korrekturen-der-druckausgabe.md).
+
+### Auszeichnung
 
 Digitale Anmerkungen erhalten `@type="digital"`, `@resp` mit dem Kürzel der
 verantwortlichen Person und `@n` für die korrekte Einordnung in den
-Fussnotenapparat:
+Fussnotenapparat. Die `@xml:id` wird mit einem griechischen Buchstaben
+gebildet, damit sie sich von den arabischen Ziffern (Sachanmerkungen) und
+lateinischen Buchstaben (textkritische Anmerkungen) unterscheidet:
 
 ```xml
 <note resp="ak" type="digital" xml:id="nα" n="α">Richtig: 
@@ -168,9 +180,9 @@ Zu `<persName>` und `<orgName>` allgemein siehe
  
 ### Doppelt verwendete Fussnotenzeichen
 
-Es kommt vor, dass im Buch innerhalb eines Textes identische Fußnoten doppelt verwendet werden. Eine `@xml:id` muss innerhalb einer Datei eindeutig sein.
- 
-Hier Vorschläge, um sie in der digitalen Version zu unterscheiden:
+Es kommt vor, dass im Buch innerhalb eines Textes identische Fußnoten
+doppelt verwendet werden. Eine `@xml:id` muss innerhalb einer Datei
+eindeutig sein. Doppelte Fussnotenzeichen werden wie folgt aufgelöst:
 
 - eine doppelte Sachfußnote `xml:id="n01"`
   ersetzen durch: 
