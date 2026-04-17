@@ -57,8 +57,7 @@ Siehe [Textstruktur > Woertliche Rede](https://dokumentation.karl-barth.ch/texts
 
 ## Kann enthalten
 
-**core:** [lg](lg.md) "enthält eine oder mehrere Verse bzw. Verszeilen, die zusamme" [q](q.md) "enthält Material, das vom umgebenden Text durch 
-    Anführu" [speaker](speaker.md) "enthält eine spezielle Form von Überschrift oder Bezeichnung"
+**core:** [lg](lg.md) "Strophe oder Versgruppe." [q](q.md) "Direkte Rede oder Zitat im Fliesstext." [speaker](speaker.md) "enthält eine spezielle Form von Überschrift oder Bezeichnung"
 
 ## Content Model
 

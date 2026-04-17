@@ -1,14 +1,6 @@
 # `<graphic>` Abbildung
 
-gibt den Ort einer Bildressource an, 
-    die entweder Teil eines Texts oder ein Abbild dessen ist.
-
-Das mimeType-Attribut sollte genutzt werden, um den MIME Medientyp des 
-      über das url-Attributs spezifizierten Bildes anzugeben.
-      Innerhalb des Textkörpers gibt das graphic-Element das Vorkommen eines Bildes 
-      oder einer Illustration in der Textvorlage an. Innerhalb eines sourceDoc- 
-      oder facsimile-Elements dagegen gibt das   graphic-Element eine 
-      zusätzliche Repräsentation (eines Teils) der Vorlage wieder.
+Verweis auf eine Bilddatei via @url.
 
 Siehe [Textstruktur > Bilder](https://dokumentation.karl-barth.ch/textstruktur/bilder/)
 
@@ -78,6 +70,6 @@ Siehe [Textstruktur > Bilder](https://dokumentation.karl-barth.ch/textstruktur/b
 
 ```xml
 <content>
-    <classRef key="model.descLike" minOccurs="0" maxOccurs="unbounded"/>   
-  </content>
+  <classRef key="model.descLike" minOccurs="0" maxOccurs="unbounded"/>
+</content>
 ```

@@ -1,9 +1,6 @@
 # `<lg>` Gruppe von Vers(zeil)en
 
-enthält eine oder mehrere Verse bzw. Verszeilen, die zusammen eine formale Einheit (z. B. Strophe, Refrain) bilden.
-
-enthält lediglich Vers(zeil)en (l) oder verschachtelte Gruppen von Vers(zeil)en
-      (lg); eine Überschrift ist fakultativ.
+Strophe oder Versgruppe.
 
 Siehe [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur/gedichte/)
 
@@ -64,11 +61,11 @@ Siehe [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur
 
 ## Enthalten in
 
-**core:** [head](head.md) "Überschrift einer Gliederungseinheit (div)." [lg](lg.md) "enthält eine oder mehrere Verse bzw. Verszeilen, die zusamme" [sp](sp.md) "enthält eine einzelne Figurenrede in einem Dramentext oder e"
+**core:** [head](head.md) "Überschrift einer Gliederungseinheit (div)." [lg](lg.md) "Strophe oder Versgruppe." [sp](sp.md) "enthält eine einzelne Figurenrede in einem Dramentext oder e"
 
 ## Kann enthalten
 
-**core:** [lg](lg.md) "enthält eine oder mehrere Verse bzw. Verszeilen, die zusamme"
+**core:** [lg](lg.md) "Strophe oder Versgruppe."
 
 ## Constraints
 
@@ -82,30 +79,30 @@ Siehe [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur
 
 ```xml
 <content>
-    <sequence>
-      <alternate minOccurs="0" maxOccurs="unbounded">
-        <classRef key="model.divTop"/>
-        <classRef key="model.global"/>
-      </alternate>      
-      <alternate>
-        <classRef key="model.lLike"/>
-        <classRef key="model.stageLike"/>
-        <classRef key="model.labelLike"/>
-        <classRef key="model.pPart.transcriptional"/>
-        <elementRef key="lg"/>
-      </alternate>
-      <alternate minOccurs="0" maxOccurs="unbounded">
-        <classRef key="model.lLike"/>
-        <classRef key="model.stageLike"/>
-        <classRef key="model.labelLike"/>
-        <classRef key="model.pPart.transcriptional"/>
-        <classRef key="model.global"/>
-        <elementRef key="lg"/>
-      </alternate>
-      <sequence minOccurs="0" maxOccurs="unbounded">        
-        <classRef key="model.divBottom"/>
-        <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
-      </sequence>
+  <sequence minOccurs="1" maxOccurs="1">
+    <alternate minOccurs="0" maxOccurs="unbounded">
+      <classRef key="model.divTop"/>
+      <classRef key="model.global"/>
+    </alternate>
+    <alternate minOccurs="1" maxOccurs="1">
+      <classRef key="model.lLike"/>
+      <classRef key="model.stageLike"/>
+      <classRef key="model.labelLike"/>
+      <classRef key="model.pPart.transcriptional"/>
+      <elementRef key="lg"/>
+    </alternate>
+    <alternate minOccurs="0" maxOccurs="unbounded">
+      <classRef key="model.lLike"/>
+      <classRef key="model.stageLike"/>
+      <classRef key="model.labelLike"/>
+      <classRef key="model.pPart.transcriptional"/>
+      <classRef key="model.global"/>
+      <elementRef key="lg"/>
+    </alternate>
+    <sequence minOccurs="0" maxOccurs="unbounded">
+      <classRef key="model.divBottom"/>
+      <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
     </sequence>
-  </content>
+  </sequence>
+</content>
 ```

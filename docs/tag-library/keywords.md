@@ -50,8 +50,7 @@ Jedes einzelne Schlagwort (zusammengesetzte Themen-Schlagwörter eingeschlossen)
 
 ## Kann enthalten
 
-**core:** [list](list.md) "enthält eine Reihe von Listenpunkten, die als Liste organisi" [term](term.md) "enthält ein einzelnes Wort, Mehrworttermini 
-        oder sy"
+**core:** [list](list.md) "Liste. Der @type unterscheidet geordnete und ungeordnete Lis" [term](term.md) "Sachbegriff mit Verweis auf die Begriffs-Taxonomie via @ref "
 
 ## Content Model
 

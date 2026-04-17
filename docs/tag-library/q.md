@@ -1,15 +1,6 @@
 # `<q>` in Anführungszeichen
 
-enthält Material, das vom umgebenden Text durch 
-    Anführungszeichen oder ähnliche Methoden abgesetzt ist. Die Abhebung kann beliebige Gründe 
-    haben, wie z. B. direkte Rede, wiedergegebene Gedanken, Fachbegriffe, Jargon, Distanzierung 
-    des Autors, Zitate aus anderen Texten, erwähnte aber nicht benutzte Passagen.
-
-Das Element kann benutzt werden, um anzuzeigen, dass eine Textpassage sich vom umgebenden Text 
-      unterscheidet - aus Gründen, die nicht näher spezifiziert werden. Wenn das Element in dieser 
-      Weise benutzt wird, kann das q-Element als syntactic sugar 
-      (d.h. vereinfachte Schreibweise) für das hi-Element mit einem entsprechenden 
-      Wert im rend-Attribut gedacht werden.
+Direkte Rede oder Zitat im Fliesstext.
 
 Siehe [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur/gedichte/)
 
@@ -77,6 +68,6 @@ Siehe [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur
 
 ```xml
 <content>
-    <macroRef key="macro.specialPara"/>
-  </content>
+  <macroRef key="macro.specialPara"/>
+</content>
 ```

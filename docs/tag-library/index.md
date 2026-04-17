@@ -76,7 +76,7 @@ Schema-Referenz der Karl Barth-Gesamtausgabe, generiert aus dem TEI ODD.
 :   Ankerpunkt für Querverweise (@type='cross') und für Fussnoten mit mehreren Fussnotenzeichen (@type='note').
 
 [seg](seg.md)
-:   beschreibt Segmente eines Texts unterhalb des Chunk-Level.
+:   Segment. Verwendet für nicht-Entitäten, Verse, Biogramme, Hervorhebungen und Übersetzungen.
 
 [milestone](milestone.md)
 :   markiert einen Grenzpunkt, der Abschnitte eines Textes trennen kann, 
@@ -86,13 +86,13 @@ Schema-Referenz der Karl Barth-Gesamtausgabe, generiert aus dem TEI ODD.
 ### Listen und Tabellen
 
 [list](list.md)
-:   enthält eine Reihe von Listenpunkten, die als Liste organisiert sind.
+:   Liste. Der @type unterscheidet geordnete und ungeordnete Listen.
 
 [item](item.md)
 :   enthält einen Listenpunkt.
 
 [table](table.md)
-:   enthält Text, der in Tabellenform, also in Zeilen und Spalten, dargestellt ist.
+:   Tabelle.
 
 [row](row.md)
 :   enthält eine Zeile einer Tabelle.
@@ -104,14 +104,13 @@ Schema-Referenz der Karl Barth-Gesamtausgabe, generiert aus dem TEI ODD.
 ### Gedichte und wörtliche Rede
 
 [lg](lg.md)
-:   enthält eine oder mehrere Verse bzw. Verszeilen, die zusammen eine formale Einheit (z. B. Strophe, Refrain) bilden.
+:   Strophe oder Versgruppe.
 
 [l](l.md)
-:   enthält eine einzelne, möglicherweise unvollständige, Verszeile.
+:   Verszeile.
 
 [q](q.md)
-:   enthält Material, das vom umgebenden Text durch 
-    Anführungszeichen oder ähnliche Methoden abgesetzt ist. Die Abhebun
+:   Direkte Rede oder Zitat im Fliesstext.
 
 [quote](quote.md)
 :   Zitat innerhalb des Textes.
@@ -133,10 +132,10 @@ Schema-Referenz der Karl Barth-Gesamtausgabe, generiert aus dem TEI ODD.
 ### Typographie und Korrekturen
 
 [hi](hi.md)
-:   markiert ein Wort oder eine Textpassage, das/die sich grafisch vom umgebenden Text abhebt, ohne dass ein inhaltlicher Gr
+:   Hervorhebung. Das @rend gibt die Art an (italic, bold, sup, sub etc.).
 
 [foreign](foreign.md)
-:   identifiziert ein Wort oder eine Phrase, die zu einer anderen Sprache gehört, als der umgebende Text.
+:   Fremdsprachiger Text. Das @xml:lang gibt die Sprache an, @rend das Darstellungsformat (z.B. Ell für Griechisch).
 
 [lb](lb.md)
 :   markiert den Anfang einer neuen typographischen 
@@ -164,8 +163,7 @@ Schema-Referenz der Karl Barth-Gesamtausgabe, generiert aus dem TEI ODD.
 :   Abbildung mit optionaler Beschreibung (figDesc) und Grafik (graphic).
 
 [graphic](graphic.md)
-:   gibt den Ort einer Bildressource an, 
-    die entweder Teil eines Texts oder ein Abbild dessen ist.
+:   Verweis auf eine Bilddatei via @url.
 
 [figDesc](figDesc.md)
 :   enthält einen kurzen Beschreibungstext des Inhalts oder des Aussehens einer Abbildung, um etwa
@@ -187,11 +185,10 @@ Schema-Referenz der Karl Barth-Gesamtausgabe, generiert aus dem TEI ODD.
 :   Referenzierende Zeichenkette für Akteure, die nicht als persName oder orgName ausgezeichnet werden (z.B. Pronomen, Umsch
 
 [date](date.md)
-:   enthält ein Datum in beliebigem Format.
+:   Datumsangabe mit maschinenlesbarem Datum in @when, @from/@to oder @notBefore/@notAfter.
 
 [term](term.md)
-:   enthält ein einzelnes Wort, Mehrworttermini 
-        oder symbolische Bezeichnungen, die als Fachbegriffe verstanden wer
+:   Sachbegriff mit Verweis auf die Begriffs-Taxonomie via @ref oder @key.
 
 [bibl](bibl.md)
 :   Bibliographische Angabe. Unterscheidet zwischen gedruckter Gesamtausgabe (pga), Alexander Street Press (asp), Quellen (s
@@ -203,7 +200,7 @@ Schema-Referenz der Karl Barth-Gesamtausgabe, generiert aus dem TEI ODD.
 :   enthält eine Liste von bibliografischen Angaben jeglicher Art.
 
 [note](note.md)
-:   enthält eine Anmerkung oder Annotation.
+:   Anmerkung (Fussnote, Endnote, editorische Anmerkung). Der @type unterscheidet Fussnoten und editorische Anmerkungen.
 
 
 ### Weitere Textelemente

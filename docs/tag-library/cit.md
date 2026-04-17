@@ -19,8 +19,7 @@ Zitat mit optionaler bibliographischer Angabe.
 
 ## Kann enthalten
 
-**core:** [q](q.md) "enthält Material, das vom umgebenden Text durch 
-    Anführu"
+**core:** [q](q.md) "Direkte Rede oder Zitat im Fliesstext."
 
 ## Content Model
 

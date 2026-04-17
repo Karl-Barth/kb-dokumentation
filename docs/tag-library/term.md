@@ -1,7 +1,6 @@
 # `<term>` Fachbegriff
 
-enthält ein einzelnes Wort, Mehrworttermini 
-        oder symbolische Bezeichnungen, die als Fachbegriffe verstanden werden.
+Sachbegriff mit Verweis auf die Begriffs-Taxonomie via @ref oder @key.
 
 Wenn dieses Element innerhalb eines index-Elements auftritt, so wird es als Lemma dieses 
           Index-Eintrags angesehen. An anderer Stelle wird es einfach als Auszeichnung eines Fachbegriffs gewertet.
@@ -101,6 +100,6 @@ Wenn dieses Element innerhalb eines index-Elements auftritt, so wird es als Lemm
 
 ```xml
 <content>
-    <macroRef key="macro.phraseSeq"/>
-  </content>
+  <macroRef key="macro.phraseSeq"/>
+</content>
 ```

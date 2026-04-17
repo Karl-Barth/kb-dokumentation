@@ -28,7 +28,7 @@ Alternativer Identifikator für eine Quelle (URI, KBA-ID, KBGA-Sources-ID).
 
 ## Kann enthalten
 
-**core:** [note](note.md) "enthält eine Anmerkung oder Annotation."
+**core:** [note](note.md) "Anmerkung (Fussnote, Endnote, editorische Anmerkung). Der @t"
 
 **header:** [idno](idno.md) "Identifikator, z.B. URL oder KBA-Objektnummer."
 

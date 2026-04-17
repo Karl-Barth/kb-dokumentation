@@ -1,9 +1,6 @@
 # `<list>` Liste
 
-enthält eine Reihe von Listenpunkten, die als Liste organisiert sind.
-
-Die Liste kann mit einer Überschrift head beginnen. Sie kann auch aus Paaren von Labels und Beschreibungen bestehen, 
-          sodass dann für jeden Teil spezielle Überschriften (headLabel, headItem) verwendet werden können.
+Liste. Der @type unterscheidet geordnete und ungeordnete Listen.
 
 Siehe [Textstruktur > Listen](https://dokumentation.karl-barth.ch/textstruktur/listen/)
 
@@ -143,51 +140,32 @@ Siehe [Textstruktur > Listen](https://dokumentation.karl-barth.ch/textstruktur/l
 
 ```xml
 <content>
-    <sequence>
-      
-        <alternate minOccurs="0" maxOccurs="unbounded">
-          
-            <classRef key="model.divTop"/>
-            <classRef key="model.global"/>
-            <elementRef key="desc" minOccurs="0" maxOccurs="unbounded"/>          
-        </alternate>
-      
-      <alternate>
+  <sequence minOccurs="1" maxOccurs="1">
+    <alternate minOccurs="0" maxOccurs="unbounded">
+      <classRef key="model.divTop"/>
+      <classRef key="model.global"/>
+      <elementRef key="desc" minOccurs="0" maxOccurs="unbounded"/>
+    </alternate>
+    <alternate minOccurs="1" maxOccurs="1">
+      <sequence minOccurs="1" maxOccurs="unbounded">
+        <elementRef key="item"/>
+        <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+      <sequence minOccurs="1" maxOccurs="1">
+        <elementRef key="headLabel" minOccurs="0"/>
+        <elementRef key="headItem" minOccurs="0"/>
         <sequence minOccurs="1" maxOccurs="unbounded">
+          <elementRef key="label"/>
+          <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
           <elementRef key="item"/>
-          
-            <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
-          
+          <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
         </sequence>
-        <sequence>
-          
-            <elementRef key="headLabel" minOccurs="0"/>
-          
-          
-            <elementRef key="headItem" minOccurs="0"/>
-          
-          <sequence minOccurs="1" maxOccurs="unbounded">
-            <elementRef key="label"/>
-            
-              <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
-            
-            <elementRef key="item"/>
-            
-              <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
-            
-          </sequence>
-        </sequence>
-      </alternate>
-      
-        <sequence minOccurs="0" maxOccurs="unbounded">
-          
-            <classRef key="model.divBottom"/>
-          
-          
-            <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
-          
-        </sequence>
-      
+      </sequence>
+    </alternate>
+    <sequence minOccurs="0" maxOccurs="unbounded">
+      <classRef key="model.divBottom"/>
+      <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
     </sequence>
-  </content>
+  </sequence>
+</content>
 ```

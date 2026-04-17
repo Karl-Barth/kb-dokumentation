@@ -1,6 +1,6 @@
 # `<hi>` hervorgehoben
 
-markiert ein Wort oder eine Textpassage, das/die sich grafisch vom umgebenden Text abhebt, ohne dass ein inhaltlicher Grund dafür angegeben wird.
+Hervorhebung. Das @rend gibt die Art an (italic, bold, sup, sub etc.).
 
 Siehe [Textelemente > Hervorhebungen](https://dokumentation.karl-barth.ch/textelemente/hervorhebungen/)
 
@@ -48,6 +48,6 @@ Siehe [Textelemente > Hervorhebungen](https://dokumentation.karl-barth.ch/textel
 
 ```xml
 <content>
-    <macroRef key="macro.paraContent"/>
-  </content>
+  <macroRef key="macro.paraContent"/>
+</content>
 ```

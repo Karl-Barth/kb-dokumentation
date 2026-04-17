@@ -1,6 +1,6 @@
 # `<l>` Vers(zeile)
 
-enthält eine einzelne, möglicherweise unvollständige, Verszeile.
+Verszeile.
 
 Siehe [Textstruktur > Gedichte](https://dokumentation.karl-barth.ch/textstruktur/gedichte/)
 
@@ -57,12 +57,12 @@ Beliebiger Textinhalt
 
 ```xml
 <content>
-    <alternate minOccurs="0" maxOccurs="unbounded">
-      <textNode/>
-      <classRef key="model.gLike"/>
-      <classRef key="model.phrase"/>
-      <classRef key="model.inter"/>
-      <classRef key="model.global"/>
-    </alternate>
-  </content>
+  <alternate minOccurs="0" maxOccurs="unbounded">
+    <textNode/>
+    <classRef key="model.gLike"/>
+    <classRef key="model.phrase"/>
+    <classRef key="model.inter"/>
+    <classRef key="model.global"/>
+  </alternate>
+</content>
 ```

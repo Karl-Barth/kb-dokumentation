@@ -1,6 +1,6 @@
 # `<date>` Datum
 
-enthält ein Datum in beliebigem Format.
+Datumsangabe mit maschinenlesbarem Datum in @when, @from/@to oder @notBefore/@notAfter.
 
 Siehe [Textelemente > Datumsangaben](https://dokumentation.karl-barth.ch/textelemente/datumsangaben/)
 
@@ -109,12 +109,12 @@ Beliebiger Textinhalt
 ## Content Model
 
 ```xml
-<content>    
-    <alternate minOccurs="0" maxOccurs="unbounded">
-      <textNode/>
-      <classRef key="model.gLike"/>
-      <classRef key="model.phrase"/>
-      <classRef key="model.global"/>
-    </alternate>
-  </content>
+<content>
+  <alternate minOccurs="0" maxOccurs="unbounded">
+    <textNode/>
+    <classRef key="model.gLike"/>
+    <classRef key="model.phrase"/>
+    <classRef key="model.global"/>
+  </alternate>
+</content>
 ```

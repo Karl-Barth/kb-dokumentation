@@ -1,10 +1,6 @@
 # `<table>` Tabelle
 
-enthält Text, der in Tabellenform, also in Zeilen und Spalten, dargestellt ist.
-
-Enthält eine Reihe von Zeilen und optional eine Überschrift.
-    Jegliche Information die grafische Darstellung betreffend, sollte mit dem globalen
-      rend-Attribut auf der Ebene von Tabelle, Zeile oder Zelle verzeichnet werden.
+Tabelle.
 
 Siehe [Textstruktur > Tabellen](https://dokumentation.karl-barth.ch/textstruktur/tabellen/)
 
@@ -74,37 +70,25 @@ Siehe [Textstruktur > Tabellen](https://dokumentation.karl-barth.ch/textstruktur
 
 ```xml
 <content>
-    <sequence>
-      
-        <alternate minOccurs="0" maxOccurs="unbounded">
-          <classRef key="model.headLike"/>
-          <classRef key="model.global"/>
-        </alternate>
-      
-      <alternate>
-        <sequence minOccurs="1" maxOccurs="unbounded">
-          <elementRef key="row"/>
-          
-            <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
-          
-        </sequence>
-        <sequence minOccurs="1" maxOccurs="unbounded">
-          
-            <classRef key="model.graphicLike"/>
-          
-          
-            <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
-          
-        </sequence>
-      </alternate>
-      <sequence minOccurs="0" maxOccurs="unbounded">
-        
-          <classRef key="model.divBottom"/>
-        
-        
-          <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
-        
+  <sequence minOccurs="1" maxOccurs="1">
+    <alternate minOccurs="0" maxOccurs="unbounded">
+      <classRef key="model.headLike"/>
+      <classRef key="model.global"/>
+    </alternate>
+    <alternate minOccurs="1" maxOccurs="1">
+      <sequence minOccurs="1" maxOccurs="unbounded">
+        <elementRef key="row"/>
+        <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
       </sequence>
+      <sequence minOccurs="1" maxOccurs="unbounded">
+        <classRef key="model.graphicLike"/>
+        <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
+      </sequence>
+    </alternate>
+    <sequence minOccurs="0" maxOccurs="unbounded">
+      <classRef key="model.divBottom"/>
+      <classRef key="model.global" minOccurs="0" maxOccurs="unbounded"/>
     </sequence>
-  </content>
+  </sequence>
+</content>
 ```

@@ -1,6 +1,6 @@
 # `<note>` Anmerkung
 
-enthält eine Anmerkung oder Annotation.
+Anmerkung (Fussnote, Endnote, editorische Anmerkung). Der @type unterscheidet Fussnoten und editorische Anmerkungen.
 
 Siehe [Textstruktur > Anmerkungen](https://dokumentation.karl-barth.ch/textstruktur/anmerkungen/)
 
@@ -134,6 +134,6 @@ Mevorakh b. Saadya's mother, the matriarch of the
 
 ```xml
 <content>
-    <macroRef key="macro.specialPara"/>
-  </content>
+  <macroRef key="macro.specialPara"/>
+</content>
 ```

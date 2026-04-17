@@ -49,7 +49,7 @@ Siehe [Textstruktur > Tabellen](https://dokumentation.karl-barth.ch/textstruktur
 
 ## Enthalten in
 
-**figures:** [table](table.md) "enthält Text, der in Tabellenform, also in Zeilen und Spalte"
+**figures:** [table](table.md) "Tabelle."
 
 ## Kann enthalten
 

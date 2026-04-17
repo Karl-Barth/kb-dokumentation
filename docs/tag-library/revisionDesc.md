@@ -42,7 +42,7 @@ Wenn an diesem Element gesetzt, sollte das status-Attribut den aktuellen
 
 ## Kann enthalten
 
-**core:** [list](list.md) "enthält eine Reihe von Listenpunkten, die als Liste organisi"
+**core:** [list](list.md) "Liste. Der @type unterscheidet geordnete und ungeordnete Lis"
 
 **header:** [change](change.md) "Änderungsvermerk in der revisionDesc. Enthält Zeitstempel de"
 

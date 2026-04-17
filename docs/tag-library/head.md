@@ -76,7 +76,7 @@ Siehe [Textstruktur > Ueberschriften](https://dokumentation.karl-barth.ch/textst
 
 Beliebiger Textinhalt
 
-**core:** [lg](lg.md) "enthält eine oder mehrere Verse bzw. Verszeilen, die zusamme"
+**core:** [lg](lg.md) "Strophe oder Versgruppe."
 
 ## Beispiele
 

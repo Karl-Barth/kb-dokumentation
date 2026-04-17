@@ -1,6 +1,6 @@
 # `<seg>` arbiträres Segment
 
-beschreibt Segmente eines Texts unterhalb des Chunk-Level.
+Segment. Verwendet für nicht-Entitäten, Verse, Biogramme, Hervorhebungen und Übersetzungen.
 
 Das seg-Element kann nach Gutdünken verwendet werden, um jegliches Textsegment, welches
       für eine Weiterverarbeitung relevant sein könnte, auszuzeichnen. Eine Anwendung des Elements ist
@@ -68,6 +68,6 @@ Das seg-Element kann nach Gutdünken verwendet werden, um jegliches Textsegment,
 
 ```xml
 <content>
-    <macroRef key="macro.paraContent"/>
-  </content>
+  <macroRef key="macro.paraContent"/>
+</content>
 ```
