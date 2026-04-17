@@ -64,6 +64,11 @@ nav:
     - Absatz: textstruktur/absatz.md
     - Gedichte: textstruktur/gedichte.md
     - Unterschriften: textstruktur/unterschriften.md
+    - Datum mit Ortsangabe: textstruktur/dateline.md
+    - Listen: textstruktur/listen.md
+    - Tabellen: textstruktur/tabellen.md
+    - Wörtliche Rede: textstruktur/woertliche-rede.md
+    - Bilder: textstruktur/bilder.md
     - Anmerkungen: textstruktur/anmerkungen.md
     - Seitenanfang: textstruktur/seitenanfang.md
     - Zeilenumbruch: textstruktur/zeilenumbruch.md
@@ -76,6 +81,7 @@ nav:
     - Bibelstellen: textelemente/bibelstellen.md
     - Hervorhebungen: textelemente/hervorhebungen.md
     - Korrekturen der Druckausgabe: textelemente/korrekturen-der-druckausgabe.md
+    - Fremdsprache: textelemente/fremdsprache.md
   - Datenbank:
     - Texte: datenbank/texte.md
     - Akteure: datenbank/akteure.md
