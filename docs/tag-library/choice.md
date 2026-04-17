@@ -6,19 +6,6 @@ Siehe [Textelemente > Korrektionen Der Druckausgabe](https://dokumentation.karl-
 
 **Modul:** core — Kernmodule
 
-## Attribute
-
-**att.cmc** provides attributes categorizing how the element content was created in a CMC environment.
-
-**@generatedBy** (optional, erweiterbar)
-:   Datentyp: teidata.enumerated
-:   `human`
-:   `template`
-:   `system`
-:   `bot`
-:   `unspecified`
-
-
 ## Enthalten in
 
 **core:** [choice](choice.md) "Gruppiert sic/corr-Paare für Korrekturen der Druckausgabe."

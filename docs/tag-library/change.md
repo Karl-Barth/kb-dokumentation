@@ -14,13 +14,6 @@ Das who-Attribut kann dafür verwendet werden, um zu einem beliebigen anderen
 
 ## Attribute
 
-**att.datable** provides attributes for normalization of elements
-    that contain dates, times, or datable events.
-
-**@period** (optional)
-:   Datentyp: teidata.pointer
-
-
 **@target** (optional)
 :   verweist auf ein oder mehrere Elemente, die zu dieser Änderung gehören.
 :   Datentyp: teidata.pointer

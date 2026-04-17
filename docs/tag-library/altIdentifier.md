@@ -4,24 +4,6 @@ Alternativer Identifikator für eine Quelle (URI, KBA-ID, KBGA-Sources-ID).
 
 **Modul:** msdescription — Handschriftenbeschreibung
 
-## Attribute
-
-**att.datable** provides attributes for normalization of elements
-    that contain dates, times, or datable events.
-
-**@period** (optional)
-:   Datentyp: teidata.pointer
-
-
-**att.typed** provides attributes that can be used to classify or subclassify elements in any way.
-
-**@type** (optional)
-:   Datentyp: teidata.enumerated
-
-**@subtype** (optional)
-:   Datentyp: teidata.enumerated
-
-
 ## Enthalten in
 
 **msdescription:** [msIdentifier](msIdentifier.md) "contains the information required to identify the manuscript"

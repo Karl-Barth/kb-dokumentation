@@ -4,19 +4,6 @@ Zitat mit optionaler bibliographischer Angabe.
 
 **Modul:** core — Kernmodule
 
-## Attribute
-
-**att.cmc** provides attributes categorizing how the element content was created in a CMC environment.
-
-**@generatedBy** (optional, erweiterbar)
-:   Datentyp: teidata.enumerated
-:   `human`
-:   `template`
-:   `system`
-:   `bot`
-:   `unspecified`
-
-
 ## Kann enthalten
 
 **core:** [q](q.md) "Direkte Rede oder Zitat im Fliesstext."

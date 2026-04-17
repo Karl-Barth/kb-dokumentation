@@ -6,53 +6,6 @@ Siehe [Textelemente > Korrektionen Der Druckausgabe](https://dokumentation.karl-
 
 **Modul:** core — Kernmodule
 
-## Attribute
-
-**att.edition** provides attributes identifying the source edition from which some encoded feature derives.
-
-**@ed** (optional)
-:   Datentyp: teidata.word
-
-**@edRef** (optional)
-:   Datentyp: teidata.pointer
-
-
-**att.global** stellt gemeinsame Attribute für alle Elemente im TEI-Kodierungsschema bereit.
-
-**@xml:id** (optional)
-:   liefert einen Identifikator für das Element, welches dieses Attribut trägt.
-:   Datentyp: ID
-
-**@n** (optional)
-:   gibt eine Nummer (oder eine andere Bezeichnung) für ein Element an, die innerhalb des Dokuments nicht zwangsläufig eindeutig ist.
-:   Datentyp: teidata.text
-
-**@xml:lang** (optional)
-:   gibt die Sprache des Elementinhalts durch ein Tag an, das nach BCP 47 festgelegt wird.
-:   Datentyp: teidata.language
-
-**@xml:base** (optional)
-:   liefert eine Basis-URI-Referenz, mit der Anwendungen relative URI-Referenzen in absolute auflösen können.
-:   Datentyp: teidata.pointer
-
-**@xml:space** (optional, geschlossene Werteliste)
-:   signalisiert die gewünschte Handhabung von Leerzeichen durch Anwendungen.
-:   Datentyp: teidata.enumerated
-:   `default`
-:   `preserve`
-
-
-**att.cmc** provides attributes categorizing how the element content was created in a CMC environment.
-
-**@generatedBy** (optional, erweiterbar)
-:   Datentyp: teidata.enumerated
-:   `human`
-:   `template`
-:   `system`
-:   `bot`
-:   `unspecified`
-
-
 ## Beispiele
 
 **Beispiel 1:**
