@@ -25,8 +25,9 @@ gedruckten Ausgabe ab.
 | `bold` | fett |
 | `smallCaps` | Kapitälchen |
 | `spaced` | gesperrt |
-| `underlined-later` | nachträgliche Unterstreichung im Manuskript |
-| `underline` | einfache Unterstreichung |
+| `underline` | einfache Unterstreichung, als Hervorhebung dargestellt |
+| `double-underline` | doppelte Unterstreichung — Anker für editorische Anmerkungen |
+| `sans-serif` | Manuskript-Unterstreichung aus einzelnen Predigtbänden; in der Webedition nicht gerendert (siehe unten) |
 | `small` | verkleinert |
 | `right` | rechtsbündig |
 | `center` | zentriert |
@@ -35,7 +36,7 @@ Mehrere Werte können kombiniert werden, durch Leerzeichen getrennt:
 
 ```xml
 <hi rend="text-small text-recte">…</hi>
-<hi rend="underline italic">…</hi>
+<hi rend="sans-serif italic">…</hi>
 <hi rend="bold italic">…</hi>
 ```
 
@@ -83,13 +84,44 @@ Der Schreibfehler `buttom` (statt `bottom`) wurde aus historischen Gründen
 beibehalten; eine Umbenennung würde die Rendering-Regel in der ODD
 voraussetzen.
 
-## Manuskript-Unterstreichungen
+## Unterstreichungen im Manuskript
 
-In einigen Bänden werden Unterstreichungen, die im Manuskript nachträglich
-angebracht wurden (in der Regel mit Tinte oder Blaustift), mit
-`<hi rend="underlined-later">` ausgezeichnet. In der digitalen Edition werden
-sie einheitlich als Hervorhebung dargestellt; die ursprüngliche Unterscheidung
-von Tinte und Blaustift der gedruckten Ausgabe wird nicht reproduziert.
+`<hi rend="underline">` bezeichnet einfache Unterstreichungen im Manuskript
+(vorwiegend in Bd. 18, 49, 57). Urheber und Zeitpunkt sind nicht immer
+eindeutig; sie werden in der Webedition als Hervorhebung dargestellt.
+
+`<hi rend="double-underline">` markiert in den «Bemerkungen zum Betheler
+Bekenntnis» (Bd. 49) doppelte Unterstreichungen, die als Anker für
+editorische Anmerkungen dienen.
+
+```xml
+<hi rend="underline">Alle Lehre der Kirche</hi>
+<hi rend="double-underline">Liebe</hi>
+```
+
+## Abweichung von der gedruckten Ausgabe: `sans-serif`
+
+In den Predigtbänden **Bd. 37, 39, 42, 44** und im Vorträge-Band **Bd. 48**
+hat Barth Unterstreichungen im Manuskript mit Blaustift, Farbstift oder als
+doppelte Bleistiftlinie angebracht. Die gedruckte Ausgabe kennzeichnet diese
+durch eine abweichende Schrift (Helvetica); für die Kombination mit einer
+Tintenunterstreichung (bzw. in Bd. 48 das Zusammentreffen einer gedanklichen
+mit einer rhetorischen Markierung) wird «kursive Helvetica» gesetzt.
+
+In den XML-Daten sind diese Fälle einheitlich mit `<hi rend="sans-serif">`
+bzw. `<hi rend="sans-serif italic">` ausgezeichnet. **Die Webedition
+ignoriert `sans-serif`** — das Tag bleibt als Spur der Manuskript-Markierung
+erhalten, hat aber keinen visuellen Effekt. Nur das explizite `italic` in
+`sans-serif italic` wird als Kursivsatz gerendert.
+
+Die übrigen Predigtbände — sowohl die älteren als auch die neueren — haben
+entsprechende Manuskript-Unterstreichungen gar nicht gesondert ausgezeichnet.
+Die Bedeutung solcher Unterstreichungen (Blaustift, Farbstift, Doppelstrich)
+ist in den meisten Fällen unklar, da Urheber und Zeitpunkt nicht zuverlässig
+bestimmbar sind. Die Vereinheitlichung stellt die Konsistenz der digitalen
+Gesamtausgabe her, ohne eine Differenzierung zu suggerieren, die sich nicht
+rekonstruieren lässt. Die Original-Darstellung der Helvetica-Auszeichnung
+bleibt im **PDF der gedruckten Ausgabe** einsehbar.
 
 ## Kombinationen
 
@@ -100,5 +132,5 @@ Hauptdarstellung zuletzt stehen:
 ```xml
 <hi rend="text-small text-recte">…</hi>   <!-- klein + senkrecht -->
 <hi rend="underline italic">…</hi>        <!-- unterstrichen + kursiv -->
-<hi rend="underlined-later italic">…</hi>
+<hi rend="sans-serif italic">…</hi>       <!-- Manuskript-Spur + kursiv -->
 ```
