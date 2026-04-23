@@ -6,9 +6,19 @@ enthält Daten mit Bezug zu etwas Bemerkenswertem, das in der Zeit geschieht.
 
 **Modul:** namesdates — Namen und Daten
 
+## Enthalten in
+
+**namesdates:** [event](event.md) "enthält Daten mit Bezug zu etwas Bemerkenswertem, das in der" [listEvent](listEvent.md) "contains a list of descriptions, each of which provides info"
+
 ## Kann enthalten
 
+**core:** [bibl](bibl.md) "Bibliographische Angabe. Unterscheidet zwischen gedruckter G" [head](head.md) "Überschrift einer Gliederungseinheit (div)." [listBibl](listBibl.md) "enthält eine Liste von bibliografischen Angaben jeglicher Ar" [note](note.md) "Anmerkung (Fussnote, Endnote, editorische Anmerkung). Der @t" [p](p.md) "Absatz. Darf nicht verschachtelt werden (ausser innerhalb vo" [ptr](ptr.md) "defines a pointer to another location." [ref](ref.md) "Verweis auf eine andere Ressource. Dient für Bibelstellen, L"
+
 **header:** [idno](idno.md) "Identifikator, z.B. URL oder KBA-Objektnummer."
+
+**linking:** [ab](ab.md) "Anonymer Block, verwendet für zentrierte oder anders formati"
+
+**namesdates:** [event](event.md) "enthält Daten mit Bezug zu etwas Bemerkenswertem, das in der" [listEvent](listEvent.md) "contains a list of descriptions, each of which provides info"
 
 ## Content Model
 

@@ -52,7 +52,7 @@ Dateibeschreibung: [fileDesc](fileDesc.md) [titleStmt](titleStmt.md) [title](tit
 
 Publikation und Lizenz: [publicationStmt](publicationStmt.md) [availability](availability.md) [licence](licence.md) [idno](idno.md)
 
-Quellenbeschreibung: [sourceDesc](sourceDesc.md) [msDesc](msDesc.md) [msIdentifier](msIdentifier.md) [repository](repository.md) [altIdentifier](altIdentifier.md) [msContents](msContents.md) [msItem](msItem.md)
+Quellenbeschreibung: [sourceDesc](sourceDesc.md)
 
 Kodierung: [encodingDesc](encodingDesc.md) [listPrefixDef](listPrefixDef.md) [prefixDef](prefixDef.md)
 

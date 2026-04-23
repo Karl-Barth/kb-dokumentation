@@ -6,9 +6,17 @@ beschreibt Sprachen, Subsprachen, Register, Dialekte usw., die innerhalb eines T
 
 **Modul:** header — Header
 
+## Enthalten in
+
+**header:** [profileDesc](profileDesc.md) "enthält eine detaillierte Beschreibung der nicht-bibliografi"
+
 ## Kann enthalten
 
+**core:** [p](p.md) "Absatz. Darf nicht verschachtelt werden (ausser innerhalb vo"
+
 **header:** [language](language.md) "beschreibt eine einzelne Sprache oder eine Subsprache, die i"
+
+**linking:** [ab](ab.md) "Anonymer Block, verwendet für zentrierte oder anders formati"
 
 ## Content Model
 

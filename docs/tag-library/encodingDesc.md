@@ -6,6 +6,18 @@ dokumentiert das Verhältnis zwischen dem elektronischen Text und seiner Quelle 
 
 **Modul:** header — Header
 
+## Enthalten in
+
+**header:** [teiHeader](teiHeader.md) "wird aus der Meta- und Registerdatenbank erzeugt und soll im"
+
+## Kann enthalten
+
+**core:** [p](p.md) "Absatz. Darf nicht verschachtelt werden (ausser innerhalb vo"
+
+**header:** [listPrefixDef](listPrefixDef.md) "contains a list of definitions of prefixing schemes used in "
+
+**linking:** [ab](ab.md) "Anonymer Block, verwendet für zentrierte oder anders formati"
+
 ## Content Model
 
 ```xml

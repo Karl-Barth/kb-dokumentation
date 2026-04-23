@@ -28,7 +28,7 @@ Dieses Element ist obligatorisch. Es ist notwendig,
 
 ## Kann enthalten
 
-**textstructure:** [TEI](TEI.md) "enthält ein einzelnes TEI-konformes Dokument, das aus einem "
+**textstructure:** [TEI](TEI.md) "enthält ein einzelnes TEI-konformes Dokument, das aus einem " [text](text.md) "enthält einen einzelnen, eigenständigen oder kompilierten Te"
 
 **header:** [teiHeader](teiHeader.md) "wird aus der Meta- und Registerdatenbank erzeugt und soll im"
 

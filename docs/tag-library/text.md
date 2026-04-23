@@ -16,9 +16,25 @@ Dieses Element sollte nicht benutzt werden, um einen Text wiederzugeben, der an 
 **@xml:lang** (optional)
 
 
+## Enthalten in
+
+**textstructure:** [TEI](TEI.md) "enthält ein einzelnes TEI-konformes Dokument, das aus einem "
+
 ## Kann enthalten
 
 **textstructure:** [body](body.md) "Enthält den gesamten Textkörper eines KBGA-Dokuments."
+
+**core:** [lb](lb.md) "markiert den Anfang einer neuen typographischen 
+    Zeile i" [milestone](milestone.md) "markiert einen Grenzpunkt, der Abschnitte eines Textes trenn" [note](note.md) "Anmerkung (Fussnote, Endnote, editorische Anmerkung). Der @t" [pb](pb.md) "Seitenumbruch. Das @ed unterscheidet die Ausgabe (pga, A), @"
+
+**linking:** [anchor](anchor.md) "Ankerpunkt für Querverweise (@type='cross') und für Fussnote"
+
+**figures:** [figure](figure.md) "Abbildung mit optionaler Beschreibung (figDesc) und Grafik ("
+
+**transcr:** [metamark](metamark.md) "contains or describes any kind of graphic or written signal
+"
+
+**analysis:** [span](span.md) "associates an interpretative annotation directly with a span"
 
 ## Beispiele
 

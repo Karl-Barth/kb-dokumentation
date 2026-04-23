@@ -14,7 +14,7 @@ Eines der wenigen Elemente, die verpflichtend für ein valides TEI-Dokument sind
 
 ## Kann enthalten
 
-**header:** [fileDesc](fileDesc.md) "enthält die vollständige bibliografische Beschreibung einer " [revisionDesc](revisionDesc.md) "dokumentiert die Änderungen, die an der Datei vorgenommen wu"
+**header:** [encodingDesc](encodingDesc.md) "dokumentiert das Verhältnis zwischen dem elektronischen Text" [fileDesc](fileDesc.md) "enthält die vollständige bibliografische Beschreibung einer " [profileDesc](profileDesc.md) "enthält eine detaillierte Beschreibung der nicht-bibliografi" [revisionDesc](revisionDesc.md) "dokumentiert die Änderungen, die an der Datei vorgenommen wu"
 
 ## Constraints
 
@@ -74,31 +74,8 @@ Eines der wenigen Elemente, die verpflichtend für ein valides TEI-Dokument sind
           <publisher>Alexander Street Press</publisher>
           <date type="publication">2001</date>
         </bibl>
-        <!-- Data from KBA (https://kba.anton.ch) -->
-        <msDesc type="source" xml:id="kbga-sources-112" n="A" subtype="Vorlage_der_Edition">
-          <msIdentifier>
-            <repository>Karl Barth-Archiv</repository>
-            <idno type="kba-objects-identifier">KBA 9228.117</idno>
-            <altIdentifier>
-              <idno type="URI">https://kba.anton.ch/objects/15757</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="kba-objects-id">kba-objects-15757</idno>
-            </altIdentifier>
-            <altIdentifier>
-              <idno type="kbga-sources-id">kbga-sources-112</idno>
-            </altIdentifier>
-          </msIdentifier>
-          <msContents>
-            <msItem>
-              <title>Karl Barth an Friedrich Gogarten</title>
-              <docDate>
-                <date type="creation" when="1928-07-16">16. Juli 1928</date>
-              </docDate>
-            </msItem>
-          </msContents>
-        </msDesc>
-        <!-- we should provide more types: <bibl type="not-found-in-kba"></bibl> <bibl type="not-in-kba"></bibl>  -->
+        <!-- Data from KBA (https://kba.karl-barth.ch) -->
+        <bibl xml:id="A" type="source">A (Vorlage der Edition): Barth, Karl, Karl Barth an Friedrich Gogarten, 16. Juli 1928. <ref target="https://kba.karl-barth.ch/objects/15757">KBA 9228.117</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

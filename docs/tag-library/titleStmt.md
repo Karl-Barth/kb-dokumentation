@@ -12,7 +12,9 @@ sollte mehrere Titel für verschiedene Zwecke enhalten.
 
 ## Kann enthalten
 
-**core:** [title](title.md) "Titel mit verschiedenen Funktionen, unterschieden durch @typ"
+**core:** [author](author.md) "Verfasserangabe im teiHeader. Das @ref verweist auf die Pers" [editor](editor.md) "Herausgeberangabe in einer bibliographischen Referenz." [title](title.md) "Titel mit verschiedenen Funktionen, unterschieden durch @typ"
+
+**header:** [sponsor](sponsor.md) "gibt den Namen einer Organisation oder Institution an, die a"
 
 ## Beispiele
 

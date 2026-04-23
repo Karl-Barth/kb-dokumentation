@@ -12,7 +12,11 @@ Angaben zur digitalen Edition (Titel, Förderer).
 
 ## Kann enthalten
 
-**header:** [edition](edition.md) "beschreibt die Details einer Ausgabe eines Textes."
+**core:** [author](author.md) "Verfasserangabe im teiHeader. Das @ref verweist auf die Pers" [editor](editor.md) "Herausgeberangabe in einer bibliographischen Referenz." [p](p.md) "Absatz. Darf nicht verschachtelt werden (ausser innerhalb vo"
+
+**header:** [edition](edition.md) "beschreibt die Details einer Ausgabe eines Textes." [sponsor](sponsor.md) "gibt den Namen einer Organisation oder Institution an, die a"
+
+**linking:** [ab](ab.md) "Anonymer Block, verwendet für zentrierte oder anders formati"
 
 ## Content Model
 

@@ -8,7 +8,7 @@ contains a list of definitions of prefixing schemes used in teidata.pointer valu
 
 ## Enthalten in
 
-**header:** [listPrefixDef](listPrefixDef.md) "contains a list of definitions of prefixing schemes used in "
+**header:** [encodingDesc](encodingDesc.md) "dokumentiert das Verhältnis zwischen dem elektronischen Text" [listPrefixDef](listPrefixDef.md) "contains a list of definitions of prefixing schemes used in "
 
 ## Kann enthalten
 

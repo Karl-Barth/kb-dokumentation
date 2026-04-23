@@ -6,6 +6,17 @@ provides references to preceding or following correspondence related to this pie
 
 **Modul:** header — Header
 
+## Enthalten in
+
+**header:** [correspDesc](correspDesc.md) "contains a description
+    of the actions related to one act"
+
+## Kann enthalten
+
+**core:** [note](note.md) "Anmerkung (Fussnote, Endnote, editorische Anmerkung). Der @t" [p](p.md) "Absatz. Darf nicht verschachtelt werden (ausser innerhalb vo" [ptr](ptr.md) "defines a pointer to another location." [ref](ref.md) "Verweis auf eine andere Ressource. Dient für Bibelstellen, L"
+
+**linking:** [ab](ab.md) "Anonymer Block, verwendet für zentrierte oder anders formati"
+
 ## Content Model
 
 ```xml

@@ -20,6 +20,21 @@ contains a structured
 :   `forwarded`
 
 
+## Enthalten in
+
+**header:** [correspDesc](correspDesc.md) "contains a description
+    of the actions related to one act"
+
+## Kann enthalten
+
+**core:** [address](address.md) "enthält eine Postadresse, z. B. eines Verlegers, einer Organ" [date](date.md) "Datumsangabe mit maschinenlesbarem Datum in @when, @from/@to" [note](note.md) "Anmerkung (Fussnote, Endnote, editorische Anmerkung). Der @t" [p](p.md) "Absatz. Darf nicht verschachtelt werden (ausser innerhalb vo" [rs](rs.md) "Referenzierende Zeichenkette für Akteure, die nicht als pers"
+
+**header:** [idno](idno.md) "Identifikator, z.B. URL oder KBA-Objektnummer."
+
+**linking:** [ab](ab.md) "Anonymer Block, verwendet für zentrierte oder anders formati"
+
+**namesdates:** [orgName](orgName.md) "Name einer Organisation mit Verweis auf die Meta-DB via @ref" [persName](persName.md) "Personenname mit Verweis auf die Meta-DB via @ref (kbga-acto" [placeName](placeName.md) "Ortsname mit Verweis auf die Meta-DB via @ref (kbga-places-I"
+
 ## Content Model
 
 ```xml

@@ -7,6 +7,10 @@ gruppiert Informationen über Art oder Thematik eines Textes unter
 
 **Modul:** header — Header
 
+## Enthalten in
+
+**header:** [profileDesc](profileDesc.md) "enthält eine detaillierte Beschreibung der nicht-bibliografi"
+
 ## Kann enthalten
 
 **header:** [keywords](keywords.md) "enthält eine Zusammenstellung von Schlagwörtern oder Phrasen"

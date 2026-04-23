@@ -9,6 +9,15 @@ Obwohl durch das Inhaltsmodell erlaubt, erscheint es in den seltensten Fällen s
 
 **Modul:** header — Header
 
+## Enthalten in
+
+**header:** [teiHeader](teiHeader.md) "wird aus der Meta- und Registerdatenbank erzeugt und soll im"
+
+## Kann enthalten
+
+**header:** [correspDesc](correspDesc.md) "contains a description
+    of the actions related to one act" [creation](creation.md) "beinhaltet Informationen zur Entstehung eines Textes." [langUsage](langUsage.md) "beschreibt Sprachen, Subsprachen, Register, Dialekte usw., d" [textClass](textClass.md) "gruppiert Informationen über Art oder Thematik eines Textes "
+
 ## Content Model
 
 ```xml
