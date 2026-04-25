@@ -1,6 +1,6 @@
 # `<hi>` hervorgehoben
 
-Hervorhebung. Das @rend gibt die Art an (italic, bold, sup, sub etc.).
+Hervorhebung. Das @rend gibt die Art an (italic, bold, sup, sub etc.; top/buttom für Inline-Brueche).
 
 Siehe [Textelemente > Hervorhebungen](https://dokumentation.karl-barth.ch/textelemente/hervorhebungen/)
 
