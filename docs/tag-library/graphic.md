@@ -28,7 +28,7 @@ Siehe [Textstruktur > Bilder](https://dokumentation.karl-barth.ch/textstruktur/b
 **figures:** [cell](cell.md) "Tabellenzelle." [figure](figure.md) "Abbildung mit optionaler Beschreibung (figDesc) und Grafik (" [table](table.md) "Tabelle."
 
 **transcr:** [metamark](metamark.md) "contains or describes any kind of graphic or written signal
-" [supplied](supplied.md) "Editorische Ergaenzung. Das @source unterscheidet die Quelle"
+"
 
 ## Content Model
 

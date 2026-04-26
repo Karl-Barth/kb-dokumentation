@@ -21,7 +21,7 @@ contains a list of descriptions, each of which provides information about an ide
 **figures:** [cell](cell.md) "Tabellenzelle." [figDesc](figDesc.md) "enthält einen kurzen Beschreibungstext des Inhalts oder des " [figure](figure.md) "Abbildung mit optionaler Beschreibung (figDesc) und Grafik ("
 
 **transcr:** [metamark](metamark.md) "contains or describes any kind of graphic or written signal
-" [supplied](supplied.md) "Editorische Ergaenzung. Das @source unterscheidet die Quelle"
+"
 
 ## Kann enthalten
 

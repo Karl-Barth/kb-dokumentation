@@ -123,10 +123,6 @@ Reine Druckfehler (Buchstabendreher, falsche Schreibung) werden dagegen
 mit `<choice>/<sic>/<corr>` korrigiert — siehe
 [Korrekturen der Druckausgabe](../textelemente/korrekturen-der-druckausgabe.md).
 
-Kurze Inline-Ergänzungen im Fliesstext (einzelne Zeichen, Wörter, kurze
-Verweis-Sigeln) gehören nicht in eine Fussnote, sondern werden mit
-[`<supplied>`](../textelemente/editorische-ergaenzungen.md) ausgezeichnet.
-
 ### Auszeichnung
 
 Digitale Anmerkungen erhalten `@type="digital"`, `@resp` mit dem Kürzel der
