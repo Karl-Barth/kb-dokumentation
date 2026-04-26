@@ -38,3 +38,11 @@ In `@resp` wird das Kürzel der korrigierenden Person eingetragen.
 Fehler können zusätzlich oder alternativ mit einer digitalen Fussnote
 angemerkt werden. Siehe [Textstruktur → Anmerkungen](../textstruktur/anmerkungen.md#digitale-anmerkungen)
 (`<note type="digital">`).
+
+## Abgrenzung zu `<supplied>`
+
+`<choice>/<sic>/<corr>` ersetzt im Druck *Vorhandenes, aber Falsches*. Wenn
+im Druck *etwas fehlt* und ergänzt werden muss (z.B. ein vergessenes
+Satzzeichen oder eine vom Print-Editor in eckigen Klammern eingefügte
+Wortvervollständigung), gehört das zu
+[Editorische Ergänzungen](editorische-ergaenzungen.md) (`<supplied>`).
