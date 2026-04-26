@@ -3,7 +3,7 @@
 Dokumentation der (digitalen) Karl Barth-Gesamtausgabe
 
 ## Eigene Seiten
-- Offizielle Seite der KBGA: [https://kbga.karl-barth.ch](https://kbga.karl-barth.ch)
+- Offizielle Seite der KBGA: [https://kbga.karl-barth.ch](https://kbga.karl-barth.ch) — siehe auch [Hinweise zur digitalen Edition](https://kbga.karl-barth.ch/about)
 - Aktueller Stand der Arbeiten ist auf der Pilotversion der KBGA einzusehen (öffentlich, aber nicht bekanntgegeben): [https://kbga-pilot.karl-barth.ch](https://kbga-pilot.karl-barth.ch)
 - Anntotationstool: [https://annotationen.karl-barth.ch](https://annotationen.karl-barth.ch)
 - Datenbank für Register und Metadaten: [https://meta.karl-barth.ch](https://meta.karl-barth.ch)
