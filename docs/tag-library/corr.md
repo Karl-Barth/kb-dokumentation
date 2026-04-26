@@ -33,7 +33,7 @@ Siehe [Textelemente > Korrektionen Der Druckausgabe](https://dokumentation.karl-
 **figures:** [cell](cell.md) "Tabellenzelle."
 
 **transcr:** [metamark](metamark.md) "contains or describes any kind of graphic or written signal
-"
+" [supplied](supplied.md) "Editorische Ergaenzung. Das @source unterscheidet die Quelle"
 
 ## Kann enthalten
 
@@ -51,7 +51,7 @@ Beliebiger Textinhalt
 **figures:** [figure](figure.md) "Abbildung mit optionaler Beschreibung (figDesc) und Grafik (" [table](table.md) "Tabelle."
 
 **transcr:** [metamark](metamark.md) "contains or describes any kind of graphic or written signal
-"
+" [supplied](supplied.md) "Editorische Ergaenzung. Das @source unterscheidet die Quelle"
 
 **analysis:** [span](span.md) "associates an interpretative annotation directly with a span"
 

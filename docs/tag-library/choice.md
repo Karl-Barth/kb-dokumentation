@@ -23,7 +23,7 @@ Siehe [Textelemente > Korrektionen Der Druckausgabe](https://dokumentation.karl-
 **figures:** [cell](cell.md) "Tabellenzelle." [figDesc](figDesc.md) "enthält einen kurzen Beschreibungstext des Inhalts oder des "
 
 **transcr:** [metamark](metamark.md) "contains or describes any kind of graphic or written signal
-"
+" [supplied](supplied.md) "Editorische Ergaenzung. Das @source unterscheidet die Quelle"
 
 **analysis:** [span](span.md) "associates an interpretative annotation directly with a span"
 
@@ -32,6 +32,8 @@ Siehe [Textelemente > Korrektionen Der Druckausgabe](https://dokumentation.karl-
 **core:** [abbr](abbr.md) "Abkürzung mit Verweis auf das Abkürzungsverzeichnis via @ref" [choice](choice.md) "Gruppiert sic/corr-Paare für Korrekturen der Druckausgabe." [corr](corr.md) "Korrektur eines Fehlers in der Druckausgabe. Der @type unter" [sic](sic.md) "Markiert die fehlerhafte Stelle in der Druckausgabe (innerha"
 
 **linking:** [seg](seg.md) "Segment. Verwendet für nicht-Entitäten, Verse, Biogramme, He"
+
+**transcr:** [supplied](supplied.md) "Editorische Ergaenzung. Das @source unterscheidet die Quelle"
 
 ## Beispiele
 

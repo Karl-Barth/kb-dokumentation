@@ -36,7 +36,7 @@ Siehe [Textelemente > Orte](https://dokumentation.karl-barth.ch/textelemente/ort
 **figures:** [cell](cell.md) "Tabellenzelle." [figDesc](figDesc.md) "enthält einen kurzen Beschreibungstext des Inhalts oder des "
 
 **transcr:** [metamark](metamark.md) "contains or describes any kind of graphic or written signal
-"
+" [supplied](supplied.md) "Editorische Ergaenzung. Das @source unterscheidet die Quelle"
 
 **analysis:** [span](span.md) "associates an interpretative annotation directly with a span"
 
@@ -56,7 +56,7 @@ Beliebiger Textinhalt
 **figures:** [figure](figure.md) "Abbildung mit optionaler Beschreibung (figDesc) und Grafik ("
 
 **transcr:** [metamark](metamark.md) "contains or describes any kind of graphic or written signal
-"
+" [supplied](supplied.md) "Editorische Ergaenzung. Das @source unterscheidet die Quelle"
 
 **analysis:** [span](span.md) "associates an interpretative annotation directly with a span"
 

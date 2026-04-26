@@ -1,36 +1,26 @@
-# `<seg>` arbiträres Segment
+# `<supplied>`
 
-Segment. Verwendet für nicht-Entitäten, Verse, Biogramme, Hervorhebungen und Übersetzungen.
+Editorische Ergaenzung. Das @source unterscheidet die Quelle (#pga = gedruckte Gesamtausgabe, #dig = digitale Edition); bei #dig nennt @resp die verantwortliche Person.
 
-Das seg-Element kann nach Gutdünken verwendet werden, um jegliches Textsegment, welches
-      für eine Weiterverarbeitung relevant sein könnte, auszuzeichnen. Eine Anwendung des Elements ist
-      die Auszeichnung von Textmerkmalen, für welche sonst kein dediziertes Markup verfügbar ist. Ein
-      anderer Anwendungsfall ist, einen Identifikator für ein Textsegment anzubieten, um von anderen
-      Elementen auf dieses Segment verweisen zu können, z. B. um ein Ziel für einen ptr oder
-      ein ähnliches Element zur Verfügung zu stellen.
+[TEI Guidelines: supplied](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-supplied.html)
 
-[TEI Guidelines: seg](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-seg.html)
-
-**Modul:** linking — Linking
+**Modul:** transcr — Transkription
 
 ## Attribute
 
-**@corresp** (optional)
+**@source** (optional, geschlossene Werteliste)
+:   `#pga` — aus der gedruckten Karl Barth-Gesamtausgabe
+:   `#dig` — aus der digitalen Edition
 
-**@n** (optional)
-
-**@type** (optional)
-
-**@xml:id** (optional)
-
-**@xml:lang** (optional)
+**@reason** (optional)
+:   Datentyp: teidata.enumerated
 
 
 ## Enthalten in
 
 **textstructure:** [closer](closer.md) "Schlussformel eines Briefes (Gruss, Unterschrift, Datum)." [dateline](dateline.md) "enthält kurze Angaben zu Entstehungsort, -datum, -zeit, usw." [docDate](docDate.md) "enthält die Datierung des Dokuments, wie auf der Titelseite " [opener](opener.md) "fasst Datumszeile, Verfasserangabe, Anredeformel und ähnlich" [salute](salute.md) "enthält eine Anrede oder Grußformel, die einem Vorwort, eine" [signed](signed.md) "enthält die abschließende Grußformel o.Ä. die ein Vorwort, e"
 
-**core:** [abbr](abbr.md) "Abkürzung mit Verweis auf das Abkürzungsverzeichnis via @ref" [addrLine](addrLine.md) "enthält eine Zeile einer Postadresse." [author](author.md) "Verfasserangabe im teiHeader. Das @ref verweist auf die Pers" [bibl](bibl.md) "Bibliographische Angabe. Unterscheidet zwischen gedruckter G" [biblScope](biblScope.md) "Umfangsangabe innerhalb einer bibliographischen Referenz (Se" [choice](choice.md) "Gruppiert sic/corr-Paare für Korrekturen der Druckausgabe." [corr](corr.md) "Korrektur eines Fehlers in der Druckausgabe. Der @type unter" [date](date.md) "Datumsangabe mit maschinenlesbarem Datum in @when, @from/@to" [editor](editor.md) "Herausgeberangabe in einer bibliographischen Referenz." [foreign](foreign.md) "Fremdsprachiger Text. Das @xml:lang gibt die Sprache an, @re" [head](head.md) "Überschrift einer Gliederungseinheit (div)." [hi](hi.md) "Hervorhebung. Das @rend gibt die Art an (italic, bold, sup, " [item](item.md) "enthält einen Listenpunkt." [l](l.md) "Verszeile." [note](note.md) "Anmerkung (Fussnote, Endnote, editorische Anmerkung). Der @t" [p](p.md) "Absatz. Darf nicht verschachtelt werden (ausser innerhalb vo" [pubPlace](pubPlace.md) "enthält den Namen des Orts, an dem ein bibliografisches Obje" [publisher](publisher.md) "gibt den Namen der Organisation an, die für die Veröffentlic" [q](q.md) "Direkte Rede oder Zitat im Fliesstext." [quote](quote.md) "Zitat innerhalb des Textes." [ref](ref.md) "Verweis auf eine andere Ressource. Dient für Bibelstellen, L" [rs](rs.md) "Referenzierende Zeichenkette für Akteure, die nicht als pers" [sic](sic.md) "Markiert die fehlerhafte Stelle in der Druckausgabe (innerha" [speaker](speaker.md) "enthält eine spezielle Form von Überschrift oder Bezeichnung" [stage](stage.md) "enthält jegliche Regieanweisung in einem Dramentext oder -fr" [term](term.md) "Sachbegriff mit Verweis auf die Begriffs-Taxonomie via @ref " [title](title.md) "Titel mit verschiedenen Funktionen, unterschieden durch @typ"
+**core:** [abbr](abbr.md) "Abkürzung mit Verweis auf das Abkürzungsverzeichnis via @ref" [addrLine](addrLine.md) "enthält eine Zeile einer Postadresse." [author](author.md) "Verfasserangabe im teiHeader. Das @ref verweist auf die Pers" [bibl](bibl.md) "Bibliographische Angabe. Unterscheidet zwischen gedruckter G" [biblScope](biblScope.md) "Umfangsangabe innerhalb einer bibliographischen Referenz (Se" [choice](choice.md) "Gruppiert sic/corr-Paare für Korrekturen der Druckausgabe." [corr](corr.md) "Korrektur eines Fehlers in der Druckausgabe. Der @type unter" [date](date.md) "Datumsangabe mit maschinenlesbarem Datum in @when, @from/@to" [editor](editor.md) "Herausgeberangabe in einer bibliographischen Referenz." [foreign](foreign.md) "Fremdsprachiger Text. Das @xml:lang gibt die Sprache an, @re" [head](head.md) "Überschrift einer Gliederungseinheit (div)." [hi](hi.md) "Hervorhebung. Das @rend gibt die Art an (italic, bold, sup, " [item](item.md) "enthält einen Listenpunkt." [l](l.md) "Verszeile." [lg](lg.md) "Strophe oder Versgruppe." [note](note.md) "Anmerkung (Fussnote, Endnote, editorische Anmerkung). Der @t" [p](p.md) "Absatz. Darf nicht verschachtelt werden (ausser innerhalb vo" [pubPlace](pubPlace.md) "enthält den Namen des Orts, an dem ein bibliografisches Obje" [publisher](publisher.md) "gibt den Namen der Organisation an, die für die Veröffentlic" [q](q.md) "Direkte Rede oder Zitat im Fliesstext." [quote](quote.md) "Zitat innerhalb des Textes." [ref](ref.md) "Verweis auf eine andere Ressource. Dient für Bibelstellen, L" [rs](rs.md) "Referenzierende Zeichenkette für Akteure, die nicht als pers" [sic](sic.md) "Markiert die fehlerhafte Stelle in der Druckausgabe (innerha" [speaker](speaker.md) "enthält eine spezielle Form von Überschrift oder Bezeichnung" [stage](stage.md) "enthält jegliche Regieanweisung in einem Dramentext oder -fr" [term](term.md) "Sachbegriff mit Verweis auf die Begriffs-Taxonomie via @ref " [title](title.md) "Titel mit verschiedenen Funktionen, unterschieden durch @typ"
 
 **header:** [change](change.md) "Änderungsvermerk in der revisionDesc. Enthält Zeitstempel de" [edition](edition.md) "beschreibt die Details einer Ausgabe eines Textes." [licence](licence.md) "beinhaltet für den Text gültige Lizenzinformationen oder and"
 
@@ -62,6 +52,14 @@ Beliebiger Textinhalt
 " [supplied](supplied.md) "Editorische Ergaenzung. Das @source unterscheidet die Quelle"
 
 **analysis:** [span](span.md) "associates an interpretative annotation directly with a span"
+
+## Constraints
+
+**supplied1**
+:   supplied1: supplied muss @source tragen (#pga oder #dig).
+
+**supplied2**
+:   supplied2: supplied[@source='#dig'] muss @resp tragen.
 
 ## Content Model
 
