@@ -2,7 +2,7 @@
 
 Markiert die fehlerhafte Stelle in der Druckausgabe (innerhalb von choice/sic/corr). Das @ed gibt die Ausgabe an (typisch: pga).
 
-Siehe [Textelemente > Korrektionen Der Druckausgabe](https://dokumentation.karl-barth.ch/textelemente/korrektionen-der-druckausgabe/)
+Siehe [Textelemente > Korrekturen Der Druckausgabe](https://dokumentation.karl-barth.ch/textelemente/korrekturen-der-druckausgabe/)
 
 [TEI Guidelines: sic](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-sic.html)
 

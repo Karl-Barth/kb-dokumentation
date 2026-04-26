@@ -2,7 +2,7 @@
 
 Korrektur eines Fehlers in der Druckausgabe. Der @type unterscheidet inhaltliche Korrekturen (corr), Druckfehler (misprint) und veraltete Angaben (update).
 
-Siehe [Textelemente > Korrektionen Der Druckausgabe](https://dokumentation.karl-barth.ch/textelemente/korrektionen-der-druckausgabe/)
+Siehe [Textelemente > Korrekturen Der Druckausgabe](https://dokumentation.karl-barth.ch/textelemente/korrekturen-der-druckausgabe/)
 
 [TEI Guidelines: corr](https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-corr.html)
 
