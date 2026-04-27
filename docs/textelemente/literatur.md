@@ -58,6 +58,12 @@ Querverweise auf andere Fussnoten, die nur der Auflösung zitierter Literatur
 dienen, werden nicht eigens ausgezeichnet. Innerhalb von `<bibl>` erscheinen
 keine Pop-ups (Ausnahme: `<ref>` auf andere Stellen in der Gesamtausgabe).
 
+**Bibelstellen** im Werktitel oder in einem Klammer-Zusatz innerhalb `<bibl>`
+werden **nicht** mit `<ref type="can" subtype="bible">` ausgezeichnet — der
+Eintrag wird über die Literatur-Datenbank verlinkt, ein zusätzliches
+Bibel-Pop-up würde den Lesefluss stören. Vgl.
+[Bibelstellen](bibelstellen.md#nicht-innerhalb-bibl).
+
 ## Autor in `<bibl>`
 
 Der Autor wird mit `<persName>` ausgezeichnet und in die Datenbank aufgenommen,

@@ -44,20 +44,29 @@ mit einem Punkt an die Abkürzung angehängt:
 Bezeichnet die Angabe mehr als einen Vers, enthält `@target` den **ersten**
 und den **letzten** Vers des Bereichs, getrennt durch ein Leerzeichen.
 
-### `f.` — zwei aufeinanderfolgende Verse
+### `f.` — Editor: Folgevers; Barth: Perikope
 
-Die Angabe "Lk. 15,22f." meint Vers 22 und 23. Im `@target` werden beide
-Verse notiert:
+Die Bedeutung von `f.` hängt davon ab, wer die Bibelstelle eingefügt hat —
+das lässt sich an den Klammern erkennen:
+
+| Schreibweise | Urheber | Bedeutung | `@target` |
+|---|---|---|---|
+| `[Lk. 15,22f.]` in eckigen Klammern | Editor | Vers 22 und 23 | `Lk.15.22 Lk.15.23` |
+| sonst (`(Lk. 15,22f.)` oder ohne Klammern) | Barth | Perikope ab Vers 22 | letzter Vers der Perikope (manuell nachgeschlagen) |
 
 ```xml
-<ref type="can" subtype="bible" target="Röm.12.1 Röm.12.2">Röm. 12,1f.</ref>
+<!-- Editor-Ergänzung: Folgevers -->
+[vgl. <ref type="can" subtype="bible" target="Lk.15.22 Lk.15.23">Lk. 15,22f.</ref>]
+
+<!-- Barth: Perikope (Endvers nachgeschlagen) -->
+(<ref type="can" subtype="bible" target="Röm.12.1 Röm.12.8">Röm. 12,1f.</ref>)
 ```
 
 ### `ff.` — bis zum Ende der Perikope
 
-Die Angabe "Lk. 10,30ff." meint die ganze Perikope ab Vers 30. Für `@target`
-wird der **letzte Vers der Perikope** gesucht; der Bibeltext öffnet sich im
-Pop-up dann im angegebenen Bereich.
+Die Angabe "Lk. 10,30ff." meint die ganze Perikope ab Vers 30, unabhängig
+vom Klammer-Kontext. Für `@target` wird der **letzte Vers der Perikope**
+gesucht; der Bibeltext öffnet sich im Pop-up dann im angegebenen Bereich.
 
 ```xml
 <ref type="can" subtype="bible" target="Lk.10.30 Lk.10.37">Lk. 10,30ff.</ref>
@@ -115,6 +124,21 @@ bleibt die Abkürzung bestehen:
 
 ```xml
 <ref type="can" subtype="bible" target="Lk.1.53">Lukas 1,53</ref>
+```
+
+## Nicht innerhalb `<bibl>`
+
+Bibelstellen werden **nicht** innerhalb einer Literaturangabe (`<bibl>`)
+ausgezeichnet — auch wenn der Werktitel oder ein Klammer-Zusatz eine
+Bibelstelle nennt. Der zugehörige Eintrag wird über die
+Literatur-Datenbank verlinkt; ein zusätzliches Bibel-Pop-up würde den
+Lesefluss stören. Vgl. [Literatur](literatur.md).
+
+```xml
+<!-- richtig: keine <ref>-Auszeichnung der Bibelstelle im Titel -->
+<bibl corresp="kbga-bibls-2050">
+  Eine akademische Vorlesung über 1.Kor. 15
+</bibl>
 ```
 
 ## Bibel-Quelle
