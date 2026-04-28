@@ -109,19 +109,30 @@ Beispiel: Die 7. Sterchen-Fussnote in einem Text:
 ## Digitale Anmerkungen
 
 Digitale Anmerkungen kommen nur in der digitalen Edition vor. Sie sind
-äusserst sparsam einzusetzen und dienen zwei Zwecken:
+äusserst sparsam einzusetzen und dienen drei Zwecken:
 
-- **Inhaltliche Korrektur**, bei der der Originaltext sichtbar bleiben soll.
+- **Sachlicher Irrtum**, bei dem der Originaltext sichtbar bleiben soll.
   Beispiel: Der Autor schreibt "Gregor VI.", meint aber Gregor VII. — das
-  ist kein blosser Druckfehler, sondern ein sachlicher Irrtum, der im
-  Original erkennbar bleiben und in einer Fussnote kommentiert werden soll.
-- **Nachträgliche Ergänzung**, z.B. ein Querverweis auf eine andere Stelle
-  der Gesamtausgabe, der bei der Drucklegung noch nicht existierte.
+  ist kein blosser Druckfehler, sondern ein Irrtum, der im Original
+  erkennbar bleiben und in einer Fussnote kommentiert werden soll.
+- **Nachträglicher Querverweis** auf eine Stelle der Gesamtausgabe, der
+  bei der Drucklegung noch nicht existierte (`<ref type="pub-">`).
+- **Verlinkung in den KBA-Bestand**, wenn im Drucktext kein passender
+  Anker steht oder mehrere Bezugsobjekte zusammengefasst werden müssen
+  (`<ref type="kba-objects-id">`, bzw. `<ref type="pub">` für bereits in
+  der KBGA publizierte Texte).
 
-Reine Druckfehler (Buchstabendreher, falsche Schreibung) werden dagegen
+### Welcher Mechanismus wofür?
+
+| Zweck | Auszeichnung |
+|---|---|
+| Druckfehler korrigieren (Original sichtbar) | [`<choice>/<sic>/<corr>`](../textelemente/korrekturen-der-druckausgabe.md) |
+| Sachlicher Irrtum, nachträglicher Verweis, mehrere Refs an einem Anker, KBA-Verlinkung | `<note type="digital">` |
+| Wortvervollständigungen aus dem Print (`Neutralitaet[en]`) | [`<choice>/<sic>/<corr>`](../textelemente/korrekturen-der-druckausgabe.md) |
+
+Reine Druckfehler (Buchstabendreher, falsche Schreibung) werden also
 **nicht** mit digitalen Anmerkungen kommentiert, sondern stillschweigend
-mit `<choice>/<sic>/<corr>` korrigiert — siehe
-[Korrekturen der Druckausgabe](../textelemente/korrekturen-der-druckausgabe.md).
+mit `<choice>/<sic>/<corr>` korrigiert.
 
 ### Auszeichnung
 
@@ -148,6 +159,30 @@ Digitale Anmerkungen können auch innerhalb einer bestehenden Fussnote stehen
   </note>
 </note>
 ```
+
+### Mehrere Verweise an einem Anker
+
+Hängen an einer Textstelle mehrere Bezugsobjekte (mehrere Briefe, mehrere
+Predigten), wird **eine** digitale Fussnote mit einer Liste der Refs
+gesetzt — nicht mehrere Inline-Links. Das hält die Lesefassung ruhig und
+trennt sichtbar Drucktext und digitale Ergänzung.
+
+```xml
+…schicke dir hier unerbetenerweise die drei Predigten<note 
+    resp="sm" type="digital" xml:id="nα" n="α">
+  <ref type="pub" target="27036">1. Predigt</ref>: 2. Mose 17,8–15 (I) 
+  vom 29.8.1915; 
+  <ref type="pub" target="27037">2. Predigt</ref>: 2. Mose 17,8–15 (II) 
+  vom 5.9.1915; 
+  <ref type="pub" target="27038">3. Predigt</ref>: 2. Mose 17,8–15 (III) 
+  vom 12.9.1915
+</note> über <persName ref="kbga-actors-2228">Mose</persName>.
+```
+
+Für noch nicht in der KBGA publizierte Briefe wird statt `<ref type="pub">`
+der Verweis ins Archiv mit `<ref type="kba-objects-id" target="…">` gesetzt;
+als Linktext eignet sich die KBA-Signatur oder eine kurze Sigle ("Brief",
+"Taschenkalender").
 
 ## Fussnoten für mehrere Textstellen (`<ptr>`)
 
