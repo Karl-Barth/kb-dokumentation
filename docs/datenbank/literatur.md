@@ -142,8 +142,27 @@ Als Resource wird der Wikipedia-Eintrag zum Film. Falls dieser nicht verfügbar 
 
 ## Archivbestände und Archivquellen
 
-Archive und Archivbestände können in in der Literaturdatenbank erfasst werden (Type: Archivbestand). Bei Beständen, die für die Edition besonders relevant sind (z.B. Nachlässe aus dem Umkreis Barths) wird der einzelne Bestand inkl. Signatur erfasst, ansonsten nur das Archiv.
+Archivbestände werden in der Literaturdatenbank erfasst (Typ: `Archivbestand`).
+Aufgenommen werden **alle in der Edition zitierten Archivbestände**, nicht
+nur Nachlässe aus dem Umkreis Barths.
 
+Erfassung erfolgt **auf Bestandsebene**, also pro Nachlass / Sammlung /
+Tektonikgruppe — nicht pro einzelnem Archivobjekt. Bestandsebene meint
+das, was im Archiv als geschlossene Überlieferungseinheit geführt wird;
+Aktennummern, Faszikelnummern oder Akzessionsangaben innerhalb dieses
+Bestands gehören nicht in die DB.
+
+Beispiele:
+
+| Stücksignatur (im Text / als KBA-Verweis) | Bestand (in der Lit-DB) |
+|---|---|
+| StA Marburg A 3a/307a, acc. 1962/12 | Hessisches Staatsarchiv Marburg, Bestand A 3a |
+| Universitätsarchiv VIII 5, 3 Schmidt, Karl Ludwig | Staatsarchiv Basel-Stadt, Universitätsarchiv VIII 5 |
+| (ganzer Nachlass) | Bultmann-Nachlaß, UB Tübingen |
+
+Verweise auf einzelne Archivobjekte laufen über die KBA-Verknüpfung mit
+`<ref type="kba-objects-id">`, siehe
+[Anmerkungen → Digitale Anmerkungen](../textstruktur/anmerkungen.md#digitale-anmerkungen).
 
 | Bezeichnung in der DB | Kommentar |
 |-----------------------|-----------|
@@ -152,4 +171,4 @@ Archive und Archivbestände können in in der Literaturdatenbank erfasst werden 
 | Titel | Titel im Archiv |
 | Archiv | Name des Archivs |
 | URL | Link auf den Bestand oder das Archiv |
-| Signatur | Archivsignatur |
+| Signatur | Bestandssignatur (nicht Stück-/Aktensignatur) |
