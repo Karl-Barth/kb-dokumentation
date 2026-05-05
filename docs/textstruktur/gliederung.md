@@ -12,7 +12,7 @@ Wir benutzen `<div>` aber auch, um die einzelnen Genre, die verschieden dargeste
 | ------ | ------ | ------ |
 | `<div type="paper">`| Vorträge und kleinere Arbeiten  |mit jedem `div` innerhalb eines Files wird online eine neue "nächste Seite" erstellt|
 | `<div type="letter">`|Brief|jedes File hat online eine eigene Seite|
-| `<div type="sermon">`|Predigt|jedes File hat online eine eigene Seite, hier werden weitere div`s zur Textstrukturierung eingesetzt - siehe  [Predigten](sermon)|
+| `<div type="sermon">`|Predigt|jedes File hat online eine eigene Seite, hier werden weitere div`s zur Textstrukturierung eingesetzt - siehe  [Predigten](../textsorten/predigten.md)|
 |`<div type="chapter">`|Vorlesungsreihen|die einzelnen Kapitel einer Vorlesung. Mit jedem `div` innerhalb eines Files wird online eine neue "nächste Seite" erstellt|
 
 ## Die Unterscheidung von Texttypen innerhalb eines Buches oder auch Kapitels

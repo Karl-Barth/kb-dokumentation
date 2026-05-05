@@ -81,7 +81,7 @@ eingerückt:
 
 Die Bibelstelle und das Zitat stehen in `<epigraph><cit>`. Der Buchname
 wird **ausgeschrieben** (z.B. "Matthäus" statt "Mt."). Siehe auch
-[Textelemente → Bibelstellen](../textelemente/bibelstellen.md#epigraph--buchnamen-ausschreiben).
+[Textelemente → Bibelstellen](../textelemente/bibelstellen.md#epigraph-buchnamen-ausschreiben).
 
 ```xml
 <epigraph>

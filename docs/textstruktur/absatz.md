@@ -5,7 +5,7 @@ Das `<p>` (paragraph) steht für Absatz.
 ## Kursive Darstellung in Einleitungen
 Die kursive Darstellung des Textes wird über das den Text umschließende `<div>` festgelegt. In `<p @rend>` werden Abweichungen festgehalten werden. Ziel ist es, möglichst wenig CSS im TEI einzutragen.
 
-Siehe auch [Kapitel](/textstrutur/gliederung) 
+Siehe auch [Kapitel](gliederung.md) 
 
 ## Formatierung mit `@rend`
 Wir benutzen das Attribut `rend`, um die verschiedenen Darstellungen im Buch nachzubilden:

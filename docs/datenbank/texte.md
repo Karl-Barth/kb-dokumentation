@@ -2,7 +2,7 @@
 
 ## Vorlagen
 
-Vorlagen der Edition werden in der Datenbank mit den Texte verknüpft. Die Vorlagen werden beim Export der Daten in den TeiHeader in die `<sourceDesc>` geschrieben und können dann in dien [textkritischen Fussnoten](/textstruktur/anmerkungen/#verweis-auf-vorlagen) referenziert werden.
+Vorlagen der Edition werden in der Datenbank mit den Texte verknüpft. Die Vorlagen werden beim Export der Daten in den TeiHeader in die `<sourceDesc>` geschrieben und können dann in dien [textkritischen Fussnoten](../textstruktur/anmerkungen.md#verweis-auf-vorlagen) referenziert werden.
 
 Bei Drucken wird die Vorlage zuerst in der Literaturdatenbank erfasst. Und anschliessend mit dem Text verknüpft. Ansonsten werden die Vorlagen aus dem Karl Barth-Archiv verknüpft.
 
