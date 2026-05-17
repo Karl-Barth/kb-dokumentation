@@ -39,6 +39,33 @@ mit einem Punkt an die Abkürzung angehängt:
 <ref type="can" subtype="bible" target="1.Kor.8.6">1.Kor. 8,6</ref>
 ```
 
+### Einkapitel-Bücher
+
+Sechs Bücher der Lutherbibel 1912 haben nur ein Kapitel:
+
+| Abkürzung | Buch |
+|---|---|
+| `Obd` | Obadja |
+| `Phlm` | Philemon |
+| `2.Joh` | 2. Johannesbrief |
+| `3.Joh` | 3. Johannesbrief |
+| `Jud` | Judasbrief |
+| `Geb.Man` | Gebet Manasses (Apokryphen) |
+
+Sie werden im Anzeigetext oft ohne Kapitelangabe zitiert ("Jud. 9",
+"2.Joh. 7"). Im `@target` muss aber **immer** ein Pseudo-Kapitel `1`
+zwischen Buch und Vers stehen, weil der Bibeltext-Pop-up sonst nicht
+aufgelöst werden kann:
+
+```xml
+<!-- richtig -->
+<ref type="can" subtype="bible" target="Jud.1.9">Jud. 9</ref>
+<ref type="can" subtype="bible" target="2.Joh.1.7">2.Joh. 7</ref>
+
+<!-- falsch — Pop-up rendert als "Verse reference not found" -->
+<ref type="can" subtype="bible" target="Jud.9">Jud. 9</ref>
+```
+
 ## Versbereiche und Wiederholungen
 
 Bezeichnet die Angabe mehr als einen Vers, enthält `@target` den **ersten**
