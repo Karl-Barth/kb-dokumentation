@@ -48,6 +48,16 @@ XML minimal:
 - die Autor-ID: `<persName ref="kbga-actors-NNNN">`, bei Autoren, die ins gedruckte Register gehen
 - Kursivierungen der Darstellung: `<hi rend="i">` für kursiv darzustellende Titel, `<hi rend="sup">` für hochgestellte Auflagezahlen
 
+!!! note "`<title>` nicht innerhalb `<bibl>` im Haupttext"
+    Werktitel werden in `<bibl>` **nicht** mit `<title>` ausgezeichnet:
+    der bibliografische Eintrag steht vollständig in der Literatur-
+    Datenbank, im XML genügt die Darstellungs-Auszeichnung als
+    `<hi rend="i">`. Selbstständige Werktitel und Aufsätze werden kursiv
+    gesetzt (`<hi rend="i">`), Reihen- und unpublizierte Titel bleiben
+    plain text. Das Schema warnt mit `strict-B1`, falls in einem
+    edierten Band noch ein `<title>` in einem `<bibl>` im Haupttext
+    steht.
+
 Zwischen Erscheinungsjahr und Auflagezahl steht kein Leerzeichen:
 `1849<hi rend="sup">3</hi>`.
 

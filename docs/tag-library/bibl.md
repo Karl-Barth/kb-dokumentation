@@ -82,6 +82,18 @@ Beliebiger Textinhalt
 **song2**
 :   song2: bibl[@type='song'] darf keinen @subtype enthalten.
 
+**strict-A2-no-bible-refs-in-bibl**
+:   strict-A2: bibl im body darf keine ref[@type='can' and @subtype='bible'] enthalten — der Anzeigetext bleibt, die Pop-up-Verlinkung entfällt (Beschluss 2026-04-27).
+
+**strict-A3-no-bare-ref-can-in-bibl**
+:   strict-A3: bibl im body darf keine ref[@type='can'] ohne @subtype enthalten — der Container ohne Klassifikation ist reine Altauszeichnung, der Anzeigetext (mit ggf. nested hi/title) bleibt erhalten.
+
+**strict-A4-no-bare-title-in-bibl**
+:   strict-A4: bibl im body darf keinen title ohne Attribute enthalten — Altauszeichnung fuer Abkuerzungen (a.a.O., Zeitschriften-Sigel) ist auszupacken (Beschluss 2026-04-27, Issue 1644).
+
+**strict-B1-no-title-in-bibl**
+:   strict-B1 (Warnung): bibl im body sollte keinen title enthalten — Werktitel als hi rend="i" (B1), Reihen/Unpubliziert als plain text (B2). Diese Warnung wird nach Klärung der 4 Skip-Fälle aus Issue 1657 zu assert hochgestuft (Beschluss 2026-05-17, Issues 1618/1657).
+
 ## Beispiele
 
 ```xml
