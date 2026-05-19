@@ -1,6 +1,6 @@
 # `<hi>` hervorgehoben
 
-Hervorhebung. Das @rend gibt die Art an (italic, bold, sup, sub etc.; top/buttom für Inline-Brueche).
+Hervorhebung. Das @rend gibt die Art an (italic, bold, sup, sub, text-recte, text-small, sans-serif, smallCaps, spaced, underline, small, right, center, double-underline, underlined-later, top, buttom). Mehrere Werte mit Leerzeichen trennen.
 
 Siehe [Textelemente > Hervorhebungen](https://dokumentation.karl-barth.ch/textelemente/hervorhebungen/)
 
@@ -55,6 +55,11 @@ Beliebiger Textinhalt
 "
 
 **analysis:** [span](span.md) "associates an interpretative annotation directly with a span"
+
+## Constraints
+
+**hi-rend-whitelist**
+:   hi-rend-whitelist: hi/@rend="" enthaelt ein nicht-dokumentiertes Token. Erlaubt: italic, bold, sup, sub, text-recte, text-small, sans-serif, smallCaps, spaced, underline, small, right, center, double-underline, underlined-later, top, buttom (Mehrere mit Leerzeichen trennen). Issue #1622.
 
 ## Content Model
 

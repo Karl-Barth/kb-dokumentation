@@ -92,7 +92,7 @@ Beliebiger Textinhalt
 :   strict-A4: bibl im body darf keinen title ohne Attribute enthalten — Altauszeichnung fuer Abkuerzungen (a.a.O., Zeitschriften-Sigel) ist auszupacken (Beschluss 2026-04-27, Issue 1644).
 
 **strict-B1-no-title-in-bibl**
-:   strict-B1: bibl im body darf keinen title enthalten — Werktitel als hi rend="i" (B1), Reihen/Unpubliziert als plain text (B2). Beschluss 2026-05-17, Issues 1618/1657.
+:   strict-B1: bibl im body darf keinen title enthalten — Werktitel als hi rend="italic" (B1), Reihen/Unpubliziert als plain text (B2). Beschluss 2026-05-17, Issues 1618/1657.
 
 ## Beispiele
 
