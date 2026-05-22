@@ -18,7 +18,7 @@ Eines der wenigen Elemente, die verpflichtend für ein valides TEI-Dokument sind
 
 ## Constraints
 
-**header-full-citation**
+**strict-header-full-citation**
 :   header-full: titleStmt sollte title[@type='citation_line_1'] enthalten (Phase full).
 
 ## Beispiele

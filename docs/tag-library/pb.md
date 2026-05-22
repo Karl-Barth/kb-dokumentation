@@ -57,7 +57,7 @@ Leeres Element.
 **pb3**
 :   pb3: Attribut @n in pb[@ed='pga'] beginnt mit 'p'.
 
-**pb4**
+**strict-pb4**
 :   pb4: Ein pb muss innerhalb eines Absatzes stehen oder das erste Kind eines div sein.
 
 **pb5**
