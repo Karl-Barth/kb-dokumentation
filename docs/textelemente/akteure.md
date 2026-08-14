@@ -31,6 +31,18 @@ Personen werden ausgezeichnet, wenn sie im Haupttext oder in den
 Originalfussnoten genannt sind. Erscheint der vollständige Name, wird mit
 **Vor- und Zuname** ausgezeichnet.
 
+Die Auszeichnung umfasst stets den **vollen Namensausdruck**, einschliesslich
+abgekürzter Vornamen bzw. Initialen — also der gesamte Name, nicht nur der
+Zuname:
+
+```xml
+<persName ref="kbga-actors-35">J. T. Beck</persName>
+```
+
+Akademische oder höfliche Titel unmittelbar vor dem Namen (`D.`, `Dr.`, `Prof.`)
+gehören **nicht** in die Auszeichnung (siehe Ausnahmen unten); abgekürzte
+Vornamen hingegen schon.
+
 Innerhalb eines Absatzes wird eine Person mindestens einmal getaggt. Bei
 sehr langen oder sehr kurzen Absätzen wird davon abgewichen.
 
