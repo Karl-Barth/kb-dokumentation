@@ -89,22 +89,37 @@ Bei manchen Texten gibt es so wenig Textkritik, dass diese in den Sachanmerkunge
 
 ## Originalfussnoten
 
+Originalfussnoten sind Fussnoten der Druckvorlage. Sie werden mit
+`<note type="original">` ausgezeichnet.
+
+In `@n` steht das Fussnotenzeichen so, wie es im Text erscheinen soll —
+also `*`, `*7`, `*7)` oder was der Druck sonst vorgibt.
+
+Die `@xml:id` muss **mit einem Buchstaben beginnen und darf nur Buchstaben
+und Ziffern enthalten** — kein `*`, kein Unterstrich, kein Bindestrich. Sie
+wird gebraucht, um die Originalfussnote anspringen zu können.
+
 ### Sternchen-Fussnoten
 
+Da das `*` nicht in die `@xml:id` übernommen werden kann, wird es durch das
+Präfix `s` ersetzt, gefolgt von der laufenden Nummer der Sternchen-Fussnote
+im Text.
+
+Beispiel: Die 7. Sternchen-Fussnote in einem Text:
+
 ```xml
-<note n="*" type="original">...</note>
+<note n="*7" type="original" xml:id="s7"> ...</note>
 ```
 
-Bei einfachen Sternchenfussnoten ist in der Regel keine `@xml:id` nötig.
+Der Querverweis auf eine Fussnote stellt der `@xml:id` das Präfix `fn_`
+voran:
 
-### Mehrere Sternchen-Fussnoten
-
-Sie sind im Text mit einem * gekennzeichnet, da wir kein * in der `@xml:id` verwenden können, ist dieses durch ein "_s" gekennzeichnet. 
-
-Beispiel: Die 7. Sterchen-Fussnote in einem Text:
 ```xml
-<note n="*7" type="original" xml:id="n_s7"> ...</note>
+<ref type="pub" target="#fn_s7">S. 455, Anm. *7</ref>
 ```
+
+Zum Aufbau von `@target` mit Seiten- und Bandangabe siehe
+[Querverweise](../textelemente/querverweise.md).
 
 ## Digitale Anmerkungen
 
