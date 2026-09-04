@@ -20,11 +20,11 @@ Siehe [Textelemente > Literatur](https://dokumentation.karl-barth.ch/textelement
 :   `Vorlage_der_Edition`
 :   `Weitere_Vorlage`
 :   `Material_zum_Kontext`
-:   `rkg` — Gesangsbuch der evangelisch-reformierten Kirchen der deutschsprachigen Schweiz (1952)
+:   `rkg` — Gesangbuch der evangelisch-reformierten Kirchen der deutschsprachigen Schweiz (1952)
 :   `ekg` — Deutsches Evangelisches Kirchengesangbuch (1950)
 :   `erkg` — Gesangbuch für die evangelisch-reformirte Kirche der deutschen Schweiz (1891)
-:   `eg` — Evangelisches Gesangsbuch Deutschlands (1993ff.)
-:   `rg` — Reformiertes Gesangsbuch der deutschsprachigen Schweiz (1998)
+:   `eg` — Evangelisches Gesangbuch Deutschlands (1993ff.)
+:   `rg` — Reformiertes Gesangbuch der deutschsprachigen Schweiz (1998)
 :   `reichslieder` — Reichs-Lieder. Deutsches Gemeinschafts-Liederbuch
 
 **@n** (optional)

@@ -5,27 +5,27 @@ Regeln für die TEI-Auszeichnung im Text (`<bibl type="song">`) siehe [Texteleme
 ## Ziele
 - Liste der verwendeten Lieder ausgeben (mit Vorkomen in der KBGA)
 - Die Lieder sind eindeutig identifizierbar/einheitlich ausgezeichnet
-- Nachweis wo möglich in einem möglichst aktuellem Gesangsbuch, also am besten EG (Evangelisches Gesangsbuch von 1994) oder RG (Gesangbuch der Evangelisch-reformierten Kirchen der deutschsprachigen Schweiz von 1998)
+- Nachweis wo möglich in einem möglichst aktuellem Gesangbuch, also am besten EG (Evangelisches Gesangbuch von 1994) oder RG (Gesangbuch der Evangelisch-reformierten Kirchen der deutschsprachigen Schweiz von 1998)
 
 ## Material
-- Historischer Überblick über Gesangsbücher: [ [pdf](pdfs/GBr_CH.pdf) ] <!--[https://marti3097.ch/GBr/GBr_CH.pdf](pdfs/GBr_CH.pdf)-->
+- Historischer Überblick über Gesangbücher: [ [pdf](pdfs/GBr_CH.pdf) ] <!--[https://marti3097.ch/GBr/GBr_CH.pdf](pdfs/GBr_CH.pdf)-->
 - Knapp Liederschatz Register: [ [link](https://www.digitale-sammlungen.de/de/view/bsb10593319?page=1382) ]
 - Reichslieder: [ [link](https://www.evangeliums.net/lieder/liederbuch_reichs_lieder.html) ]
 
-## Abkürzungen für die Kirchengesangsbücher
+## Abkürzungen für die Kirchengesangbücher
 
-Je länger die Abkürzung desto älter das Kirchengesangsbuch:
+Je länger die Abkürzung desto älter das Kirchengesangbuch:
 
-- __rkg__: Gesangsbuch der evangelisch-reformierten Kirchen der deutschsprachigen Schweiz (1952) Alternative Abkürzung: GERS 1952
+- __rkg__: Gesangbuch der evangelisch-reformierten Kirchen der deutschsprachigen Schweiz (1952) Alternative Abkürzung: GERS 1952
 [ [Volltext](https://archive.org/details/gesangbuchdereva00schw/page/n5/mode/2up) ]
 - __ekg__: [Deutsches Evangelisches Kirchengesangbuch](https://de.wikipedia.org/wiki/Evangelisches_Kirchengesangbuch) (1950) [ [Liste](https://www.evangeliums.net/lieder/liederbuch_evangelisches_kirchengesangbuch.html) ]
 - __erkg__: Gesangbuch für die evangelisch-reformirte Kirche der deutschen Schweiz (1891) Alternative Abkürzung: GERS 1891 [ [Volltext](https://archive.org/details/gesangbuchfurdie00unse_0/page/n5/mode/2up) ]
-- __eg__: [Evangelisches Gesangsbuch](https://de.wikipedia.org/wiki/Evangelisches_Gesangbuch) Deutschlands (1993ff.) [ [Liste](https://de.wikipedia.org/wiki/Liste_der_Kirchenlieder_im_Evangelischen_Gesangbuch) ]
+- __eg__: [Evangelisches Gesangbuch](https://de.wikipedia.org/wiki/Evangelisches_Gesangbuch) Deutschlands (1993ff.) [ [Liste](https://de.wikipedia.org/wiki/Liste_der_Kirchenlieder_im_Evangelischen_Gesangbuch) ]
 - __rg__: Reformiertes Gesangbuch der deutschsprachigen Schweiz (1998) [songtool](https://songtool.gottesdienst-ref.ch)
 - __reichslieder__: Reichs-Lieder. Deutsches Gemeinschafts-Liederbuch (1914)
 - __liederschatz__: [Knapp_Liederschatz_Register.pdf](https://www.digitale-sammlungen.de/de/view/bsb10593319?page=1382)
 
-Wenn ein Lied in keinem dieser Gesangsbücher vorkommt, wird es ohne Verweis aufgenommen (Achtung: bei Angaben regionaler Gesangsbücher).
+Wenn ein Lied in keinem dieser Gesangbücher vorkommt, wird es ohne Verweis aufgenommen (Achtung: bei Angaben regionaler Gesangbücher).
 
 ## Verwendung in einzelnen Bänden
 
