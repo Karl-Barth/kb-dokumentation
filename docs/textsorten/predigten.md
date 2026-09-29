@@ -24,6 +24,21 @@ Pro Datei wird online eine Seite dargestellt.
 
 ## Predigtkopf (`<div type="opener">`)
 
+Die Reihenfolge der Elemente im `opener` folgt dem Druck. Üblich ist
+Predigtnummer – Ort und Datum – Anlass – Bibelstelle – Ansprache (siehe
+Gesamtstruktur). In Bd. 12 steht dagegen der Titel zuerst, dann die
+Bibelstelle, dann Ort und Datum:
+
+```xml
+<div type="opener">
+  <head type="header">EUCH IST HEUTE DER HEILAND GEBOREN</head>
+  <epigraph><cit><ref>…</ref><quote>…</quote></cit></epigraph>
+  <dateline>Weihnacht <date when="1954">1954</date>, …</dateline>
+  <div type="prayer">…</div>
+  <salute>…</salute>
+</div>
+```
+
 ### Predigtnummer
 
 Nummerierung durch Karl Barth. Wird oben links in Normalschrift dargestellt:
@@ -31,6 +46,9 @@ Nummerierung durch Karl Barth. Wird oben links in Normalschrift dargestellt:
 ```xml
 <head><idno>300</idno></head>
 ```
+
+Barth hat seine Predigten nicht bis zuletzt selbst nummeriert. Fehlt die
+Nummer (z.B. in Bd. 12), entfällt das `<head><idno>`.
 
 ### Ort und Zeitpunkt (`<dateline>`)
 
@@ -92,6 +110,16 @@ wird **ausgeschrieben** (z.B. "Matthäus" statt "Mt."). Siehe auch
 </epigraph>
 ```
 
+Steht nur die Stellenangabe ohne Bibeltext, entfällt `<quote>`:
+
+```xml
+<epigraph>
+  <cit>
+    <ref type="can" subtype="bible" target="1.Joh.1.6">1.Johannes 1,6</ref>
+  </cit>
+</epigraph>
+```
+
 Bei mehreren Bibelstellen wird `<epigraph>` **wiederholt** (nicht
 mehrere `<cit>` in einem `<epigraph>`).
 
@@ -116,11 +144,13 @@ römische Ziffer in `<span><idno>`:
 
 ### Ansprache (`<salute>`)
 
-Letztes Element im `opener`:
+Letztes Element im `opener`, sofern die Predigt mit einer Anrede beginnt:
 
 ```xml
 <salute>Liebe Freunde!</salute>
 ```
+
+Fehlt die Anrede (z.B. in Bd. 39 und 44), entfällt `<salute>`.
 
 ## Predigttext (`<div type="main">`)
 
