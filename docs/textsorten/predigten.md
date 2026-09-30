@@ -66,6 +66,25 @@ muss `@when` tragen (für die Timeline). Siehe auch
 Bei mehrfach gehaltenen Predigten werden die Angaben mit `<lb/>`
 getrennt.
 
+Die Darstellung folgt dem Druck. Setzt der Druck die zweite Angabe
+abgesetzt und rechtsbündig, steht sie in einer eigenen
+`<dateline rend="right">`; ein Anlass, der im Druck zwischen den beiden
+Angaben steht, folgt als `<head type="event">` nach der ersten `dateline`
+(z.B. Bd. 53, Predigt 49):
+
+```xml
+<dateline>
+  <placeName ref="kbga-places-67">Genf</placeName>,
+  <date when="1910-09-25">Sonntag, den 25. September 1910</date>
+</dateline>
+<head type="event">(18. nach Trinitatis)</head>
+<dateline rend="right">
+  <lb/>
+  <placeName ref="kbga-places-249">Lausanne</placeName>,
+  <date when="1910-10-02">2. Oktober 1910</date>
+</dateline>
+```
+
 ### Titel (`<head type="header">`)
 
 Optionale Überschrift (z.B. Bd. 12), zentriert in Grossbuchstaben:
