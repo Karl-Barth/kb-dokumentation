@@ -1,0 +1,220 @@
+openapi: 3.0.1
+info:
+  title: Anton API
+  description: 'API Dokumentation der digitalen Karl Barth-Gesamtausgabe (Meta- und Registerdatenbank)'
+  # contact:
+  # email: info@anton.ch
+  version: 0.0.1
+servers:
+  - url: https://meta.karl-barth.ch/api
+    description: Meta- und Registerdatenbank of the digital Karl Barth-Gesamtausgabe
+tags:
+  - name: actors
+    description: Everybody who can act (person, organisation etc.). It also might include fictive persons and even angels.
+  - name: places
+    description: Places
+  - name: terms
+    description: Terms (this register is only applied for new volums 55ff.)
+  - name: bibls
+    description: Bibliographic items (books, articles etc. which are used in the Barth-Gesamtausgabe)
+  - name: songs
+    description: Songs
+  - name: songbooks
+    description: Songbooks
+  - name: cmif
+    description: CMIF (Correspondence Metadata Interchange-Format) file of all letters (eg. for correspSearch)
+paths: 
+  /actors:
+    get: 
+      tags: 
+        - actors
+      summary: Get a list of actors
+      parameters: 
+        - $ref: '#/components/parameters/searchParam'
+        - in: query
+          name: format
+          schema:
+            type: string
+            enum: [json,beacon,select2]
+          description:
+               default is `json`
+      responses:
+        200:
+          description: OK
+  /actors/{id}:
+    get:
+      tags:
+       - actors
+      summary: Get an existing actor by its ID
+      parameters:
+        - $ref: '#/components/parameters/idParam'
+      responses:
+        200:
+          description: OK
+        404:
+          description: Actor not found
+  /places:
+    get: 
+      tags: 
+        - places
+      summary: Get a list of places
+      parameters: 
+        - $ref: '#/components/parameters/searchParam'
+        - in: query
+          name: format
+          schema:
+            type: string
+            enum: [json,select2]
+          description:
+               default is `json`
+      responses:
+        200:
+          description: OK
+  /places/{id}:
+    get:
+      tags:
+       - places
+      summary: Get an existing place by its ID
+      parameters:
+        - $ref: '#/components/parameters/idParam'
+      responses:
+        200:
+          description: OK
+        404:
+          description: Place not found
+  /terms:
+    get: 
+      tags: 
+        - terms
+      summary: Get a list of terms
+      parameters: 
+        - $ref: '#/components/parameters/searchParam'
+        - in: query
+          name: format
+          schema:
+            type: string
+            enum: [json,select2]
+          description:
+               default is `json`
+      responses:
+        200:
+          description: OK
+  /terms/{id}:
+    get:
+      tags:
+       - terms
+      summary: Get an existing terms by its ID
+      parameters:
+        - $ref: '#/components/parameters/idParam'
+      responses:
+        200:
+          description: OK
+        404:
+          description: Term not found
+  /bibls:
+    get: 
+      tags: 
+        - bibls
+      summary: Get a list of bibliographic items
+      parameters: 
+        - $ref: '#/components/parameters/searchParam'
+      responses:
+        200:
+          description: OK
+  /bibls/{id}:
+    get:
+      tags:
+       - bibls
+      summary: Get an existing bibliographic item by its ID
+      parameters:
+        - $ref: '#/components/parameters/idParam'
+      responses:
+        200:
+          description: OK
+        404:
+          description: Bibliographic item not found
+  /songs:
+    get: 
+      tags: 
+        - songs
+      summary: Get a list of songs
+      parameters: 
+        - $ref: '#/components/parameters/searchParam'
+      responses:
+        200:
+          description: OK
+  /songs/{id}:
+    get:
+      tags:
+       - songs
+      summary: Get an existing song by its ID
+      parameters:
+        - $ref: '#/components/parameters/idParam'
+      responses:
+        200:
+          description: OK
+        404:
+          description: Song not found
+  /songbooks:
+    get: 
+      tags: 
+        - songbooks
+      summary: Get a list of songs
+      parameters: 
+        - $ref: '#/components/parameters/searchParam'
+        - in: query
+          name: format
+          schema:
+            type: string
+            enum: [json,select2]
+          description:
+               default is `json`
+      responses:
+        200:
+          description: OK
+  /songbooks/{id}:
+    get:
+      tags:
+       - songbooks
+      summary: Get an existing songbook by its ID
+      parameters:
+        - $ref: '#/components/parameters/idParam'
+      responses:
+        200:
+          description: OK
+        404:
+          description: Songbook not found
+  /cmif:
+    get:
+      tags: 
+        - cmif
+      summary: Create and show a new CMIF file of all letters (eg. for correspSearch)
+      responses:
+          200:
+            description: OK
+          404:
+            description: Could not create CMIF file 
+  /download/kbga-cmif.xml:
+    get:
+      tags: 
+        - cmif
+      summary: Download the latest CMIF file of all letters (eg. for correspSearch)
+      responses:
+          200:
+            description: OK
+          404:
+            description:  CMIF file not found
+
+components:
+  parameters:
+    idParam:
+      name: id
+      in: path
+      required: true
+      schema:
+        type: integer
+    searchParam:
+        name: search
+        in: query
+        schema:
+          type: string
