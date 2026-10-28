@@ -27,6 +27,7 @@ Die Attribute key und ref, die durch die Zugehörigkeit zur Klasse
 :   klassifiziert den Titel entsprechend einer geeigneten Typologie.
 :   Datentyp: teidata.enumerated
 :   `volume` — Bandtitel, z.B. Karl Barth - Rudolf Bultmann. Briefwechsel 1911-1966
+:   `section` — Abteilung der Gesamtausgabe, z.B. «Akademische Werke»; @n enthält die römische Abteilungsnummer (I–V)
 :   `content` — Inhaltlicher Titel, z.B. «Karl Barth an Rudolf Bultmann»
 :   `formal` — Formaler Titel (in einem Band), z.B. «Brief Nr. 4» oder «Vorwort»
 :   `citation_line_1` — Titel für Zitierung (erste Zeile)

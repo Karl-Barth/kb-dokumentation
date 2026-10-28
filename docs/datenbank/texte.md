@@ -21,3 +21,34 @@ Verschiedene Beziehungen zum edierten Text (offene Liste) sind möglich:
 * Vorarbeit zu A [z.B. Stichwortkonzept]
 
 Wenn im KBA ein Exemplar einer Druckvorlage existiert, dann werden die bibliografischen Angaben aus den bibls mit A "Vorlage der Edition" und der KBA Eintrag mit A1 "Exemplar von A" verknüpft.
+
+## Titel im teiHeader
+
+Die Titel in der `<titleStmt>` werden beim Export aus der Datenbank erzeugt, nicht im XML gepflegt.
+
+```xml
+<titleStmt>
+  <title type="volume" n="vol-02">Ethik I</title>
+  <title type="section" n="II">Akademische Werke</title>
+  <title type="content">Ethik und Dogmatik</title>
+  …
+</titleStmt>
+```
+
+| `@type` | Inhalt | Quelle in der Datenbank |
+|---|---|---|
+| `volume` | Bandtitel, `@n` = Band (`vol-02`) | Band: Titel |
+| `section` | Abteilung der Gesamtausgabe, `@n` = römische Abteilungsnummer | Band: Abteilung |
+| `formal` | Formaler Titel im Band, z.B. «Vorwort», «Brief Nr. 4» | Text: formaler Titel |
+| `content` | Inhaltlicher Titel, z.B. «Karl Barth an Rudolf Bultmann» | Text: inhaltlicher Titel |
+| `citation_line_1` bis `_3` | Zitiervorschlag: Titel mit Datum, URL mit Stand, Angabe des Drucks | erzeugt |
+
+Die Abteilungen der Gesamtausgabe:
+
+| `@n` | Abteilung |
+|---|---|
+| I | Predigten |
+| II | Akademische Werke |
+| III | Vorträge und kleinere Arbeiten |
+| IV | Gespräche |
+| V | Briefe |
