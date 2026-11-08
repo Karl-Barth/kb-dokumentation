@@ -60,6 +60,25 @@ enthalten eine `@xml:id` (z.B. `"A"`, `"B"`). Im TEI-Text wird mit
 </note>
 ```
 
+Für den Verweis auf eine Vorlage gilt:
+
+- **Nur `<ref corresp>`, keine `<bibl>`-Hülle.** Die Vorlage ist im `<teiHeader>` vollständig beschrieben und erscheint über das Pop-up. Ein zusätzliches `<bibl corresp="kbga-bibls-…">` würde sie ein zweites Mal als Literaturverweis führen. Echte Literaturangaben in textkritischen Anmerkungen (etwa ein zitiertes Werk, dessen Wortlaut verglichen wird) bleiben `<bibl>`.
+- **Verwiesen wird auf die Vorlage, nicht auf ein Exemplar.** Die Varianten des Apparats sind Lesarten eines Drucks oder Manuskripts, also `corresp="B"`, nicht `corresp="B1"` («Exemplar von B»).
+- **Ausnahme:** Legen Vorwort oder Einleitung des Bandes bzw. Textes anderes fest, gilt das. Verweise auf einen Archivbefund (z.B. Barths handschriftliche Eintragungen in seinem Exemplar) dürfen auf das Exemplar zeigen.
+
+```xml
+<!-- teiHeader (aus der Datenbank) -->
+<bibl xml:id="A" type="source">A (Vorlage der Edition): … München 1924 …</bibl>
+<bibl xml:id="B" type="source">B (Weitere Vorlage): … München 1920</bibl>
+<bibl xml:id="B1" type="source">B1 (Exemplar von B): … KBA 85.</bibl>
+
+<!-- falsch -->
+<note type="textcritical"><bibl corresp="kbga-bibls-2381"><ref corresp="B1">1. Abdruck (1920)</ref></bibl>: «der».</note>
+
+<!-- richtig -->
+<note type="textcritical"><ref corresp="B">1. Abdruck (1920)</ref>: «der».</note>
+```
+
 !!! note "Datenbank oder `kb_latest_version` für `xml:id`"
     Der `<teiHeader>` wird aus der Datenbank erzeugt. Für die Feststellung
     der korrekten `@xml:id` ist die Datenbank oder `kb_latest_version` zu
