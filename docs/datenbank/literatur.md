@@ -140,6 +140,21 @@ In der DB werden folgende Felder ausgefüllt:
 
 Als Resource wird der Wikipedia-Eintrag zum Film. Falls dieser nicht verfügbar ist, wird der englische Wikipedia-Eintrag (provider: wikipedia en) manuell verlinkt. Der Eintrag auf die IMDb ist ebenfalls manuell zu verlinken (z.B. Provider = IMDb, Provider-ID (letzter Teil der URL) = tt0021572, URL = [https://www.imdb.com/title/tt0021572/](https://www.imdb.com/title/tt0021572/))
 
+## Musikwerke
+
+Opern, Oratorien, Messen, Kammermusik und andere Musikwerke werden als Werkeintrag ohne Druckausgabe erfasst: Gemeint ist in den Texten fast immer das Werk oder eine Aufführung, nicht eine bestimmte Partitur oder ein Libretto-Druck. Lieder und Choräle gehören nicht hierher, sondern ins [Liederregister](lieder.md).
+
+| Bezeichnung in der DB | Kommentar |
+|-----------------------|-----------|
+| Bibl Typ | Monografie |
+| Autor:innen | Komponist:in, bei Opern und Oratorien danach Librettist:in |
+| Buchtitel | Werktitel, mit Werkverzeichnisnummer in Klammern (z.B. «Die Zauberflöte (KV 620)», «Matthäus-Passion (BWV 244)») |
+| Ort | Ort der Uraufführung |
+| Publikationsdatum | Jahr der Uraufführung |
+| Auflage | «Uraufführung: 30.9.1791», bei mehreren Fassungen auch die endgültige («Uraufführung: 20.11.1805; endgültige Fassung 23.5.1814») |
+
+Ein Katalognachweis ist für die Autorisierung nicht nötig. Autorisiert wird, wenn Komponist, Titel, Ort und Datum der Uraufführung belegt sind, z.B. durch Werkverzeichnis, MGG oder Wikipedia; der Beleg steht im Kommentar. Beispiele: [Die Zauberflöte](https://meta.karl-barth.ch/bibls/2100), [Fidelio](https://meta.karl-barth.ch/bibls/2640), [Der Tod und das Mädchen](https://meta.karl-barth.ch/bibls/6923).
+
 ## Archivbestände und Archivquellen
 
 Archivbestände werden in der Literaturdatenbank erfasst (Typ: `Archivbestand`).
