@@ -79,6 +79,7 @@ Als Organisation gilt z.B.:
 1. Eine Firma oder ein Verlag, wenn nicht Teil einer bibliographischen Angabe.
 2. Eine Institution oder ihre Abteilung (Fakultät, Direktion, Reichstag, …).
 3. Ein Staat oder eine Stadt, sofern er oder sie handelt ("Frankreich erklärt den Krieg …").
+4. Eine Zeitschrift oder Zeitung, wenn sie als Herausgeberin oder Redaktion handelt oder im Text als Instanz erläutert wird (Biogramm in `<seg type="org">`) — nicht als Teil einer bibliographischen Angabe. Für die bibliographische Erfassung siehe [Datenbank → Literatur](../datenbank/literatur.md).
 
 Ausnahmen (keine Auszeichnung als Organisation):
 

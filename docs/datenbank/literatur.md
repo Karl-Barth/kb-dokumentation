@@ -76,6 +76,8 @@ Die Abkürzungen der Zeitschriften werden durch den vollen Titel ersetzt werden,
 
 Werden Zeitschriftenartikel ohne Autor und ohne Titel zitiert, wird die Zeitschrift als Reihe in der Datenbank getaggt.
 
+Tritt die Zeitschrift dagegen selbst als Herausgeberin oder Redaktion auf oder wird sie im Text als Instanz erläutert, wird sie nicht als Literatur, sondern als Akteur (Organisation) erfasst und mit `<orgName>` getaggt — siehe [Textelemente → Akteure](../textelemente/akteure.md). Beide Rollen können nebeneinander bestehen.
+
 
 <!-- TEI title @level
 Die Angabe der Titel richtet sich grundsätzlich nach den `@level` wie sie in der TEI definiert sind.
