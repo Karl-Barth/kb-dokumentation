@@ -74,7 +74,7 @@ Die Abkürzungen der Zeitschriften werden durch den vollen Titel ersetzt werden,
 
 ### Zeitschriftenartikel ohne Autor und ohne Titel
 
-Werden Zeitschriftenartikel ohne Autor und ohne Titel zitiert, wird die Zeitschrift als Reihe in der Datenbank getaggt.
+Werden Zeitschriftenartikel ohne Autor und ohne Titel zitiert, wird die Zeitschrift als Ganzes erfasst — als Eintrag vom Typ Zeitschrift (`periodical`, `<title level="j">`), nicht als Reihe. Reihen (`series`, `<title level="s">`) bleiben den Buchreihen vorbehalten.
 
 Tritt die Zeitschrift dagegen selbst als Herausgeberin oder Redaktion auf oder wird sie im Text als Instanz erläutert, wird sie nicht als Literatur, sondern als Akteur (Organisation) erfasst und mit `<orgName>` getaggt — siehe [Textelemente → Akteure](../textelemente/akteure.md). Beide Rollen können nebeneinander bestehen.
 
